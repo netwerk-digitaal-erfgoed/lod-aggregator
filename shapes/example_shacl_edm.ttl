@@ -1,0 +1,87 @@
+@prefix ex:    <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/>
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+
+ex:hasTitle sh:or (
+    [ sh:path dc:description;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ]
+    [ sh:path dc:title;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ] ) .    
+
+ex:hasSubject sh:or (
+  [ sh:path dc:subject ;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ]
+  [ sh:path dc:type ;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ]
+  [ sh:path dcterms:spatial ;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ]
+  [ sh:path dcterms:temporal ;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ] ).
+
+ex:hasShown sh:or (
+  [ sh:path edm:isShownAt ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ]
+  [ sh:path edm:isShownBy ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ] ) .
+
+ex:hasLang sh:or (
+   [ sh:not [ sh:path edm:type ;
+       sh:datatype xsd:string ;
+       sh:pattern "^TEXT" ] ]
+   [  sh:path dc:language ;
+      sh:datatype xsd:string ;
+      sh:minCount 1 ] ) .
+
+ex:CHO a sh:NodeShape ;
+  sh:targetClass edm:ProvidedCHO ;
+  sh:class edm:aggregatedCHO ;
+  sh:property [
+    sh:path edm:provider;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:message "missing value for edm:provider" ];
+  sh:property [
+    sh:path edm:dataProvider;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:message "missing value for edm:dataProvider" ];
+  sh:property [
+    sh:path edm:country;
+    sh:nodeKind sh:Literal;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "missing or invalid edm:country value" ];
+  sh:property [
+    sh:path dc:rights ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "missing or invalid dc:rights value"];
+  sh:property [
+    sh:path edm:type ;
+    sh:in ( "TEXT" "VIDEO" "SOUND" "IMAGE" "3D" );
+    sh:message "invalid edm:type value"];
+  sh:node [ 
+    sh:node ex:hasTitle ;
+    sh:message "no valid langString for dc:title or dc:description"];
+  sh:node [
+    sh:node ex:hasSubject ;
+    sh:message "no valid langString for dc:subject, dc:type, dc:spatial or dc:temporal" ];
+  sh:node [ 
+    sh:node ex:hasShown ;
+    sh:message "no valid IRI for edm:isShownAt or edm:isShownBy" ];
+  sh:node [
+    sh:node ex:hasLang ;
+    sh:message "missing dc:language value for edm:type='TEXT'" ].

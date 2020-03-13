@@ -1,0 +1,36 @@
+version: "3"
+services:
+  validate:
+    image: stain/jena
+    container_name: validate
+    environment:
+      TOOL: validate
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+    restart: always
+    volumes:
+      - .:/opt 
+  map:
+    image: stain/jena
+    container_name: map
+    environment:
+      TOOL: map
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+      restart: always
+    volumes:
+      - .:/opt
+  serialize:
+    image: stain/jena
+    container_name: serialize
+    environment:
+      TOOL: serialize
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+      restart: always
+    volumes:
+      - .:/opt
+  crawler:
+    image: crawler:latest
+    build: ./crawler
+    container_name: crawler
+    restart: always
+    volumes:
+      - .:/opt  

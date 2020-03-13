@@ -1,0 +1,13 @@
+version: "3"
+services:
+  crawler:
+    image: crawler:latest
+    build: .
+    container_name: crawler
+    restart: always
+    volumes:
+      - europeana_cc_lod_share:/opt/europeana_cc_lod_share
+
+volumes:
+  europeana_cc_lod_share:
+    external: true
