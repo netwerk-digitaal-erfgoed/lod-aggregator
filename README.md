@@ -4,12 +4,12 @@ Build the crawler
 
 `docker-compose build --no-cache crawler`
 
-No further configuration is needed. See Docker-compose.yml and ./scripts/starter.sh for more details on running the JENA tools (sparql, shacl, riot).
+No further configuration is needed. See Docker-compose.yml and ./scripts/starter.sh for more details on how the JENA tools (sparql, shacl, riot) are being called.
 
 Tools expect data to be in ./data, shape files in ./shapes, queries in ./queries. Environment variables (in .ENV) can be set to override these defaults.
 
 
-## Download Dataset Description
+## Crawl Dataset Description
 Start with downloading the dataset description only.
 
 `docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
@@ -23,7 +23,7 @@ Set --user to prevent to your UID:GID to prevent docker-compose from creating fi
 ## Validate
 Validate the dataset description using SHACL shape constraints (to be done).
 
-## Download all data
+## Crawl all data
 Download the complete dataset.
 
 `docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
@@ -32,7 +32,7 @@ Download the complete dataset.
     -log_file /opt/crawler.log`
 
 ## Map
-Map the orginal dataset to EDM using a 'construct' SPARQL query 
+Map the downloaded data to EDM using a 'construct' SPARQL query 
 
 `docker-compose run --rm --user 1000:1000 map starter.sh --data centsprenten.nt --query example_schema2edm.rq --output centsprenten_edm.ttl`
 
