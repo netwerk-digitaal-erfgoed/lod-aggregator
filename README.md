@@ -1,9 +1,13 @@
-Download
-========
+## Configuration
 
-## Build the crawler
+Build the crawler
 
 `docker-compose build --no-cache crawler`
+
+No further configuration is needed. See Docker-compose.yml and ./scripts/starter.sh for more details on running the JENA tools (sparql, shacl, riot).
+
+Tools expect data to be in ./data, shape files in ./shapes, queries in ./queries. Environment variables (in .ENV) can be set to override these defaults.
+
 
 ## Download Dataset Description
 Start with downloading the dataset description only.
