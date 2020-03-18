@@ -39,7 +39,7 @@ Map the downloaded data to EDM using a 'construct' SPARQL query
 ## Validate
 Validate the EDM data using SHACL shape constraints
 
-`docker-compose run --rm --user 1000:1000 validate starter.sh --data centsprenten_edm.ttl --shape example_shacl_edm.ttl --output validate_results.ttl`
+`docker-compose run --rm --user 1000:1000 validate starter.sh --data centsprenten_edm.ttl --shape CHO_edm.shacl --output validate_results.ttl`
 
 ## Serialize
 Convert the EDM data to the XML/RDF format for processing by the Europeana ingest tool

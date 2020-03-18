@@ -1,0 +1,54 @@
+@prefix ex:    <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+
+## Shape constraints for a Europeana compliant dataset description in Schema.org pointing to an RDF dump 
+
+# validate the Dataset description
+ex:dataset_dump a sh:NodeShape ;
+
+  # focus on the resources from the schema:Dataset class
+  sh:targetClass schema:Dataset;
+
+  # a title is required
+  sh:property [
+    sh:path schema:name;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'name' (LangString value expected)"] ;
+
+  # a Distribution defintion is required
+  sh:property [
+    sh:path schema:distribution;
+    sh:class schema:DataDownload;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'distribution' value"] .
+
+# validate the distribution description
+ex:dataset_dump_distr a sh:NodeShape ;
+
+  # focus on the resources from the dcat:Distribution class
+  sh:targetClass schema:DataDownload ;
+
+  # a machine readable license is required
+  sh:property [
+    sh:path schema:license ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "missing or invalid 'license' (IRI value expected)"] ;
+
+  # it should point to a downloadable dataset 
+  sh:property [
+    sh:path schema:contentURL ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'downloadURL' (IRI value expected)"] ;
+
+  # and it should be in a valid RDF mime type
+  sh:property [
+    sh:path schema:encodingFormat ;
+    sh:in ("application/rdf+xml" "text/n3" "application/n-triples" "application/x-turtle" "application/ld+son") ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'mediaType', allowed values are: ‘application/rdf+xml’, ‘text/n3’, ‘application/n-triples’, ‘application/x-turtle’, or ‘application/ld+son’)"] .

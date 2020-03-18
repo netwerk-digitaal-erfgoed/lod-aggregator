@@ -1,0 +1,56 @@
+@prefix ex:    <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+## Shape constraints for a Europeana compliant dataset description in DCAT pointing to an RDF dump 
+
+# validate the dataset description
+ex:dataset_dump a sh:NodeShape ;
+
+  # focus on the resources from the dcat:Dataset class  
+  sh:targetClass dcat:Dataset;
+
+  # a title is required
+  sh:property [
+    sh:path dcterms:title;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'title' (LangString value expected)"] ;
+
+  # a Distribution defintion is required
+  sh:property [
+    sh:path dcat:distribution;
+    sh:class dcat:Distribution;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'distribution' value"] .
+
+# validate the distribution description
+ex:dataset_dump_distr a sh:NodeShape ;
+
+  # focus on the resources from the dcat:Distribution class
+  sh:targetClass dcat:Distribution ;
+
+  # a machine readable license is required
+  sh:property [
+    sh:path dcterms:license ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "missing or invalid 'license' (IRI value expected)"] ;
+
+  # it should point to a downloadable dataset 
+  sh:property [
+    sh:path dcat:downloadURL ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'downloadURL' (IRI value expected)"] ;
+
+  # and it should be in a valid RDF mime type
+  sh:property [
+    sh:path dcat:mediaType ;
+    sh:in ("application/rdf+xml" "text/n3" "application/n-triples" "application/x-turtle" "application/ld+son") ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'mediaType', allowed values are: ‘application/rdf+xml’, ‘text/n3’, ‘application/n-triples’, ‘application/x-turtle’, or ‘application/ld+son’)"] .
