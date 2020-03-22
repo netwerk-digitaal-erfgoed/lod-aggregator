@@ -24,7 +24,7 @@ curl -H "Accept: application/rdf+xml" \
 
 ## Validating the dataset description
 
-Before processing the complete data we validated the dataset description. We used a SHACL shape file defined for datasets with URI lists described using VOID:  
+Before processing the complete data we validated the dataset description. We used a SHACL shape file defined for datasets with URI lists using the VOID ontology:  
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
@@ -48,7 +48,7 @@ The validation was succesful, the file gr_validate_dataset.ttl had the following
 
 ## Mapping the schema.org data to EDM data
 
-Next step is doing the actual conversion of the resources, the source has several schema classes that need to be processed seperately.
+Next step was doing the actual conversion of the resources, the source had several Schema classes that needed to be processed seperately.
 
 ### Start with the object descriptions
 
@@ -94,7 +94,7 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
 
 ## Merge into one result file
 
-For further processing a single data file is easier to handle. This can be done with an standard `cat` command:
+For further processing a single data file is easier to handle. This was done using a standard `cat` command:
 
 ```bash
 cat data/ecc-books-cho-edm.nt \
@@ -106,7 +106,7 @@ cat data/ecc-books-cho-edm.nt \
 
 ## Validate the total the EDM data
 
-Currently we only have a validation for the ProvidedCHO and AggregatedCHO classes:
+Currently we only have a validation for the ProvidedCHO and AggregatedCHO classes. This was ran on the complete edm file.
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
@@ -115,7 +115,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output gr_validate_cho.ttl
 ```
 
-This resulted in the following errors for all the CHO resources.
+This resulted in the following errors for all the CHO resources:
 
 + "missing value for edm:dataProvider"
 + "missing or invalid dc:rights value"
