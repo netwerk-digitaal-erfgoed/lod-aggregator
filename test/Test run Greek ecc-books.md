@@ -4,7 +4,7 @@ Canonical URL of the dataset: http://www.semantics.gr/authorities/vocabularies/e
 
 ## Downloading the dataset description using the crawler tool:
 
-The crawler fails currently. The command to only download the dataset description would be:
+The crawler fails currently for this URL. The command to only download the dataset description would be:
 
 ```bash
 docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh   \
@@ -14,7 +14,7 @@ docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh   \
 ```
 
 Instead we used the following work around to download the complete dataset (including the dataset description).
-Run the following 'curl' command in the home dir of the lod-aggregator:
+The following 'curl' command was run in the home dir of the lod-aggregator:
 
 ```bash
 curl -H "Accept: application/rdf+xml" \
@@ -24,7 +24,7 @@ curl -H "Accept: application/rdf+xml" \
 
 ## Validating the dataset description
 
-Before processing the complete data we validated the dataset description. We use a SHACL shape definition defined for datasets with URI lists described using VOID:  
+Before processing the complete data we validated the dataset description. We used a SHACL shape file defined for datasets with URI lists described using VOID:  
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
@@ -33,7 +33,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output gr_validate_dataset.ttl
 ```
 
-The validation is succesful, the file gr_validate_dataset.ttl has the following content:
+The validation was succesful, the file gr_validate_dataset.ttl had the following content:
 
 ```bash
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -48,6 +48,8 @@ The validation is succesful, the file gr_validate_dataset.ttl has the following 
 
 ## Mapping the schema.org data to EDM data
 
+Next step is doing the actual conversion of the resources, the source has several schema classes that need to be processed seperately.
+
 ### Start with the object descriptions
 
 ```bash
@@ -58,7 +60,7 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
   --output ecc-books-cho-edm.nt
 ```
 
-We ask for a resultset in N-Triples so we can easily merge all of the into one data file. 
+We asked for a resultset in N-Triples so we can easily merge all the output files into one data file.
 
 ### The same for the person descriptions
 
@@ -113,7 +115,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output gr_validate_cho.ttl
 ```
 
-Currently this results in the following errors:
+This resulted in the following errors for all the CHO resources.
 
 + "missing value for edm:dataProvider"
 + "missing or invalid dc:rights value"
