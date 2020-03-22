@@ -22,6 +22,20 @@ if [ -z $QUERY_DIR ]; then
     QUERY_DIR="queries"
 fi
 
+# default format for use with riot
+format='Turtle'
+
+# supported formats are: 
+#    Turtle
+#    RDF/XML
+#    N-Triples
+#    JSON-LD
+#    RDF/JSON
+#    TriG
+#    N-Quads
+#    TriX
+#    RDF Binary
+
 
 # Parse command line arguments
 while [[ "$#" > 1 ]]; do case $1 in
@@ -40,6 +54,9 @@ while [[ "$#" > 1 ]]; do case $1 in
     --query)
       rel_query_file=$QUERY_DIR/$2
       query_file=/$BASE_DIR/$rel_query_file
+      ;;
+    --format)
+      format=$2
       ;;
     *) break;;
     esac; shift; shift
@@ -67,7 +84,7 @@ case $TOOL in
     check_arg_and_exit_on_error "data-file" $data_file
     check_arg_and_exit_on_error "output-file" $output_file
     echo "Starting conversion with query: $rel_query_file and input data: $rel_data_file..."
-    sparql --query $query_file --data $data_file > $output_file
+    sparql --query $query_file --data $data_file --results $format > $output_file
     echo
     echo "Ready, results written to $rel_output_file..."
     ;;
@@ -77,8 +94,9 @@ case $TOOL in
     echo
     check_arg_and_exit_on_error "data-file" $data_file
     check_arg_and_exit_on_error "output-file" $output_file
-    echo "Starting serialization to XML/RDF on input data: $rel_data_file..."
-    riot --output=RDF/XML $data_file > $output_file
+    check_arg_and_exit_on_error "format" $format
+    echo "Starting serialization to $format format on input data: $rel_data_file..."
+    riot --output=$format $data_file > $output_file
     echo
     echo "Ready, results written to $rel_output_file..."
     ;;

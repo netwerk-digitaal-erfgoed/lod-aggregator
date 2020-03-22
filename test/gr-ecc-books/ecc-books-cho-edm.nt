@@ -1,0 +1,330 @@
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1801119122> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/577" .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/136696310> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/subject> "Eastern Orthodox Church"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_577> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/subject> "Ορθόδοξη Ανατολική Εκκλησία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/terms/temporal> "1748" .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/863310369> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/title> "Λατίνων θρησκείας έλεγχοι 36, κ' τίς ο εκάστου λόγος"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1006798342> .
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/terms/temporal> "1826" .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/1200" .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_1200> .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/1495549868> .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/517632518> .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/title> "An historical outline of the greek revolution with a few remarks on the present state of affairs in that country"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/subject> "1821 revolution"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/elements/1.1/subject> "Επανάσταση του 1821"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1227050938> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2143430299> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/2040137680> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.europeana.eu/schemas/edm/isShownAt> "https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473" .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1075805574> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/1237840875> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/terms/temporal> "1819" .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/title> "Σύνταγμα Φιλοσοφίας..."@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1286630022> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/subject> "Νεοελληνικός Διαφωτισμός"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522> <http://purl.org/dc/elements/1.1/subject> "Modern Greek Enlightenment"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1860424726> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/subject> "Βυζαντινή Μουσική"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/237166398> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/title> "Οι δύο όψεις της ελληνικής μουσικής κληρονομιάς : αφιέρωμα εις μνήμην Σπυρίδωνος Περιστέρη"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_537> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/elements/1.1/subject> "Byzantine music"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/537" .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://purl.org/dc/terms/temporal> "2003" .
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/title> "Εκλογαί από τα τραγούδια του ελληνικού λαού"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/terms/temporal> "1914" .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/482753425> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/480315333> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/subject> "Folk songs"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_512> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/512" .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://purl.org/dc/elements/1.1/subject> "Δημοτικά τραγούδια"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/title> "Μελέται περί του βίου και της γλώσσης του ελληνικού λαού : Τόμος Α : Παροιμίαι"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/480315333> .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/subject> "Folklore"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/subject> "Λαογραφία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/513" .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_513> .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/1427164870> .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://purl.org/dc/terms/temporal> "1899" .
+<http://semantics.gr/authorities/ecc-books-dataset/72610197> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/938825274> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/551" .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_551> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/title> "Απάνθισμα δεύτερον επιστολών Αδαμάντιου Κοραή"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/subject> "Correspondence "@en .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1810992534> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/terms/temporal> "1841" .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/subject> "Αλληλογραφία "@el .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/993599624> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1664310147> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/elements/1.1/subject> "Eastern Orthodox Church"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/507099587> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/739774648> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/elements/1.1/subject> "Ορθόδοξη Ανατολική Εκκλησία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/elements/1.1/title> "Απόκρισις ορθοδόξου τινός προς τινα αδελφόν ορθόδοξον περί της των κατολικών δυναστείας, : και περί του τίνες οι σχίσται και οι σχισματικοί και οι εσχισμένοι, και περί της βαρβαρικώς λεγομένης Ουνίας και των ουνιτών : και περί του πως δει τους ορθοδόξους απαντάν τη των κατολικών τυραννία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/553" .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_553> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/terms/temporal> "1775" .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/terms/temporal> "1804" .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_565> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/title> "Στοιχεία γεωγραφίας"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/93060026> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/subject> "Γεωγραφία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/507099587> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1286630022> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/subject> "Geography"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/1938998462> .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/565" .
+<http://semantics.gr/authorities/ecc-books-dataset/216821042> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/519" .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1365243527> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/terms/temporal> "1834" .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/subject> "Φυσική"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/subject> "Physics"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/938825274> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_519> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1523630531> .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://purl.org/dc/elements/1.1/title> "Ξυνωρίς : ήτοι Φυσική και Μεταφυσική"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_538> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/subject> "Tragedy"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/subject> "Δράμα"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/938825274> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1365243527> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/title> "Αισχύλος παραφρασθείς, σχολιασθείς τε και εκδοθείς : εις τόμους δύο"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/terms/temporal> "1839" .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1523630531> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/287166135> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/subject> "Τραγωδία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/538" .
+<http://semantics.gr/authorities/ecc-books-dataset/755481201> <http://purl.org/dc/elements/1.1/subject> "Drama"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/subject> "Folklore"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/title> "Λαογραφικά σύμμεικτα : Τόμος Α'"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/1394825021> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/480315333> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_485> .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/subject> "Λαογραφία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/terms/temporal> "1920" .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/485" .
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/terms/temporal> "1857" .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1321660146> .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/547" .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/1745497907> .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_547> .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/subject> "Byzantine empire"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/title> "Βυζαντιναί μελέται : περί πηγών Νεοελληνικής εθνότητος : από Η'. άχρι Ι' εκατονταετηρίδος μ.Χ."@el .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://purl.org/dc/elements/1.1/subject> "Βυζαντινή Αυτοκρατορία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/22369282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_487> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/subject> "Folklore"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/terms/temporal> "1921" .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/42289243> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/487" .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/subject> "Λαογραφία"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/title> "Λαογραφικά σύμμεικτα : Τόμος Β'"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/480315333> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/elements/1.1/subject> "Greek Language"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/terms/temporal> "1809" .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/elements/1.1/subject> "Ελληνική γλώσσα"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/1938998462> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_541> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/elements/1.1/title> "Γραμματική Τερψιχόρα"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1523630531> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/541" .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/302934855> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1286630022> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1286630022> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/subject> "Ανατολική Ευρώπη"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_575> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/title> "Ιστορία της πάλαι Δακίας, τα νυν Τρανσιλβανίας, Βλαχίας και Μολδαυίας"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/575" .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/subject> "Eastern Europe"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/terms/temporal> "1818" .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/758638578> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1477234989> .
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/506" .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/482753425> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/terms/temporal> "1899" .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/subject> "Toponyms"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/title> "Τα ονόματα των δήμων"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_506> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/480315333> .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/subject> "Τοπωνύμια"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1291288932> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/182566957> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/subject> "Δημοτικά τραγούδια"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/544734171> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1321660146> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_540> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/terms/temporal> "1852" .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/subject> "Folk songs"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/1451964972> .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/540" .
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944> <http://purl.org/dc/elements/1.1/title> "Άσματα δημοτικά της Ελλάδος"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/terms/temporal> "1839" .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/501" .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/subject> "Βουκολική Ποίηση"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/subject> "Pastoral poetry"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_501> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/202508895> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1523630531> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-persons/938825274> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1365243527> .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/title> "Θεόκριτος παραφρασθείς"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/terms/spatial> <http://semantics.gr/authorities/ecc-schema-places/1041269571> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/subject> "Ελληνική γλώσσα"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.europeana.eu/schemas/edm/isShownAt> "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/543" .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/subject> "Neohellenic poetry"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by-nc-nd/4.0/" .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/terms/temporal> "1859" .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.europeana.eu/schemas/edm/provider> <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/subject> "Greek language"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.europeana.eu/schemas/edm/country> "el" .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/ProvidedCHO> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/publisher> <http://semantics.gr/authorities/ecc-schema-organizations/100440823> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/type> "Monograph"@en .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/title> "Πόθεν η κοινή λέξις τραγουδώ; : σκέψεις περί ελληνικής ποιήσεως"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.europeana.eu/schemas/edm/type> "TEXT" .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.w3.org/2002/07/owl#sameAs> <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_543> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/creator> <http://semantics.gr/authorities/ecc-schema-persons/1321660146> .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://purl.org/dc/elements/1.1/subject> "Νεοελληνική ποίηση"@el .
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/aggregatedCHO> .

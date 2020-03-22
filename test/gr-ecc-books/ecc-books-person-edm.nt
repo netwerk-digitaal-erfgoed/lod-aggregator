@@ -1,0 +1,102 @@
+<http://semantics.gr/authorities/ecc-schema-persons/1523630531> <http://purl.org/dc/elements/1.1/title> "Doukas Neophytos"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1523630531> <http://www.europeana.eu/schemas/edm/end> " 20/12/1845" .
+<http://semantics.gr/authorities/ecc-schema-persons/1523630531> <http://www.europeana.eu/schemas/edm/begin> "1760" .
+<http://semantics.gr/authorities/ecc-schema-persons/1523630531> <http://purl.org/dc/elements/1.1/title> "Δούκας Νεόφυτος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1523630531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/287166135> <http://purl.org/dc/elements/1.1/title> "Aeschylus "@en .
+<http://semantics.gr/authorities/ecc-schema-persons/287166135> <http://www.europeana.eu/schemas/edm/end> "455 π.Χ." .
+<http://semantics.gr/authorities/ecc-schema-persons/287166135> <http://www.europeana.eu/schemas/edm/begin> "525 π.Χ." .
+<http://semantics.gr/authorities/ecc-schema-persons/287166135> <http://purl.org/dc/elements/1.1/title> "Αισχύλος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/287166135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/544734171> <http://purl.org/dc/elements/1.1/title> "Τερζάκης Α."@el .
+<http://semantics.gr/authorities/ecc-schema-persons/544734171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1664310147> <http://purl.org/dc/elements/1.1/title> "Κοραής Αδαμάντιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1664310147> <http://www.europeana.eu/schemas/edm/end> "1833" .
+<http://semantics.gr/authorities/ecc-schema-persons/1664310147> <http://www.europeana.eu/schemas/edm/begin> "1748" .
+<http://semantics.gr/authorities/ecc-schema-persons/1664310147> <http://purl.org/dc/elements/1.1/title> "Korais Adamantios"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1664310147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1495549868> <http://purl.org/dc/elements/1.1/title> "Murray John"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1495549868> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1810992534> <http://www.europeana.eu/schemas/edm/end> "1844" .
+<http://semantics.gr/authorities/ecc-schema-persons/1810992534> <http://purl.org/dc/elements/1.1/title> "Ρώτας Ιάκωβος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1810992534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/202508895> <http://purl.org/dc/elements/1.1/title> "Θεόκριτος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/202508895> <http://www.europeana.eu/schemas/edm/end> "260 π.Χ." .
+<http://semantics.gr/authorities/ecc-schema-persons/202508895> <http://www.europeana.eu/schemas/edm/begin> "300 π.Χ." .
+<http://semantics.gr/authorities/ecc-schema-persons/202508895> <http://purl.org/dc/elements/1.1/title> "Theocritus"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/202508895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1477234989> <http://purl.org/dc/elements/1.1/title> "Φωτεινός Διονύσιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1477234989> <http://www.europeana.eu/schemas/edm/end> "1821" .
+<http://semantics.gr/authorities/ecc-schema-persons/1477234989> <http://www.europeana.eu/schemas/edm/begin> "1769" .
+<http://semantics.gr/authorities/ecc-schema-persons/1477234989> <http://purl.org/dc/elements/1.1/title> "Fotinos Dionysios"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1477234989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/938825274> <http://purl.org/dc/elements/1.1/title> "Κορομηλάς Ανδρέας"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/938825274> <http://www.europeana.eu/schemas/edm/end> "1858" .
+<http://semantics.gr/authorities/ecc-schema-persons/938825274> <http://www.europeana.eu/schemas/edm/begin> "1811" .
+<http://semantics.gr/authorities/ecc-schema-persons/938825274> <http://purl.org/dc/elements/1.1/alternative> " Koromēlas Andreas"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/938825274> <http://purl.org/dc/elements/1.1/title> " Koromilas Andreas"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/938825274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/507099587> <http://purl.org/dc/elements/1.1/title> "Θεοτόκης Νικηφόρος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/507099587> <http://www.europeana.eu/schemas/edm/end> "31/5/1800" .
+<http://semantics.gr/authorities/ecc-schema-persons/507099587> <http://www.europeana.eu/schemas/edm/begin> "15/2/1731" .
+<http://semantics.gr/authorities/ecc-schema-persons/507099587> <http://purl.org/dc/elements/1.1/alternative> "Theotokis Nikephoros"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/507099587> <http://purl.org/dc/elements/1.1/title> "Theotokis Nikiforos"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/507099587> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1451964972> <http://purl.org/dc/elements/1.1/title> "Ρωμαίος Θ."@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1451964972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1801119122> <http://purl.org/dc/elements/1.1/title> "Ρύσιος Διαμαντής"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1801119122> <http://www.europeana.eu/schemas/edm/end> "1746/1747" .
+<http://semantics.gr/authorities/ecc-schema-persons/1801119122> <http://www.europeana.eu/schemas/edm/begin> "1675" .
+<http://semantics.gr/authorities/ecc-schema-persons/1801119122> <http://purl.org/dc/elements/1.1/alternative> "Ρύσιος Αδαμάντιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1801119122> <http://purl.org/dc/elements/1.1/title> "Risios Adamantios"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1801119122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1321660146> <http://purl.org/dc/elements/1.1/title> "Zampelios Spyridon"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1321660146> <http://www.europeana.eu/schemas/edm/end> "1881" .
+<http://semantics.gr/authorities/ecc-schema-persons/1321660146> <http://www.europeana.eu/schemas/edm/begin> "1815" .
+<http://semantics.gr/authorities/ecc-schema-persons/1321660146> <http://purl.org/dc/elements/1.1/title> "Ζαμπέλιος Σπυρίδων"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1321660146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/863310369> <http://purl.org/dc/elements/1.1/alternative> "Αντώνης Μπρόην"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/863310369> <http://purl.org/dc/elements/1.1/title> "Bruyn Antoine"@fr .
+<http://semantics.gr/authorities/ecc-schema-persons/863310369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://purl.org/dc/elements/1.1/alternative> "Βενδωτής Γεώργιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://purl.org/dc/elements/1.1/alternative> "Βενδότης Γεώργιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://www.europeana.eu/schemas/edm/end> "28/11/1795" .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://www.europeana.eu/schemas/edm/begin> "1757" .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://purl.org/dc/elements/1.1/alternative> "Βεντότης Γεώργιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://purl.org/dc/elements/1.1/title> "Βεντώτης Γεώργιος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1938998462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1237840875> <http://purl.org/dc/elements/1.1/title> "Σνείρερος Ιωάννης"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1237840875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/480315333> <http://purl.org/dc/elements/1.1/title> "Πολίτης Νικόλαος Γ."@el .
+<http://semantics.gr/authorities/ecc-schema-persons/480315333> <http://www.europeana.eu/schemas/edm/end> "12/1/1921" .
+<http://semantics.gr/authorities/ecc-schema-persons/480315333> <http://www.europeana.eu/schemas/edm/begin> "3/3/1852" .
+<http://semantics.gr/authorities/ecc-schema-persons/480315333> <http://purl.org/dc/elements/1.1/title> "Politis Nikolaos G."@en .
+<http://semantics.gr/authorities/ecc-schema-persons/480315333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/93060026> <http://purl.org/dc/elements/1.1/title> "Γαζής Άνθιμος"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/93060026> <http://www.europeana.eu/schemas/edm/end> " 24/6/1828" .
+<http://semantics.gr/authorities/ecc-schema-persons/93060026> <http://www.europeana.eu/schemas/edm/begin> "1758" .
+<http://semantics.gr/authorities/ecc-schema-persons/93060026> <http://purl.org/dc/elements/1.1/alternative> "Gazes Anthimos"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/93060026> <http://purl.org/dc/elements/1.1/title> "Gazis Anthimos"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/93060026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/2040137680> <http://purl.org/dc/elements/1.1/title> "Τεσεβέκιος Ιωάννης Βαρθ."@el .
+<http://semantics.gr/authorities/ecc-schema-persons/2040137680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/136696310> <http://purl.org/dc/elements/1.1/title> "Manolakis Ioannis"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/136696310> <http://purl.org/dc/elements/1.1/alternative> "Μανολάκης, Ιωάννης ο εκ Κωνσταντινουπόλεως"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/136696310> <http://purl.org/dc/elements/1.1/title> "Μανολάκης Ιωάννης"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/136696310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/517632518> <http://www.europeana.eu/schemas/edm/end> "1860" .
+<http://semantics.gr/authorities/ecc-schema-persons/517632518> <http://www.europeana.eu/schemas/edm/begin> "1777" .
+<http://semantics.gr/authorities/ecc-schema-persons/517632518> <http://purl.org/dc/elements/1.1/title> "Leake William Martin"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/517632518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/1075805574> <http://purl.org/dc/elements/1.1/title> "Koumas Konstantinos"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/1075805574> <http://www.europeana.eu/schemas/edm/end> "1836" .
+<http://semantics.gr/authorities/ecc-schema-persons/1075805574> <http://www.europeana.eu/schemas/edm/begin> "1777" .
+<http://semantics.gr/authorities/ecc-schema-persons/1075805574> <http://purl.org/dc/elements/1.1/title> "Κούμας Κωνσταντίνος "@el .
+<http://semantics.gr/authorities/ecc-schema-persons/1075805574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/758638578> <http://purl.org/dc/elements/1.1/title> "Svekios Ioannis"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/758638578> <http://purl.org/dc/elements/1.1/title> "Σβέκιος Ιωάννης"@el .
+<http://semantics.gr/authorities/ecc-schema-persons/758638578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .
+<http://semantics.gr/authorities/ecc-schema-persons/237166398> <http://purl.org/dc/elements/1.1/title> "Makris Efstathios"@en .
+<http://semantics.gr/authorities/ecc-schema-persons/237166398> <http://www.europeana.eu/schemas/edm/begin> "1966" .
+<http://semantics.gr/authorities/ecc-schema-persons/237166398> <http://purl.org/dc/elements/1.1/title> "Μακρής Ευστάθιος Γ."@el .
+<http://semantics.gr/authorities/ecc-schema-persons/237166398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.europeana.eu/schemas/edm/Agent> .

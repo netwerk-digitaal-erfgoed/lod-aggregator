@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix ex:    <http://example.org/> .
+
+## Shape constraints for a Europeana compliant dataset description in VOID for listing RDF resources 
+
+# validate the Dataset description
+ex:dataset_list a sh:NodeShape ;
+
+  # focus on the resources from the schema:Dataset class
+  sh:targetClass void:Dataset;
+
+  # a title is required
+  sh:property [
+    sh:path dcterms:title ;
+    sh:datatype rdf:langString ;
+    sh:minCount 1 ;
+    sh:message "missing or invalid 'title' LangString value"] ;
+
+## Issue: according to the spec for VOID is ok to have no license property on the dataset level
+##        but in that case there should be license property on the cho level.
+##        The current validation on dataset and cho level do not cover this requirement
+ 
+  # a machine readable license is required  
+  #sh:property [
+  #  sh:path dcterms:license ;
+  #  sh:nodeKind sh:IRI ;
+  #  sh:minCount 1 ;
+  #  sh:maxCount 1 ;
+  #  sh:message "missing or invalid 'license' IRI value"] ;
+
+  # and one or more RDF resources should be listed using the void:rootResource property
+  sh:property [
+    sh:path void:rootResource ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1  ;
+    sh:message "invalid or missing 'void:rootResource' value" ] .

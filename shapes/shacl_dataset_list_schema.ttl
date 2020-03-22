@@ -1,0 +1,35 @@
+@prefix ex:    <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix schema: <http://schema.org/> .
+
+## Shape constraints for a Europeana compliant dataset description in Schema.org for listing RDF resources 
+
+# validate the Dataset description
+ex:dataset_list a sh:NodeShape ;
+
+  # focus on the resources from the schema:Dataset class
+  sh:targetClass schema:Dataset;
+
+  # a title is required
+  sh:property [ 
+    sh:path schema:name ;
+    sh:datatype rdf:langString ;
+    sh:minCount 1; 
+    sh:message "missing or invalid 'title' LangString value"] ;
+
+  # a machine readable license is required 
+  sh:property [
+    sh:path schema:license ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:message "missing or invalid 'license' IRI value"] ;
+
+  # and one or more RDF resources should be listed using the void:rootResource property
+  sh:property [
+    sh:path void:rootResource ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1  ;
+    sh:message "invalid or missing 'void:rootResource' value" ] .

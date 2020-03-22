@@ -1,4 +1,4 @@
-# Configuration
+# Using the lod-aggregator tools
 
 ## Build the crawler
 
@@ -8,10 +8,11 @@ No further configuration is needed. See `docker-compose.yaml` and `./scripts/sta
 
 Tools expect data to be in `./data`, shape files in `./shapes`, queries in `./queries`. Environment variables (in `.env`) can be set to override these defaults.
 
-## Crawl Dataset Description
+## Crawl dataset description
+
 Start with downloading the dataset description only
 
-```
+```bash
 docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
   -dataset_uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten \
   -dataset_description_only \
@@ -21,39 +22,50 @@ docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
 
 Set `--user` to your UID:GID to prevent docker-compose from creating files owned by 'root'.
 
-## Validate
+## Validate dataset description
+
 Validate the dataset description using SHACL shape constraints (to be done)
 
-## Crawl
+## Crawl the full data
+
 Crawl the complete dataset
 
-```
+```bash
 docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
     -dataset_uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten \
     -output_file /opt/data/centsprenten.nt \
     -log_file /opt/crawler.log
 ```
 
-## Map
+## Map the data
+
 Map the crawled data to EDM using a 'construct' SPARQL query
 
-```
+```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
   --data centsprenten.nt \
   --query example_schema2edm.rq \
   --output centsprenten_edm.ttl
 ```
 
-## Validate
+## Validate the data
+
 Validate the EDM data using SHACL shape constraints
 
-`docker-compose run --rm --user 1000:1000 validate starter.sh --data centsprenten_edm.ttl --shape CHO_edm.shacl --output validate_results.ttl`
+```bash
+docker-compose run --rm --user 1000:1000 validate starter.sh \
+  --data centsprenten_edm.ttl \
+  --shape shacl_cho_edm.ttl \
+  --output validate_results.ttl
+```
 
-## Serialize
+## Serialize the data
+
 Convert the EDM data to XML/RDF format for processing by the Europeana ingest tool
 
-```
+```bash
 docker-compose run --rm --user 1000:1000 serialize starter.sh \
   --data centsprenten_edm.ttl \
+  --format RDF/XML \
   --output centsprenten_edm.rdf
 ```
