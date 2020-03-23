@@ -77,9 +77,9 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
   --data ecc-books-dataset.rdf \
-  --query gr_person.rq \
+  --query gr_organization.rq \
   --format N-Triples \
-  --output ecc-books-person-edm.nt
+  --output ecc-books-organization-edm.nt
 ```
 
 ### And the last one, the place descriptions
