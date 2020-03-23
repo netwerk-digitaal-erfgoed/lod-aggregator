@@ -1,218 +1,274 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:j.1="http://www.europeana.eu/schemas/edm/" > 
+    xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:schema="http://schema.org/"
+    xmlns:edm="http://www.europeana.eu/schemas/edm/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#" > 
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/517632518">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1860</edm:end>
+    <edm:begin>1777</edm:begin>
     <dc:title xml:lang="en">Leake William Martin</dc:title>
-    <j.1:begin>1777</j.1:begin>
-    <j.1:end>1860</j.1:end>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1591423522">
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2143430299"/>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/2040137680"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <j.1:isShownAt>https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473</j.1:isShownAt>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1075805574"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1237840875"/>
-    <j.0:temporal>1819</j.0:temporal>
+    <dcterms:temporal>1819</dcterms:temporal>
     <dc:title xml:lang="el">Σύνταγμα Φιλοσοφίας...</dc:title>
-    <j.1:country>el</j.1:country>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
-    <j.1:type>TEXT</j.1:type>
+    <edm:country>el</edm:country>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
+    <edm:type>TEXT</edm:type>
     <dc:subject xml:lang="el">Νεοελληνικός Διαφωτισμός</dc:subject>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
     <dc:subject xml:lang="en">Modern Greek Enlightenment</dc:subject>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/237166398">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:begin>1966</edm:begin>
     <dc:title xml:lang="el">Μακρής Ευστάθιος Γ.</dc:title>
-    <j.1:begin>1966</j.1:begin>
     <dc:title xml:lang="en">Makris Efstathios</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/755481201">
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_538"/>
     <dc:subject xml:lang="en">Tragedy</dc:subject>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
     <dc:subject xml:lang="el">Δράμα</dc:subject>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/938825274"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1365243527"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1365243527"/>
     <dc:title xml:lang="el">Αισχύλος παραφρασθείς, σχολιασθείς τε και εκδοθείς : εις τόμους δύο</dc:title>
-    <j.0:temporal>1839</j.0:temporal>
+    <dcterms:temporal>1839</dcterms:temporal>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1523630531"/>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/287166135"/>
     <dc:subject xml:lang="el">Τραγωδία</dc:subject>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <j.1:type>TEXT</j.1:type>
+    <edm:type>TEXT</edm:type>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/538</j.1:isShownAt>
     <dc:subject xml:lang="en">Drama</dc:subject>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/302934855">
-    <j.1:type>TEXT</j.1:type>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:type>TEXT</edm:type>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:subject xml:lang="en">Greek Language</dc:subject>
-    <j.0:temporal>1809</j.0:temporal>
+    <dcterms:temporal>1809</dcterms:temporal>
     <dc:subject xml:lang="el">Ελληνική γλώσσα</dc:subject>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1938998462"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_541"/>
     <dc:title xml:lang="el">Γραμματική Τερψιχόρα</dc:title>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1523630531"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/541</j.1:isShownAt>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1810992534">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1844</edm:end>
     <dc:title xml:lang="el">Ρώτας Ιάκωβος</dc:title>
-    <j.1:end>1844</j.1:end>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/993599624/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/551</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/993599624"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1227050938">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="el">Λονδίνο</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/2643743"/>
+    <dc:title xml:lang="el">Λονδίνο</dc:title>
     <dc:title xml:lang="en">London</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/1745497907">
     <dc:title xml:lang="el">Τύποις Χ. Νικολαϊδου Φιλαδελφέως</dc:title>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1286630022">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="en">Vienna</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/2761369"/>
+    <dc:title xml:lang="en">Vienna</dc:title>
     <dc:title xml:lang="el">Βιέννη</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1324465820">
-    <j.0:temporal>1826</j.0:temporal>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/1200</j.1:isShownAt>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.1:type>TEXT</j.1:type>
+    <dcterms:temporal>1826</dcterms:temporal>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_1200"/>
-    <dc:type xml:lang="en">Monograph</dc:type>
-    <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1495549868"/>
+    <edm:type>TEXT</edm:type>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/517632518"/>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
+    <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1495549868"/>
+    <dc:type xml:lang="en">Monograph</dc:type>
     <dc:title xml:lang="en">An historical outline of the greek revolution with a few remarks on the present state of affairs in that country</dc:title>
     <dc:subject xml:lang="en">1821 revolution</dc:subject>
     <dc:subject xml:lang="el">Επανάσταση του 1821</dc:subject>
-    <j.1:country>el</j.1:country>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1227050938"/>
+    <edm:country>el</edm:country>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1227050938"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1006798342">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="el">Βενετία</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/3164600"/>
+    <dc:title xml:lang="el">Βενετία</dc:title>
     <dc:title xml:lang="en">Venice</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/863310369">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="fr">Bruyn Antoine</dc:title>
     <dc:alternative xml:lang="el">Αντώνης Μπρόην</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1021538726">
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/506</j.1:isShownAt>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/482753425"/>
     <dc:type xml:lang="en">Monograph</dc:type>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.1:type>TEXT</j.1:type>
-    <j.0:temporal>1899</j.0:temporal>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <edm:type>TEXT</edm:type>
+    <dcterms:temporal>1899</dcterms:temporal>
     <dc:subject xml:lang="en">Toponyms</dc:subject>
     <dc:title xml:lang="el">Τα ονόματα των δήμων</dc:title>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_506"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/480315333"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
     <dc:subject xml:lang="el">Τοπωνύμια</dc:subject>
   </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/2100003983/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/577</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/2100003983"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1649261268/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/487</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1649261268"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1451964972">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="el">Ρωμαίος Θ.</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/22369282/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/547</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/22369282"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1495549868">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="en">Murray John</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1510936129/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/543</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1510936129"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/302934855/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/541</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/302934855"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1788954835">
     <dc:subject xml:lang="en">Eastern Orthodox Church</dc:subject>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/507099587"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/739774648"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/739774648"/>
     <dc:subject xml:lang="el">Ορθόδοξη Ανατολική Εκκλησία</dc:subject>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:title xml:lang="el">Απόκρισις ορθοδόξου τινός προς τινα αδελφόν ορθόδοξον περί της των κατολικών δυναστείας, : και περί του τίνες οι σχίσται και οι σχισματικοί και οι εσχισμένοι, και περί της βαρβαρικώς λεγομένης Ουνίας και των ουνιτών : και περί του πως δει τους ορθοδόξους απαντάν τη των κατολικών τυραννία</dc:title>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/553</j.1:isShownAt>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_553"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.0:temporal>1775</j.0:temporal>
-    <j.1:type>TEXT</j.1:type>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <dcterms:temporal>1775</dcterms:temporal>
+    <edm:type>TEXT</edm:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/480315333">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>12/1/1921</edm:end>
+    <edm:begin>3/3/1852</edm:begin>
     <dc:title xml:lang="en">Politis Nikolaos G.</dc:title>
-    <j.1:begin>3/3/1852</j.1:begin>
-    <j.1:end>12/1/1921</j.1:end>
     <dc:title xml:lang="el">Πολίτης Νικόλαος Γ.</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/1427164870">
     <dc:title xml:lang="el">Τύποις Π. Δ. Σακελλαρίου</dc:title>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/216821042/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/565</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/216821042"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1365243527">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="en">Aegina</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/265502"/>
+    <dc:title xml:lang="en">Aegina</dc:title>
     <dc:title xml:lang="el">Αίγινα</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1865403944/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/540</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1865403944"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1304777455/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/501</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1304777455"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/22369282">
-    <j.0:temporal>1857</j.0:temporal>
-    <j.1:country>el</j.1:country>
+    <dcterms:temporal>1857</dcterms:temporal>
+    <edm:country>el</edm:country>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1321660146"/>
-    <j.1:type>TEXT</j.1:type>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/547</j.1:isShownAt>
+    <edm:type>TEXT</edm:type>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/1745497907"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_547"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
     <dc:type xml:lang="en">Monograph</dc:type>
     <dc:subject xml:lang="en">Byzantine empire</dc:subject>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
     <dc:title xml:lang="el">Βυζαντιναί μελέται : περί πηγών Νεοελληνικής εθνότητος : από Η'. άχρι Ι' εκατονταετηρίδος μ.Χ.</dc:title>
     <dc:subject xml:lang="el">Βυζαντινή Αυτοκρατορία</dc:subject>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/202508895">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>260 π.Χ.</edm:end>
+    <edm:begin>300 π.Χ.</edm:begin>
     <dc:title xml:lang="en">Theocritus</dc:title>
-    <j.1:begin>300 π.Χ.</j.1:begin>
-    <j.1:end>260 π.Χ.</j.1:end>
     <dc:title xml:lang="el">Θεόκριτος</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/2049190340/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/512</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/2049190340"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/287166135">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>455 π.Χ.</edm:end>
+    <edm:begin>525 π.Χ.</edm:begin>
     <dc:title xml:lang="el">Αισχύλος</dc:title>
-    <j.1:begin>525 π.Χ.</j.1:begin>
-    <j.1:end>455 π.Χ.</j.1:end>
     <dc:title xml:lang="en">Aeschylus </dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/2143430299">
     <dc:title xml:lang="el">Κοινωφελές Ίδρυμα Αλέξανδρος Σ. Ωνάσης</dc:title>
@@ -220,163 +276,155 @@
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1630199219">
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1860424726"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1860424726"/>
     <dc:subject xml:lang="el">Βυζαντινή Μουσική</dc:subject>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/237166398"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
     <dc:title xml:lang="el">Οι δύο όψεις της ελληνικής μουσικής κληρονομιάς : αφιέρωμα εις μνήμην Σπυρίδωνος Περιστέρη</dc:title>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_537"/>
     <dc:subject xml:lang="en">Byzantine music</dc:subject>
-    <j.1:type>TEXT</j.1:type>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/537</j.1:isShownAt>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.1:country>el</j.1:country>
-    <j.0:temporal>2003</j.0:temporal>
+    <edm:type>TEXT</edm:type>
+    <edm:country>el</edm:country>
+    <dcterms:temporal>2003</dcterms:temporal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1024011884/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/575</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1024011884"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1045733828">
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
     <dc:subject xml:lang="en">Folklore</dc:subject>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
     <dc:title xml:lang="el">Λαογραφικά σύμμεικτα : Τόμος Α'</dc:title>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/1394825021"/>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/480315333"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
-    <j.1:type>TEXT</j.1:type>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
+    <edm:type>TEXT</edm:type>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_485"/>
     <dc:subject xml:lang="el">Λαογραφία</dc:subject>
-    <j.0:temporal>1920</j.0:temporal>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/485</j.1:isShownAt>
+    <dcterms:temporal>1920</dcterms:temporal>
     <dc:type xml:lang="en">Monograph</dc:type>
   </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1324465820/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/1200</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1324465820"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/739774648">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="de">Kreisfreie Stadt Halle</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/2911516"/>
+    <dc:title xml:lang="de">Kreisfreie Stadt Halle</dc:title>
     <dc:title xml:lang="el">Χάλλε</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/507099587">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>31/5/1800</edm:end>
+    <edm:begin>15/2/1731</edm:begin>
     <dc:title xml:lang="en">Theotokis Nikiforos</dc:title>
-    <dc:alternative xml:lang="en">Theotokis Nikephoros</dc:alternative>
-    <j.1:begin>15/2/1731</j.1:begin>
-    <j.1:end>31/5/1800</j.1:end>
     <dc:title xml:lang="el">Θεοτόκης Νικηφόρος</dc:title>
+    <dc:alternative xml:lang="en">Theotokis Nikephoros</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1237840875">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="el">Σνείρερος Ιωάννης</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1477234989">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1821</edm:end>
+    <edm:begin>1769</edm:begin>
     <dc:title xml:lang="en">Fotinos Dionysios</dc:title>
-    <j.1:begin>1769</j.1:begin>
-    <j.1:end>1821</j.1:end>
     <dc:title xml:lang="el">Φωτεινός Διονύσιος</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1510936129">
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
     <dc:subject xml:lang="el">Ελληνική γλώσσα</dc:subject>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/543</j.1:isShownAt>
     <dc:subject xml:lang="en">Neohellenic poetry</dc:subject>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <j.0:temporal>1859</j.0:temporal>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <dcterms:temporal>1859</dcterms:temporal>
     <dc:subject xml:lang="en">Greek language</dc:subject>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/100440823"/>
     <dc:type xml:lang="en">Monograph</dc:type>
     <dc:title xml:lang="el">Πόθεν η κοινή λέξις τραγουδώ; : σκέψεις περί ελληνικής ποιήσεως</dc:title>
-    <j.1:type>TEXT</j.1:type>
+    <edm:type>TEXT</edm:type>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_543"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1321660146"/>
     <dc:subject xml:lang="el">Νεοελληνική ποίηση</dc:subject>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1075805574">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1836</edm:end>
+    <edm:begin>1777</edm:begin>
     <dc:title xml:lang="el">Κούμας Κωνσταντίνος </dc:title>
-    <j.1:begin>1777</j.1:begin>
-    <j.1:end>1836</j.1:end>
     <dc:title xml:lang="en">Koumas Konstantinos</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/2100003983">
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1801119122"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/577</j.1:isShownAt>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.1:type>TEXT</j.1:type>
+    <edm:type>TEXT</edm:type>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/136696310"/>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
     <dc:subject xml:lang="en">Eastern Orthodox Church</dc:subject>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_577"/>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:subject xml:lang="el">Ορθόδοξη Ανατολική Εκκλησία</dc:subject>
-    <j.1:country>el</j.1:country>
-    <j.0:temporal>1748</j.0:temporal>
+    <edm:country>el</edm:country>
+    <dcterms:temporal>1748</dcterms:temporal>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/863310369"/>
     <dc:title xml:lang="el">Λατίνων θρησκείας έλεγχοι 36, κ' τίς ο εκάστου λόγος</dc:title>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1006798342"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1006798342"/>
     <dc:type xml:lang="en">Monograph</dc:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1801119122">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1746/1747</edm:end>
+    <edm:begin>1675</edm:begin>
     <dc:title xml:lang="en">Risios Adamantios</dc:title>
-    <dc:alternative xml:lang="el">Ρύσιος Αδαμάντιος</dc:alternative>
-    <j.1:begin>1675</j.1:begin>
-    <j.1:end>1746/1747</j.1:end>
     <dc:title xml:lang="el">Ρύσιος Διαμαντής</dc:title>
+    <dc:alternative xml:lang="el">Ρύσιος Αδαμάντιος</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1649261268">
     <dc:type xml:lang="en">Monograph</dc:type>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_487"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.0:temporal>1921</j.0:temporal>
-    <j.1:type>TEXT</j.1:type>
+    <edm:type>TEXT</edm:type>
+    <dcterms:temporal>1921</dcterms:temporal>
     <dc:subject xml:lang="en">Folklore</dc:subject>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/42289243"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/487</j.1:isShownAt>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
     <dc:subject xml:lang="el">Λαογραφία</dc:subject>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <dc:title xml:lang="el">Λαογραφικά σύμμεικτα : Τόμος Β'</dc:title>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/480315333"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1860424726">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="en">Greece</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/390903"/>
+    <dc:title xml:lang="en">Greece</dc:title>
     <dc:title xml:lang="el">Ελλάδα</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/482753425">
     <dc:title xml:lang="el">Τυπογραφείον της Εστίας</dc:title>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1024011884">
-    <j.1:type>TEXT</j.1:type>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <edm:type>TEXT</edm:type>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
     <dc:subject xml:lang="el">Ανατολική Ευρώπη</dc:subject>
-    <dc:title xml:lang="el">Ιστορία της πάλαι Δακίας, τα νυν Τρανσιλβανίας, Βλαχίας και Μολδαυίας</dc:title>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_575"/>
-    <j.0:temporal>1818</j.0:temporal>
+    <dc:title xml:lang="el">Ιστορία της πάλαι Δακίας, τα νυν Τρανσιλβανίας, Βλαχίας και Μολδαυίας</dc:title>
     <dc:subject xml:lang="en">Eastern Europe</dc:subject>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/575</j.1:isShownAt>
+    <dcterms:temporal>1818</dcterms:temporal>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/758638578"/>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1477234989"/>
     <dc:type xml:lang="en">Monograph</dc:type>
@@ -386,118 +434,134 @@
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1664310147">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1833</edm:end>
+    <edm:begin>1748</edm:begin>
     <dc:title xml:lang="en">Korais Adamantios</dc:title>
-    <j.1:begin>1748</j.1:begin>
-    <j.1:end>1833</j.1:end>
     <dc:title xml:lang="el">Κοραής Αδαμάντιος</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/216821042">
-    <j.0:temporal>1804</j.0:temporal>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.1:country>el</j.1:country>
+    <dcterms:temporal>1804</dcterms:temporal>
+    <edm:country>el</edm:country>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <j.1:type>TEXT</j.1:type>
+    <edm:type>TEXT</edm:type>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_565"/>
     <dc:title xml:lang="el">Στοιχεία γεωγραφίας</dc:title>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/93060026"/>
     <dc:subject xml:lang="el">Γεωγραφία</dc:subject>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/507099587"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
     <dc:subject xml:lang="en">Geography</dc:subject>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1286630022"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1938998462"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/565</j.1:isShownAt>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/136696310">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="el">Μανολάκης Ιωάννης</dc:title>
-    <dc:alternative xml:lang="el">Μανολάκης, Ιωάννης ο εκ Κωνσταντινουπόλεως</dc:alternative>
     <dc:title xml:lang="en">Manolakis Ioannis</dc:title>
+    <dc:alternative xml:lang="el">Μανολάκης, Ιωάννης ο εκ Κωνσταντινουπόλεως</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/72610197">
     <dc:title xml:lang="el">Μελέται περί του βίου και της γλώσσης του ελληνικού λαού : Τόμος Α : Παροιμίαι</dc:title>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/480315333"/>
     <dc:subject xml:lang="en">Folklore</dc:subject>
+    <edm:type>TEXT</edm:type>
     <dc:subject xml:lang="el">Λαογραφία</dc:subject>
-    <j.1:type>TEXT</j.1:type>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/513</j.1:isShownAt>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_513"/>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/1427164870"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
-    <j.1:country>el</j.1:country>
-    <j.0:temporal>1899</j.0:temporal>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <edm:country>el</edm:country>
+    <dcterms:temporal>1899</dcterms:temporal>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1591423522/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2143430299"/>
+    <edm:isShownAt>https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2143430299"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1591423522"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1630199219/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/537</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1630199219"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1045733828/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/485</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1045733828"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/182566957">
     <dc:title xml:lang="el">Τυπογραφείον "Ερμής" </dc:title>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1304777455">
-    <j.0:temporal>1839</j.0:temporal>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/501</j.1:isShownAt>
-    <dc:subject xml:lang="el">Βουκολική Ποίηση</dc:subject>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <dc:subject xml:lang="en">Pastoral poetry</dc:subject>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1788954835/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/553</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1788954835"/>
     <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1304777455">
+    <dcterms:temporal>1839</dcterms:temporal>
+    <dc:subject xml:lang="el">Βουκολική Ποίηση</dc:subject>
+    <dc:subject xml:lang="en">Pastoral poetry</dc:subject>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_501"/>
-    <j.1:type>TEXT</j.1:type>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
+    <edm:type>TEXT</edm:type>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/202508895"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1523630531"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/938825274"/>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1365243527"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1365243527"/>
     <dc:title xml:lang="el">Θεόκριτος παραφρασθείς</dc:title>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1041269571">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="en">Athens</dc:title>
     <owl:sameAs rdf:resource="http://www.geonames.org/264371"/>
+    <dc:title xml:lang="en">Athens</dc:title>
     <dc:title xml:lang="el">Αθήνα</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/93060026">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end> 24/6/1828</edm:end>
+    <edm:begin>1758</edm:begin>
     <dc:title xml:lang="en">Gazis Anthimos</dc:title>
-    <dc:alternative xml:lang="en">Gazes Anthimos</dc:alternative>
-    <j.1:begin>1758</j.1:begin>
-    <j.1:end> 24/6/1828</j.1:end>
     <dc:title xml:lang="el">Γαζής Άνθιμος</dc:title>
+    <dc:alternative xml:lang="en">Gazes Anthimos</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/938825274">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1858</edm:end>
+    <edm:begin>1811</edm:begin>
     <dc:title xml:lang="en"> Koromilas Andreas</dc:title>
-    <dc:alternative xml:lang="en"> Koromēlas Andreas</dc:alternative>
-    <j.1:begin>1811</j.1:begin>
-    <j.1:end>1858</j.1:end>
     <dc:title xml:lang="el">Κορομηλάς Ανδρέας</dc:title>
+    <dc:alternative xml:lang="en"> Koromēlas Andreas</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1865403944">
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1291288932"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1291288932"/>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/182566957"/>
     <dc:subject xml:lang="el">Δημοτικά τραγούδια</dc:subject>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/544734171"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1321660146"/>
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_540"/>
-    <j.1:type>TEXT</j.1:type>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.0:temporal>1852</j.0:temporal>
+    <edm:type>TEXT</edm:type>
+    <dcterms:temporal>1852</dcterms:temporal>
     <dc:type xml:lang="en">Monograph</dc:type>
     <dc:subject xml:lang="en">Folk songs</dc:subject>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1451964972"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/540</j.1:isShownAt>
     <dc:title xml:lang="el">Άσματα δημοτικά της Ελλάδος</dc:title>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/1394825021">
@@ -505,15 +569,15 @@
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/544734171">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="el">Τερζάκης Α.</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1523630531">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end> 20/12/1845</edm:end>
+    <edm:begin>1760</edm:begin>
     <dc:title xml:lang="el">Δούκας Νεόφυτος</dc:title>
-    <j.1:begin>1760</j.1:begin>
-    <j.1:end> 20/12/1845</j.1:end>
     <dc:title xml:lang="en">Doukas Neophytos</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/2004336711">
     <dc:title xml:lang="el">Κέντρον Ερεύνης της Ελληνικής Λαογραφίας της Ακαδημίας Αθηνών</dc:title>
@@ -521,9 +585,17 @@
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/758638578">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="el">Σβέκιος Ιωάννης</dc:title>
     <dc:title xml:lang="en">Svekios Ioannis</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1129451894/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/519</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1129451894"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-organizations/42289243">
     <dc:title xml:lang="en">National Printing House</dc:title>
@@ -531,43 +603,35 @@
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1321660146">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>1881</edm:end>
+    <edm:begin>1815</edm:begin>
     <dc:title xml:lang="el">Ζαμπέλιος Σπυρίδων</dc:title>
-    <j.1:begin>1815</j.1:begin>
-    <j.1:end>1881</j.1:end>
     <dc:title xml:lang="en">Zampelios Spyridon</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/2049190340">
-    <j.1:country>el</j.1:country>
+    <edm:country>el</edm:country>
     <dc:title xml:lang="el">Εκλογαί από τα τραγούδια του ελληνικού λαού</dc:title>
     <dc:type xml:lang="en">Monograph</dc:type>
-    <j.0:temporal>1914</j.0:temporal>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
+    <dcterms:temporal>1914</dcterms:temporal>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/482753425"/>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/480315333"/>
     <dc:subject xml:lang="en">Folk songs</dc:subject>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_512"/>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/512</j.1:isShownAt>
     <dc:subject xml:lang="el">Δημοτικά τραγούδια</dc:subject>
-    <j.1:type>TEXT</j.1:type>
+    <edm:type>TEXT</edm:type>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1129451894">
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
-    <j.1:type>TEXT</j.1:type>
-    <j.0:temporal>1834</j.0:temporal>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1365243527"/>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/519</j.1:isShownAt>
-    <j.1:country>el</j.1:country>
+    <edm:type>TEXT</edm:type>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1365243527"/>
+    <dcterms:temporal>1834</dcterms:temporal>
+    <edm:country>el</edm:country>
     <dc:subject xml:lang="el">Φυσική</dc:subject>
     <dc:subject xml:lang="en">Physics</dc:subject>
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/938825274"/>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_519"/>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1523630531"/>
     <dc:type xml:lang="en">Monograph</dc:type>
     <dc:title xml:lang="el">Ξυνωρίς : ήτοι Φυσική και Μεταφυσική</dc:title>
@@ -575,40 +639,60 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/993599624">
     <dc:publisher rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/938825274"/>
-    <j.1:type>TEXT</j.1:type>
-    <j.1:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/551</j.1:isShownAt>
-    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <edm:type>TEXT</edm:type>
     <owl:sameAs rdf:resource="https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_551"/>
     <dc:title xml:lang="el">Απάνθισμα δεύτερον επιστολών Αδαμάντιου Κοραή</dc:title>
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:subject xml:lang="en">Correspondence </dc:subject>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1810992534"/>
-    <j.0:temporal>1841</j.0:temporal>
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/aggregatedCHO"/>
-    <j.1:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <dcterms:temporal>1841</dcterms:temporal>
     <dc:type xml:lang="en">Monograph</dc:type>
     <dc:subject xml:lang="el">Αλληλογραφία </dc:subject>
-    <j.0:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
-    <j.1:country>el</j.1:country>
+    <dcterms:spatial rdf:resource="http://semantics.gr/authorities/ecc-schema-places/1041269571"/>
+    <edm:country>el</edm:country>
     <dc:creator rdf:resource="http://semantics.gr/authorities/ecc-schema-persons/1664310147"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/72610197/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/513</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/72610197"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-places/1291288932">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
-    <dc:title xml:lang="el">Κέρκυρα</dc:title>
     <owl:sameAs rdf:resource="https://www.geonames.org/2463679"/>
+    <dc:title xml:lang="el">Κέρκυρα</dc:title>
     <dc:title xml:lang="en">Corfu</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/1021538726/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/506</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/1021538726"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-books-dataset/755481201/agg">
+    <edm:provider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:isShownAt>http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/538</edm:isShownAt>
+    <edm:dataProvider rdf:resource="http://semantics.gr/authorities/ecc-schema-organizations/2004336711"/>
+    <edm:aggregatedCHO rdf:resource="http://semantics.gr/authorities/ecc-books-dataset/755481201"/>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/1938998462">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+    <edm:end>28/11/1795</edm:end>
+    <edm:begin>1757</edm:begin>
     <dc:title xml:lang="el">Βεντώτης Γεώργιος</dc:title>
     <dc:alternative xml:lang="el">Βεντότης Γεώργιος</dc:alternative>
-    <j.1:begin>1757</j.1:begin>
-    <j.1:end>28/11/1795</j.1:end>
     <dc:alternative xml:lang="el">Βενδότης Γεώργιος</dc:alternative>
     <dc:alternative xml:lang="el">Βενδωτής Γεώργιος</dc:alternative>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://semantics.gr/authorities/ecc-schema-persons/2040137680">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
     <dc:title xml:lang="el">Τεσεβέκιος Ιωάννης Βαρθ.</dc:title>
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
   </rdf:Description>
 </rdf:RDF>

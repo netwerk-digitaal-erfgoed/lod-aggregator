@@ -33,92 +33,32 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output gr_validate_dataset.ttl
 ```
 
-The validation was succesful, the file gr_validate_dataset.ttl had the following content:
+The validation was succesful, see the gr_validate_dataset.ttl report.
 
-```bash
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sh:    <http://www.w3.org/ns/shacl#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-
-[ a            sh:ValidationReport ;
-  sh:conforms  true
-] .
-```
 
 ## Mapping the schema.org data to EDM data
 
-Next step was doing the actual conversion of the resources, the source had several Schema classes that needed to be processed seperately.
-
-### Start with the object descriptions
+Next step was doing the actual conversion of the resources.
 
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
   --data ecc-books-dataset.rdf \
-  --query gr_book.rq \
-  --format N-Triples \
-  --output ecc-books-cho-edm.nt
-```
-
-We asked for a resultset in N-Triples so we can easily merge all the output files into one data file.
-
-### The same for the person descriptions
-
-```bash
-docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data ecc-books-dataset.rdf \
-  --query gr_person.rq \
-  --format N-Triples \
-  --output ecc-books-person-edm.nt
-```
-
-### The same for the organizaton description
-
-```bash
-docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data ecc-books-dataset.rdf \
-  --query gr_person.rq \
-  --format N-Triples \
-  --output ecc-books-person-edm.nt
-```
-
-### And the last one, the place descriptions
-
-```bash
-docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data ecc-books-dataset.rdf \
-  --query gr_place.rq \
-  --format N-Triples \
-  --output ecc-books-place-edm.nt
-```
-
-## Merge into one result file
-
-For further processing a single data file is easier to handle. This was done using a standard `cat` command:
-
-```bash
-cat data/ecc-books-cho-edm.nt \
-    data/ecc-books-person-edm.nt \
-    data/ecc-books-organization-edm.nt \
-    data/ecc-books-place-edm.nt \
-    > data/ecc-books-edm.nt
+  --query gr_total.rq \
+  --output ecc-books-edm.ttl
 ```
 
 ## Validate the total the EDM data
 
-Currently we only have a validation for the ProvidedCHO and AggregatedCHO classes. This was ran on the complete edm file.
+Validate the generated EDM data in respect to the requirements listed in "Guidelines for providing and handling Schema.org metadata in compliance with Europeana".
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
-  --data ecc-books-edm.nt \
-  --shape shacl_cho_edm.ttl \
-  --output gr_validate_cho.ttl
+  --data ecc-books-edm.ttl \
+  --shape shacl_edm.ttl \
+  --output gr_validate.ttl
 ```
 
-This resulted in the following errors for all the CHO resources:
-
-+ "missing value for edm:dataProvider"
-+ "missing or invalid dc:rights value"
+This results in a number of violations that still need to be investigated, see the gr_validate.ttl report for more info.
 
 ## Serialize the EDM to RDF/XML format
 
@@ -126,7 +66,7 @@ With a succesful validation the next step would be to convert the result to RDF/
 
 ```bash
 docker-compose run --rm --user 1000:1000 serialize starter.sh \
-  --data ecc-books-edm.nt \
+  --data ecc-books-edm.ttl \
   --format RDF/XML \
   --output ecc-books-edm.rdf
 ```
