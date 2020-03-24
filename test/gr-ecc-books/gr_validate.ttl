@@ -1,18 +1,35 @@
 @prefix schema: <http://schema.org/> .
 @prefix void:  <http://rdfs.org/ns/void#> .
 @prefix ore:   <http://www.openarchives.org/ore/terms/> .
-@prefix ex:    <http://example.org/> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix sh:    <http://www.w3.org/ns/shacl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix edm:   <http://www.europeana.eu/schemas/edm/> .
+@prefix ex:    <http://example.org/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
 [ a            sh:ValidationReport ;
   sh:conforms  false ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/302934855#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/302934855#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/302934855#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/72610197#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/72610197#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/72610197#agg>
+               ] ;
   sh:result    [ a                             sh:ValidationResult ;
                  sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1591423522> ;
                  sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1591423522>" ;
@@ -20,78 +37,6 @@
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:ProvidedCHO ;
                  sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1591423522>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1591423522/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1591423522/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1591423522/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1649261268> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1649261268>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1649261268>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1630199219> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1630199219>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1630199219>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/216821042/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/216821042/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/216821042/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1788954835> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1788954835>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1788954835>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/216821042> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/216821042>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/216821042>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1630199219/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1630199219/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1630199219/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1649261268/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1649261268/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1649261268/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/72610197/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/72610197/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/72610197/agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
                  sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1324465820> ;
@@ -102,84 +47,44 @@
                  sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1324465820>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1045733828/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1045733828/agg>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2049190340> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2049190340>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2049190340>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1630199219> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1630199219>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1630199219>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/22369282#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/22369282#agg>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1045733828/agg>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/22369282#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1510936129> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1510936129>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1510936129>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1024011884> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1024011884>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1024011884>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/302934855> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/302934855>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/302934855>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1865403944/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1865403944/agg>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2049190340#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2049190340#agg>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1865403944/agg>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2049190340#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1304777455/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1304777455/agg>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1510936129#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1510936129#agg>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1304777455/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1510936129/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1510936129/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1510936129/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1129451894> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1129451894>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1129451894>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/993599624> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/993599624>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/993599624>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1021538726> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1021538726>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1021538726>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1510936129#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
                  sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1865403944> ;
@@ -190,28 +95,36 @@
                  sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1865403944>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/755481201> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/755481201>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/755481201>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1021538726/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1021538726/agg>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1024011884#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1024011884#agg>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1021538726/agg>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1024011884#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1045733828> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1045733828>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/993599624#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/993599624#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/993599624#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1021538726> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1021538726>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1045733828>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1021538726>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1324465820#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1324465820#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1324465820#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
                  sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/22369282> ;
@@ -222,36 +135,84 @@
                  sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/22369282>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1129451894/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1129451894/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1129451894/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2049190340/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2049190340/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2049190340/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1788954835/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1788954835/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1788954835/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2100003983> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2100003983>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/993599624> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/993599624>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2100003983>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/993599624>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/755481201> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/755481201>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/755481201>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1788954835> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1788954835>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1788954835>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1304777455#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1304777455#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1304777455#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1510936129> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1510936129>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1510936129>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1129451894> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1129451894>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1129451894>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1045733828> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1045733828>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1045733828>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1045733828#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1045733828#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1045733828#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1591423522#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1591423522#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1591423522#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1788954835#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1788954835#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1788954835#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
                  sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/72610197> ;
@@ -262,20 +223,100 @@
                  sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/72610197>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2049190340> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2049190340>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/302934855> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/302934855>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:ProvidedCHO ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2049190340>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/302934855>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/993599624/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/993599624/agg>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/755481201#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/755481201#agg>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/993599624/agg>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/755481201#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1024011884> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1024011884>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1024011884>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1649261268> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1649261268>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1649261268>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/216821042> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/216821042>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/216821042>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2100003983#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2100003983#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2100003983#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2100003983> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2100003983>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:ProvidedCHO ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2100003983>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1129451894#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1129451894#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1129451894#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1865403944#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1865403944#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1865403944#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1021538726#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1021538726#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1021538726#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1649261268#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1649261268#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1649261268#agg>
+               ] ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1630199219#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1630199219#agg>" ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                ex:Aggregation ;
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1630199219#agg>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
                  sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1304777455> ;
@@ -286,51 +327,11 @@
                  sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1304777455>
                ] ;
   sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/302934855/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/302934855/agg>" ;
+                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/216821042#agg> ;
+                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/216821042#agg>" ;
                  sh:resultSeverity             sh:Violation ;
                  sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
                  sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/302934855/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1324465820/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1324465820/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1324465820/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/2100003983/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/2100003983/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/2100003983/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/22369282/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/22369282/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/22369282/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/755481201/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/755481201/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/755481201/agg>
-               ] ;
-  sh:result    [ a                             sh:ValidationResult ;
-                 sh:focusNode                  <http://semantics.gr/authorities/ecc-books-dataset/1024011884/agg> ;
-                 sh:resultMessage              "Node at focusNode <http://semantics.gr/authorities/ecc-books-dataset/1024011884/agg>" ;
-                 sh:resultSeverity             sh:Violation ;
-                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
-                 sh:sourceShape                ex:Aggregation ;
-                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/1024011884/agg>
+                 sh:value                      <http://semantics.gr/authorities/ecc-books-dataset/216821042#agg>
                ]
 ] .

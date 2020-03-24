@@ -4,29 +4,38 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix edm:   <http://www.europeana.eu/schemas/edm/> .
 
-<http://semantics.gr/authorities/ecc-schema-persons/136696310>
-        a               edm:Agent ;
-        dc:alternative  "Μανολάκης, Ιωάννης ο εκ Κωνσταντινουπόλεως"@el ;
-        dc:title        "Manolakis Ioannis"@en , "Μανολάκης Ιωάννης"@el .
-
-<http://semantics.gr/authorities/ecc-books-dataset/755481201/agg>
+<http://semantics.gr/authorities/ecc-books-dataset/2100003983#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/755481201> ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/2100003983> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/538" ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/577" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/216821042/agg>
+<http://semantics.gr/authorities/ecc-schema-persons/136696310>
+        a               edm:Agent ;
+        skos:altLabel   "Μανολάκης, Ιωάννης ο εκ Κωνσταντινουπόλεως"@el ;
+        skos:prefLabel  "Manolakis Ioannis"@en , "Μανολάκης Ιωάννης"@el .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1510936129#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/216821042> ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1510936129> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/565" ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/543" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1630199219#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1630199219> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/537" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/755481201>
@@ -43,9 +52,9 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_538> .
 
 <http://semantics.gr/authorities/ecc-schema-places/1286630022>
-        a           edm:Place ;
-        dc:title    "Βιέννη"@el , "Vienna"@en ;
-        owl:sameAs  <https://www.geonames.org/2761369> .
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/2761369> ;
+        skos:prefLabel  "Βιέννη"@el , "Vienna"@en .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1788954835>
         a                 edm:ProvidedCHO ;
@@ -59,24 +68,32 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_553> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1045733828/agg>
+<http://semantics.gr/authorities/ecc-books-dataset/22369282#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1045733828> ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/22369282> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/485" ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/547" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/507099587>
         a               edm:Agent ;
-        dc:alternative  "Theotokis Nikephoros"@en ;
-        dc:title        "Θεοτόκης Νικηφόρος"@el , "Theotokis Nikiforos"@en ;
         edm:begin       "15/2/1731" ;
-        edm:end         "31/5/1800" .
+        edm:end         "31/5/1800" ;
+        skos:altLabel   "Theotokis Nikephoros"@en ;
+        skos:prefLabel  "Θεοτόκης Νικηφόρος"@el , "Theotokis Nikiforos"@en .
+
+<http://semantics.gr/authorities/ecc-books-dataset/755481201#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/755481201> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/538" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1237840875>
-        a         edm:Agent ;
-        dc:title  "Σνείρερος Ιωάννης"@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Σνείρερος Ιωάννης"@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/302934855>
         a                 edm:ProvidedCHO ;
@@ -91,25 +108,33 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_541> .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/42289243>
-        a         edm:Agent ;
-        dc:title  "Εθνικό Τυπογραφείο"@el , "National Printing House"@en .
+        a               edm:Agent ;
+        skos:prefLabel  "Εθνικό Τυπογραφείο"@el , "National Printing House"@en .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1664310147>
-        a          edm:Agent ;
-        dc:title   "Κοραής Αδαμάντιος"@el , "Korais Adamantios"@en ;
-        edm:begin  "1748" ;
-        edm:end    "1833" .
+        a               edm:Agent ;
+        edm:begin       "1748" ;
+        edm:end         "1833" ;
+        skos:prefLabel  "Κοραής Αδαμάντιος"@el , "Korais Adamantios"@en .
 
-<http://semantics.gr/authorities/ecc-schema-organizations/100440823>
-        a         edm:Agent ;
-        dc:title  "Τύποις Π. Σούτσα και Δ. Κτενά"@el .
-
-<http://semantics.gr/authorities/ecc-books-dataset/1324465820/agg>
+<http://semantics.gr/authorities/ecc-books-dataset/1649261268#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1324465820> ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1649261268> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/1200" ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/487" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
+<http://semantics.gr/authorities/ecc-schema-organizations/100440823>
+        a               edm:Agent ;
+        skos:prefLabel  "Τύποις Π. Σούτσα και Δ. Κτενά"@el .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1045733828#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1045733828> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/485" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1024011884>
@@ -126,21 +151,13 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_575> .
 
 <http://semantics.gr/authorities/ecc-schema-places/1365243527>
-        a           edm:Place ;
-        dc:title    "Αίγινα"@el , "Aegina"@en ;
-        owl:sameAs  <https://www.geonames.org/265502> .
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/265502> ;
+        skos:prefLabel  "Αίγινα"@el , "Aegina"@en .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/1394825021>
-        a         edm:Agent ;
-        dc:title  "Τυπογραφείο Παρασκευά Λεωνή"@el .
-
-<http://semantics.gr/authorities/ecc-books-dataset/1129451894/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1129451894> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/519" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+        a               edm:Agent ;
+        skos:prefLabel  "Τυπογραφείο Παρασκευά Λεωνή"@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1021538726>
         a                 edm:ProvidedCHO ;
@@ -156,8 +173,8 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_506> .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/182566957>
-        a         edm:Agent ;
-        dc:title  "Τυπογραφείον \"Ερμής\" "@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Τυπογραφείον \"Ερμής\" "@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1591423522>
         a                 edm:ProvidedCHO ;
@@ -171,29 +188,45 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473> .
 
+<http://semantics.gr/authorities/ecc-books-dataset/1324465820#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1324465820> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/1200" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1129451894#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1129451894> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/519" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
 <http://semantics.gr/authorities/ecc-schema-places/1006798342>
-        a           edm:Place ;
-        dc:title    "Venice"@en , "Βενετία"@el ;
-        owl:sameAs  <https://www.geonames.org/3164600> .
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/3164600> ;
+        skos:prefLabel  "Venice"@en , "Βενετία"@el .
 
 <http://semantics.gr/authorities/ecc-schema-persons/287166135>
-        a          edm:Agent ;
-        dc:title   "Aeschylus "@en , "Αισχύλος"@el ;
-        edm:begin  "525 π.Χ." ;
-        edm:end    "455 π.Χ." .
+        a               edm:Agent ;
+        edm:begin       "525 π.Χ." ;
+        edm:end         "455 π.Χ." ;
+        skos:prefLabel  "Aeschylus "@en , "Αισχύλος"@el .
 
 <http://semantics.gr/authorities/ecc-schema-persons/517632518>
-        a          edm:Agent ;
-        dc:title   "Leake William Martin"@en ;
-        edm:begin  "1777" ;
-        edm:end    "1860" .
+        a               edm:Agent ;
+        edm:begin       "1777" ;
+        edm:end         "1860" ;
+        skos:prefLabel  "Leake William Martin"@en .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1938998462>
         a               edm:Agent ;
-        dc:alternative  "Βενδωτής Γεώργιος"@el , "Βενδότης Γεώργιος"@el , "Βεντότης Γεώργιος"@el ;
-        dc:title        "Βεντώτης Γεώργιος"@el ;
         edm:begin       "1757" ;
-        edm:end         "28/11/1795" .
+        edm:end         "28/11/1795" ;
+        skos:altLabel   "Βενδωτής Γεώργιος"@el , "Βενδότης Γεώργιος"@el , "Βεντότης Γεώργιος"@el ;
+        skos:prefLabel  "Βεντώτης Γεώργιος"@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1045733828>
         a                 edm:ProvidedCHO ;
@@ -209,8 +242,8 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_485> .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/1427164870>
-        a         edm:Agent ;
-        dc:title  "Τύποις Π. Δ. Σακελλαρίου"@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Τύποις Π. Δ. Σακελλαρίου"@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1129451894>
         a                 edm:ProvidedCHO ;
@@ -225,11 +258,19 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_519> .
 
+<http://semantics.gr/authorities/ecc-books-dataset/216821042#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/216821042> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/565" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
 <http://semantics.gr/authorities/ecc-schema-persons/1477234989>
-        a          edm:Agent ;
-        dc:title   "Φωτεινός Διονύσιος"@el , "Fotinos Dionysios"@en ;
-        edm:begin  "1769" ;
-        edm:end    "1821" .
+        a               edm:Agent ;
+        edm:begin       "1769" ;
+        edm:end         "1821" ;
+        skos:prefLabel  "Φωτεινός Διονύσιος"@el , "Fotinos Dionysios"@en .
 
 <http://semantics.gr/authorities/ecc-books-dataset/993599624>
         a                 edm:ProvidedCHO ;
@@ -244,47 +285,23 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_551> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/72610197/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/72610197> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/513" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
-<http://semantics.gr/authorities/ecc-books-dataset/2049190340/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/2049190340> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/512" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
 <http://semantics.gr/authorities/ecc-schema-places/739774648>
-        a           edm:Place ;
-        dc:title    "Χάλλε"@el , "Kreisfreie Stadt Halle"@de ;
-        owl:sameAs  <https://www.geonames.org/2911516> .
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/2911516> ;
+        skos:prefLabel  "Χάλλε"@el , "Kreisfreie Stadt Halle"@de .
 
 <http://semantics.gr/authorities/ecc-schema-persons/93060026>
         a               edm:Agent ;
-        dc:alternative  "Gazes Anthimos"@en ;
-        dc:title        "Γαζής Άνθιμος"@el , "Gazis Anthimos"@en ;
         edm:begin       "1758" ;
-        edm:end         " 24/6/1828" .
+        edm:end         " 24/6/1828" ;
+        skos:altLabel   "Gazes Anthimos"@en ;
+        skos:prefLabel  "Γαζής Άνθιμος"@el , "Gazis Anthimos"@en .
 
 <http://semantics.gr/authorities/ecc-schema-persons/202508895>
-        a          edm:Agent ;
-        dc:title   "Θεόκριτος"@el , "Theocritus"@en ;
-        edm:begin  "300 π.Χ." ;
-        edm:end    "260 π.Χ." .
-
-<http://semantics.gr/authorities/ecc-books-dataset/1024011884/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1024011884> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/575" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+        a               edm:Agent ;
+        edm:begin       "300 π.Χ." ;
+        edm:end         "260 π.Χ." ;
+        skos:prefLabel  "Θεόκριτος"@el , "Theocritus"@en .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1630199219>
         a                 edm:ProvidedCHO ;
@@ -298,6 +315,14 @@
         edm:country       "el" ;
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_537> .
+
+<http://semantics.gr/authorities/ecc-books-dataset/72610197#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/72610197> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/513" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/2100003983>
         a                 edm:ProvidedCHO ;
@@ -313,8 +338,8 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_577> .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/2004336711>
-        a         edm:Agent ;
-        dc:title  "Hellenic Folklore Research Centre, Academy of Athens"@en , "Κέντρον Ερεύνης της Ελληνικής Λαογραφίας της Ακαδημίας Αθηνών"@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Hellenic Folklore Research Centre, Academy of Athens"@en , "Κέντρον Ερεύνης της Ελληνικής Λαογραφίας της Ακαδημίας Αθηνών"@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1324465820>
         a                 edm:ProvidedCHO ;
@@ -329,12 +354,20 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_1200> .
 
+<http://semantics.gr/authorities/ecc-books-dataset/2049190340#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/2049190340> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/512" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
 <http://semantics.gr/authorities/ecc-schema-persons/1801119122>
         a               edm:Agent ;
-        dc:alternative  "Ρύσιος Αδαμάντιος"@el ;
-        dc:title        "Ρύσιος Διαμαντής"@el , "Risios Adamantios"@en ;
         edm:begin       "1675" ;
-        edm:end         "1746/1747" .
+        edm:end         "1746/1747" ;
+        skos:altLabel   "Ρύσιος Αδαμάντιος"@el ;
+        skos:prefLabel  "Ρύσιος Διαμαντής"@el , "Risios Adamantios"@en .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1865403944>
         a                 edm:ProvidedCHO ;
@@ -349,22 +382,49 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_540> .
 
+<http://semantics.gr/authorities/ecc-books-dataset/1024011884#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1024011884> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/575" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
 <http://semantics.gr/authorities/ecc-schema-places/1041269571>
-        a           edm:Place ;
-        dc:title    "Αθήνα"@el , "Athens"@en ;
-        owl:sameAs  <http://www.geonames.org/264371> .
+        a               edm:Place ;
+        owl:sameAs      <http://www.geonames.org/264371> ;
+        skos:prefLabel  "Αθήνα"@el , "Athens"@en .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1321660146>
-        a          edm:Agent ;
-        dc:title   "Zampelios Spyridon"@en , "Ζαμπέλιος Σπυρίδων"@el ;
-        edm:begin  "1815" ;
-        edm:end    "1881" .
+        a               edm:Agent ;
+        edm:begin       "1815" ;
+        edm:end         "1881" ;
+        skos:prefLabel  "Zampelios Spyridon"@en , "Ζαμπέλιος Σπυρίδων"@el .
 
 <http://semantics.gr/authorities/ecc-schema-persons/2040137680>
-        a         edm:Agent ;
-        dc:title  "Τεσεβέκιος Ιωάννης Βαρθ."@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Τεσεβέκιος Ιωάννης Βαρθ."@el .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1591423522/agg>
+<http://semantics.gr/authorities/ecc-schema-organizations/2143430299>
+        a               edm:Agent ;
+        skos:prefLabel  "Alexander S. Onassis Public Benefit Foundation"@en , "Κοινωφελές Ίδρυμα Αλέξανδρος Σ. Ωνάσης"@el .
+
+<http://semantics.gr/authorities/ecc-schema-persons/544734171>
+        a               edm:Agent ;
+        skos:prefLabel  "Τερζάκης Α."@el .
+
+<http://semantics.gr/authorities/ecc-schema-persons/480315333>
+        a               edm:Agent ;
+        edm:begin       "3/3/1852" ;
+        edm:end         "12/1/1921" ;
+        skos:prefLabel  "Πολίτης Νικόλαος Γ."@el , "Politis Nikolaos G."@en .
+
+<http://semantics.gr/authorities/ecc-schema-persons/237166398>
+        a               edm:Agent ;
+        edm:begin       "1966" ;
+        skos:prefLabel  "Makris Efstathios"@en , "Μακρής Ευστάθιος Γ."@el .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1591423522#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1591423522> ;
@@ -372,38 +432,16 @@
         edm:isShownAt      "https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2143430299> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1788954835/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1788954835> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/553" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
-<http://semantics.gr/authorities/ecc-schema-organizations/2143430299>
-        a         edm:Agent ;
-        dc:title  "Alexander S. Onassis Public Benefit Foundation"@en , "Κοινωφελές Ίδρυμα Αλέξανδρος Σ. Ωνάσης"@el .
-
-<http://semantics.gr/authorities/ecc-schema-persons/544734171>
-        a         edm:Agent ;
-        dc:title  "Τερζάκης Α."@el .
-
-<http://semantics.gr/authorities/ecc-schema-persons/480315333>
-        a          edm:Agent ;
-        dc:title   "Πολίτης Νικόλαος Γ."@el , "Politis Nikolaos G."@en ;
-        edm:begin  "3/3/1852" ;
-        edm:end    "12/1/1921" .
-
-<http://semantics.gr/authorities/ecc-schema-persons/237166398>
-        a          edm:Agent ;
-        dc:title   "Makris Efstathios"@en , "Μακρής Ευστάθιος Γ."@el ;
-        edm:begin  "1966" .
-
 <http://semantics.gr/authorities/ecc-schema-organizations/482753425>
-        a         edm:Agent ;
-        dc:title  "Τυπογραφείον της Εστίας"@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Τυπογραφείον της Εστίας"@el .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1304777455/agg>
+<http://semantics.gr/authorities/ecc-schema-places/1227050938>
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/2643743> ;
+        skos:prefLabel  "London"@en , "Λονδίνο"@el .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1304777455#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1304777455> ;
@@ -411,52 +449,15 @@
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/501" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1021538726/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1021538726> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/506" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
-<http://semantics.gr/authorities/ecc-books-dataset/993599624/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/993599624> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/551" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
-<http://semantics.gr/authorities/ecc-books-dataset/2100003983/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/2100003983> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/577" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
-<http://semantics.gr/authorities/ecc-schema-places/1227050938>
-        a           edm:Place ;
-        dc:title    "London"@en , "Λονδίνο"@el ;
-        owl:sameAs  <https://www.geonames.org/2643743> .
-
 <http://semantics.gr/authorities/ecc-schema-places/1291288932>
-        a           edm:Place ;
-        dc:title    "Corfu"@en , "Κέρκυρα"@el ;
-        owl:sameAs  <https://www.geonames.org/2463679> .
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/2463679> ;
+        skos:prefLabel  "Corfu"@en , "Κέρκυρα"@el .
 
 <http://semantics.gr/authorities/ecc-schema-persons/863310369>
         a               edm:Agent ;
-        dc:alternative  "Αντώνης Μπρόην"@el ;
-        dc:title        "Bruyn Antoine"@fr .
-
-<http://semantics.gr/authorities/ecc-books-dataset/22369282/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/22369282> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/547" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+        skos:altLabel   "Αντώνης Μπρόην"@el ;
+        skos:prefLabel  "Bruyn Antoine"@fr .
 
 <http://semantics.gr/authorities/ecc-books-dataset/216821042>
         a                 edm:ProvidedCHO ;
@@ -472,14 +473,14 @@
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_565> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/758638578>
-        a         edm:Agent ;
-        dc:title  "Svekios Ioannis"@en , "Σβέκιος Ιωάννης"@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Svekios Ioannis"@en , "Σβέκιος Ιωάννης"@el .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1523630531>
-        a          edm:Agent ;
-        dc:title   "Doukas Neophytos"@en , "Δούκας Νεόφυτος"@el ;
-        edm:begin  "1760" ;
-        edm:end    " 20/12/1845" .
+        a               edm:Agent ;
+        edm:begin       "1760" ;
+        edm:end         " 20/12/1845" ;
+        skos:prefLabel  "Doukas Neophytos"@en , "Δούκας Νεόφυτος"@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/22369282>
         a                 edm:ProvidedCHO ;
@@ -520,14 +521,6 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_487> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/302934855/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/302934855> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/541" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
 <http://semantics.gr/authorities/ecc-books-dataset/1510936129>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1321660146> ;
@@ -541,15 +534,44 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_543> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1649261268/agg>
+<http://semantics.gr/authorities/ecc-schema-persons/938825274>
+        a               edm:Agent ;
+        edm:begin       "1811" ;
+        edm:end         "1858" ;
+        skos:altLabel   " Koromēlas Andreas"@en ;
+        skos:prefLabel  "Κορομηλάς Ανδρέας"@el , " Koromilas Andreas"@en .
+
+<http://semantics.gr/authorities/ecc-books-dataset/302934855#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1649261268> ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/302934855> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/487" ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/541" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1865403944/agg>
+<http://semantics.gr/authorities/ecc-schema-persons/1495549868>
+        a               edm:Agent ;
+        skos:prefLabel  "Murray John"@en .
+
+<http://semantics.gr/authorities/ecc-schema-persons/1075805574>
+        a               edm:Agent ;
+        edm:begin       "1777" ;
+        edm:end         "1836" ;
+        skos:prefLabel  "Koumas Konstantinos"@en , "Κούμας Κωνσταντίνος "@el .
+
+<http://semantics.gr/authorities/ecc-schema-organizations/1745497907>
+        a               edm:Agent ;
+        skos:prefLabel  "Τύποις Χ. Νικολαϊδου Φιλαδελφέως"@el .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1788954835#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1788954835> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/553" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
+
+<http://semantics.gr/authorities/ecc-books-dataset/1865403944#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1865403944> ;
@@ -557,31 +579,10 @@
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/540" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
-<http://semantics.gr/authorities/ecc-schema-persons/938825274>
-        a               edm:Agent ;
-        dc:alternative  " Koromēlas Andreas"@en ;
-        dc:title        "Κορομηλάς Ανδρέας"@el , " Koromilas Andreas"@en ;
-        edm:begin       "1811" ;
-        edm:end         "1858" .
-
-<http://semantics.gr/authorities/ecc-schema-persons/1495549868>
-        a         edm:Agent ;
-        dc:title  "Murray John"@en .
-
-<http://semantics.gr/authorities/ecc-schema-persons/1075805574>
-        a          edm:Agent ;
-        dc:title   "Koumas Konstantinos"@en , "Κούμας Κωνσταντίνος "@el ;
-        edm:begin  "1777" ;
-        edm:end    "1836" .
-
-<http://semantics.gr/authorities/ecc-schema-organizations/1745497907>
-        a         edm:Agent ;
-        dc:title  "Τύποις Χ. Νικολαϊδου Φιλαδελφέως"@el .
-
 <http://semantics.gr/authorities/ecc-schema-places/1860424726>
-        a           edm:Place ;
-        dc:title    "Ελλάδα"@el , "Greece"@en ;
-        owl:sameAs  <https://www.geonames.org/390903> .
+        a               edm:Place ;
+        owl:sameAs      <https://www.geonames.org/390903> ;
+        skos:prefLabel  "Ελλάδα"@el , "Greece"@en .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1304777455>
         a                 edm:ProvidedCHO ;
@@ -596,30 +597,22 @@
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_501> .
 
-<http://semantics.gr/authorities/ecc-books-dataset/1510936129/agg>
+<http://semantics.gr/authorities/ecc-books-dataset/1021538726#agg>
         a                  ore:Aggregation ;
         dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1510936129> ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1021538726> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/543" ;
-        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
-
-<http://semantics.gr/authorities/ecc-books-dataset/1630199219/agg>
-        a                  ore:Aggregation ;
-        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
-        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1630199219> ;
-        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
-        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/537" ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/506" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1810992534>
-        a         edm:Agent ;
-        dc:title  "Ρώτας Ιάκωβος"@el ;
-        edm:end   "1844" .
+        a               edm:Agent ;
+        edm:end         "1844" ;
+        skos:prefLabel  "Ρώτας Ιάκωβος"@el .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1451964972>
-        a         edm:Agent ;
-        dc:title  "Ρωμαίος Θ."@el .
+        a               edm:Agent ;
+        skos:prefLabel  "Ρωμαίος Θ."@el .
 
 <http://semantics.gr/authorities/ecc-books-dataset/2049190340>
         a                 edm:ProvidedCHO ;
@@ -633,3 +626,11 @@
         edm:country       "el" ;
         edm:type          "TEXT" ;
         owl:sameAs        <https://www.searchculture.gr/aggregator/edm/AcademyPublications/000095-20.500.11855_512> .
+
+<http://semantics.gr/authorities/ecc-books-dataset/993599624#agg>
+        a                  ore:Aggregation ;
+        dc:rights          "http://creativecommons.org/licenses/by-nc-nd/4.0/" ;
+        edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/993599624> ;
+        edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
+        edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/551" ;
+        edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
