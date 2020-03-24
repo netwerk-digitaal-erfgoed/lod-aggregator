@@ -3,6 +3,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
 PREFIX schema:  <http://schema.org/>
 PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
 PREFIX ore:     <http://www.openarchives.org/ore/terms/>
@@ -29,24 +30,24 @@ CONSTRUCT {
          edm:isShownAt ?url .
 
     ?uri_org a edm:Agent ;
-         dc:description ?org_description ;
-         dc:title ?org_name .
+         skos:prefLabel ?org_name ;
+         skos:note ?org_description .
 
     ?uri_pers a edm:Agent ;
-         dc:title ?pers_name ;
-         dc:alternative ?pers_additionalName ;
+         skos:prefLabel ?pers_name ;
+         skos:altLabel ?pers_additionalName ;
          edm:begin ?pers_birthDate ;
          edm:end ?pers_deathDate .
 
     ?uri_pl a edm:Place ;
-        dc:title ?pl_name ;
-        dc:alternative ?pl_additionalName ;
+        skos:prefLabel ?pl_name ;
+        skos:altLabel ?pl_additionalName ;
         owl:sameAs ?pl_sameAs .
 }
 WHERE {
     {
 	  ?uri_cho a schema:Book .
-      BIND(  URI(CONCAT(STR(?uri_cho),"/agg")) as ?uri_ore)
+      BIND(  URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
       OPTIONAL { ?uri_cho schema:creator ?author }
       OPTIONAL { ?uri_cho schema:description ?desc }
       OPTIONAL { ?uri_cho schema:genre ?genre . 
