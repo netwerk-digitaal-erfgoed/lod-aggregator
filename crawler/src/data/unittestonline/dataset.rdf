@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:kbdef="http://data.bibliotheken.nl/def#"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:pnv="https://w3id.org/pnv#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:sem="http://semanticweb.cs.vu.nl/2009/11/sem/"
+    xmlns:schema="http://schema.org/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://rnd-2.eanadev.org/share/lod-pilots/commonculturetest/dataset.rdf">
+    <schema:title xml:lang="nl">Centsprenten</schema:title>
+    <rdfs:label xml:lang="nl">Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw.</rdfs:label>
+    <schema:dateModified>2019-06-06</schema:dateModified>
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <schema:description xml:lang="en">Centsprenten, a dataset defined for the Europeana Rise of Literacy project.</schema:description>
+    <schema:dateCreated>2019-03-12</schema:dateCreated>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <schema:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    <schema:provider rdf:resource="http://data.bibliotheken.nl/id/thes/p075301482"/>
+	<schema:distribution>
+		<rdf:Description rdf:about="https://rnd-2.eanadev.org/share/lod-pilots/commonculturetest/dataset.rdf#distribution1">
+          <rdf:type rdf:resource="http://schema.org/DataDownload"/>
+          <schema:contentUrl rdf:resource="https://rnd-2.eanadev.org/share/lod-pilots/commonculturetest/dataset.zip"/>
+          <schema:encodingFormat>application/rdf+xml</schema:encodingFormat> 
+          <schema:license rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+		</rdf:Description>
+	</schema:distribution>
+  </rdf:Description>
+</rdf:RDF>

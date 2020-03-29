@@ -1,4 +1,4 @@
-package eu.europeana.commonculture.lod.crawler;
+package eu.europeana.commonculture.lod.datasetmetadata;
 
 public class Distribution {
 	String url;

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.AbstractMap.SimpleImmutableEntry;
+import java.util.Map.Entry;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.Header;
@@ -24,6 +25,7 @@ public class HttpRequest {
 	CloseableHttpResponse response;
 	Content content;
 	Throwable error;
+	private boolean streaming;
 
 	public HttpRequest(String url) {
 		super();
@@ -94,12 +96,14 @@ public class HttpRequest {
 
 	public void setResponse(CloseableHttpResponse response) throws UnsupportedOperationException, IOException {
 		this.response = response;
-		if(response.getEntity()!=null) {
-			byte[] byteArray = IOUtils.toByteArray(response.getEntity().getContent());
-			ContentType contentType = ContentType.get(response.getEntity());
-			this.content=new Content(byteArray, contentType);
+		if(!streaming) {
+			if(response.getEntity()!=null) {
+				byte[] byteArray = IOUtils.toByteArray(response.getEntity().getContent());
+				ContentType contentType = ContentType.get(response.getEntity());
+				this.content=new Content(byteArray, contentType);
+			}
+			response.close();
 		}
-		response.close();
 	}
 		
 //		fetchingSemaphore.release();
@@ -157,11 +161,38 @@ public class HttpRequest {
 		error=null;
 	}
 
-	public void fetch() throws InterruptedException, IOException {
+	public HttpRequest fetch() throws InterruptedException, IOException {
+		streaming=false;
 		HttpRequestService.INSTANCE.fetch(this);
+		return this;
 	}
 
+	
+
+	public String getHeader(String headerToGet) {
+		for (Header h : response.getHeaders(headerToGet)) {
+			if(h.getName().equalsIgnoreCase(headerToGet))
+				return h.getValue();
+		}
+		return null;
+	}
+	public String getResponseContentType() {
+		return getHeader("Content-Type");
+	}
+	public ContentType getResponseContentTypeParsed() {
+		String header = getHeader("Content-Type");
+		if(header==null)
+			return null;
+		return ContentType.parse(header);
+	}
+	
 	public HttpEntity getRequestContent() {
 		return url.getRequestContent();
-	}	
+	}
+
+	public HttpRequest fetchStream() throws InterruptedException, IOException {
+		streaming=true;
+		HttpRequestService.INSTANCE.fetch(this);
+		return this;
+	}
 }

@@ -1,4 +1,4 @@
-package eu.europeana.commonculture.lod.crawler;
+package eu.europeana.commonculture.lod.datasetmetadata;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,7 +14,6 @@ import eu.europeana.commonculture.lod.crawler.rdf.RdfReg;
 import eu.europeana.commonculture.lod.crawler.rdf.RdfUtil;
 import eu.europeana.commonculture.lod.crawler.rdf.RegSchemaorg;
 
-
 public class DatasetDescription {
 	String datasetUri;
 	Model model;
@@ -25,9 +24,20 @@ public class DatasetDescription {
 		if (model==null || !RdfUtil.contains(datasetUri, model))
 			throw new AccessException(datasetUri, "No RDF resource available for the dataset URI");
 	}
-	
-	
 
+	public HarvestMethod chooseHarvestMethod() {
+		Resource  dsResource=model.createResource(datasetUri);
+		if (dsResource==null ) return null;
+		Statement voidRootResource = dsResource.getProperty(RdfReg.VOID_ROOT_RESOURCE);
+		if(voidRootResource!=null)
+			return HarvestMethod.ROOT_RESOURCES;
+		if(getSparqlEndpointUrl()!=null)
+			return HarvestMethod.SPARQL;
+		if (!getDistributions().isEmpty())
+			return HarvestMethod.DISTRIBUTION;
+		return null;
+	}
+	
 	public List<String> listRootResources() throws AccessException, InterruptedException, IOException{
 		ArrayList<String> uris= new ArrayList<String>();
 		Resource  dsResource=model.createResource(datasetUri);
@@ -42,47 +52,66 @@ public class DatasetDescription {
 	}
 
 
-
-	public String getSparqlEndpoint() {
+	private String getSparqlEndpointUrl() {
 		Resource  dsResource=model.createResource(datasetUri);
 		if (dsResource==null ) return null;
-		Resource dataService=RdfUtil.findResource(dsResource, RdfReg.DCAT_DISTRIBUTION, RdfReg.DCAT_ACCESS_SERVICE);
-		if (dataService==null ) return null;
 		
-		boolean isSparqlConformant=false;
-		StmtIterator conforms = dataService.listProperties(RdfReg.DCTERMS_CONFORMS_TO);
-		for(Statement s: conforms.toList()) {
-			String standard = RdfUtil.getUriOrLiteralValue(s.getObject());
-			if(standard!=null && (standard.equals("http://www.w3.org/2005/09/sparql-protocol-types/#") 
-					|| standard.equals("http://www.w3.org/2005/sparql-results#") 
-					|| standard.equals("http://www.w3.org/2005/08/sparql-protocol-query/#"))) {
-				isSparqlConformant=true;
-				break;
-			}
+		Statement endPointUrl = dsResource.getProperty(RdfReg.VOID_SPARQL_ENDPOINT);
+		if (endPointUrl!=null ) return RdfUtil.getUriOrLiteralValue(endPointUrl.getObject());
+		
+		Resource distribution=RdfUtil.findResource(dsResource, RdfReg.DCAT_DISTRIBUTION);
+		if (distribution==null ) 
+			distribution=RdfUtil.findResource(dsResource, RegSchemaorg.distribution);
+		if (distribution==null ) 
+			return null;
+		Resource dataService=RdfUtil.findResource(distribution, RdfReg.DCAT_ACCESS_SERVICE);
+		if (dataService==null ) {
+			endPointUrl = distribution.getProperty(RdfReg.DCAT_ACCESS_URL);
+			if(endPointUrl!=null) 
+				if (isSparqlCompliant(distribution.listProperties(RdfReg.DCTERMS_CONFORMS_TO)))
+					return RdfUtil.getUriOrLiteralValue(endPointUrl.getObject());			 
+			 return null;
 		}
-		if (!isSparqlConformant) return null;
 		
-		Statement endPoint = dataService.getProperty(RdfReg.DCAT_ENDPOINT_URL);
-		if (endPoint==null ) return null;
-		return RdfUtil.getUriOrLiteralValue(endPoint.getObject());		
-	}
-
-	public String getSparqlEndpointQuery() {
-		Resource  dsResource=model.createResource(datasetUri);
-		if (dsResource==null ) return null;
-		Resource searchAction=RdfUtil.findResource(dsResource, RdfReg.DCAT_DISTRIBUTION, RdfReg.PROV_WAS_GENERATED_BY);
-		if (searchAction==null ) return null;
-		Statement query = searchAction.getProperty(RdfReg.SCHEMAORG_QUERY);
-		if (query==null ) return null;
-		return query.getObject().asLiteral().getString() ;		
+		if (!isSparqlCompliant(dataService.listProperties(RdfReg.DCTERMS_CONFORMS_TO))) return null;
+		endPointUrl = dataService.getProperty(RdfReg.DCAT_ENDPOINT_URL);
+		if (endPointUrl==null ) return null;
+		
+		return RdfUtil.getUriOrLiteralValue(endPointUrl.getObject());
 	}
 	
+	private boolean isSparqlCompliant(StmtIterator conforms) {
+		for(Statement s: conforms.toList()) {
+			String standard = RdfUtil.getUriOrLiteralValue(s.getObject());
+			if(standard!=null && (standard.equals("http://www.w3.org/TR/sparql11-query/"))) 
+				return true;
+		}
+		return false;
+	}
+	
+	public SparqlEndpoint getSparqlEndpoint() {
+			Resource  dsResource=model.createResource(datasetUri);
+			if (dsResource==null ) return null;
+			String endPointUrl=getSparqlEndpointUrl();
+			if (endPointUrl==null ) return null;
+			
+			SparqlEndpoint endpoint=new SparqlEndpoint(endPointUrl);
+		
+		Resource searchAction=RdfUtil.findResource(dsResource, RdfReg.DCAT_DISTRIBUTION, RdfReg.PROV_WAS_GENERATED_BY);
+		if (searchAction!=null ) {
+			Statement query = searchAction.getProperty(RdfReg.SCHEMAORG_QUERY);
+			if (query!=null ) 
+				endpoint.setQuery(query.getObject().asLiteral().getString());
+		}
+		return endpoint;
+	}
+
 	public List<Distribution> getDistributions(){
 		ArrayList<Distribution> uris= new ArrayList<>();
 		Resource  dsResource=model.createResource(datasetUri);
 		if (dsResource==null ) return uris;
-		StmtIterator voidRootResources = dsResource.listProperties(RdfReg.VOID_DATA_DUMP);
-		voidRootResources.forEachRemaining(st -> uris.add(new Distribution(st.getObject().asResource().getURI(), null)));
+		StmtIterator voidDumps = dsResource.listProperties(RdfReg.VOID_DATA_DUMP);
+		voidDumps.forEachRemaining(st -> uris.add(new Distribution(st.getObject().asResource().getURI(), null)));
 
 		StmtIterator distributions = dsResource.listProperties(RdfReg.DCAT_DISTRIBUTION);
 		distributions.forEachRemaining(st -> {
@@ -110,5 +139,9 @@ public class DatasetDescription {
 			}
 		});
 		return uris;
+	}
+
+	public Model getRdf() {
+		return model;
 	}
 }

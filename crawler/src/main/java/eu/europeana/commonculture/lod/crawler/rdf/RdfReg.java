@@ -199,6 +199,7 @@ public final class RdfReg {
 
 	public static final Property SCHEMAORG_QUERY = ResourceFactory.createProperty(NsSchemaOrg+"query");
 	public static final Property DCAT_ACCESS_SERVICE = ResourceFactory.createProperty(NsDcat+"accessService");
+	public static final Property DCAT_ACCESS_URL = ResourceFactory.createProperty(NsDcat+"accessUrl");
 	public static final Property DCAT_DISTRIBUTION = ResourceFactory.createProperty(NsDcat+"distribution");
 	public static final Property DCAT_DOWNLOAD_URL = ResourceFactory.createProperty(NsDcat+"downloadURL");
 	public static final Property DCAT_MEDIA_TYPE = ResourceFactory.createProperty(NsDcat+"mediaType");
@@ -206,6 +207,7 @@ public final class RdfReg {
 	public static final Resource DCAT_DATA_SERVICE  = ResourceFactory.createResource(NsDcat+"DataService");
 	public static final Resource DCAT_DISTRIBUTION_CLASS  = ResourceFactory.createResource(NsDcat+"Distribution");
 	public static final Property PROV_WAS_GENERATED_BY = ResourceFactory.createProperty(NsProv+"wasGeneratedBy");
+	public static final Property VOID_SPARQL_ENDPOINT = ResourceFactory.createProperty(NsVoid+"sparqlEndpoint");
 	
 	
 	

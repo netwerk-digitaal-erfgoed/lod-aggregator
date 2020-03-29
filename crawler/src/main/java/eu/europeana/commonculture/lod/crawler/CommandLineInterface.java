@@ -10,14 +10,10 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
-import org.apache.commons.cli.Option;
-import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
-
-import com.ontologycentral.ldspider.Crawler;
 
 import eu.europeana.commonculture.lod.crawler.http.AccessException;
 
@@ -58,13 +54,14 @@ public class CommandLineInterface {
 	    	String dsUri = line.getOptionValue("dataset_uri");
 	    	String outFile = line.getOptionValue("output_file");
 	    	boolean datasetDescriptionOnly = line.hasOption("dataset_description_only");
-	    	LinkedDataCrawler crawler=null; 
+	    	LinkedDataHarvester crawler=null; 
 	    	if(datasetDescriptionOnly)
-	    		crawler=new LinkedDataCrawler(dsUri, datasetDescriptionOnly);
-	    	else
-	    		crawler=new LinkedDataCrawler(dsUri, Integer.parseInt(line.getOptionValue("max_depth", "0")), -1);
+	    		crawler=new LinkedDataHarvester(dsUri, datasetDescriptionOnly);
+	    	else {
+	    		crawler=new LinkedDataHarvester(dsUri, Integer.parseInt(line.getOptionValue("max_depth", "0")), -1);
+	    	}
 			try {
-				int seeds=crawler.crawl(new File(outFile));
+				int seeds=crawler.harvest(new File(outFile));
 				if(seeds==0 && !datasetDescriptionOnly)
 					result="FAILURE\nNo URI seeds found";
 				else
