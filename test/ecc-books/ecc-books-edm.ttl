@@ -15,6 +15,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/2100003983> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/577" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/577/SID_LAT_RYS.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/136696310>
@@ -28,6 +29,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1510936129> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/543" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/543/ROI_POT_ZAB.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1630199219#agg>
@@ -36,11 +38,13 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1630199219> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/537" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/537/KL_DH_MAK_A0018_i001.jpg" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/755481201>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1523630531> , <http://semantics.gr/authorities/ecc-schema-persons/287166135> ;
+        dc:description    "Περιέχει βιβλιογραφικές παραπομπές και σχόλια"@el , "Το αντίτυπο της συλλογής Ροϊδη ταξιθετημένο στον σχολιαστή"@el , "Τίτλος ράχης : Αισχύλος - Δούκας "@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/938825274> ;
         dc:subject        "Tragedy"@en , "Δράμα"@el , "Τραγωδία"@el , "Drama"@en ;
         dc:title          "Αισχύλος παραφρασθείς, σχολιασθείς τε και εκδοθείς : εις τόμους δύο"@el ;
@@ -74,6 +78,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/22369282> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/547" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/547/ROI_VYZ_ZAB.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/507099587>
@@ -89,6 +94,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/755481201> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/538" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/538/ROI_AIS_AIS.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1237840875>
@@ -98,6 +104,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/302934855>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1523630531> ;
+        dc:description    "Όσον οιόντε συντομώτερον χάριν των Ευγενών"@el , "Περιλαμβάνει κείμενο του Νεόφυτου Δούκα, 96 σελίδων, με τίτλο: \"Αλεξάνδρω τω Βασιλείου Νεόφυτος Δούκας εύ πράττειν\""@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/1938998462> ;
         dc:subject        "Greek Language"@en , "Ελληνική γλώσσα"@el ;
         dc:title          "Γραμματική Τερψιχόρα"@el ;
@@ -123,6 +130,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1649261268> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/487" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/487/KL_DH_POL_A2.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/100440823>
@@ -135,11 +143,13 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1045733828> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/485" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/485/KL_DH_POL_A1.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1024011884>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1477234989> ;
+        dc:description    "Εκ διαφόρων παλαιών και νεωτέρων συγγραφέων ερανισθείσα παρά Διονυσίου Φωτεινού"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/758638578> ;
         dc:subject        "Ανατολική Ευρώπη"@el , "Eastern Europe"@en ;
         dc:title          "Ιστορία της πάλαι Δακίας, τα νυν Τρανσιλβανίας, Βλαχίας και Μολδαυίας"@el ;
@@ -162,6 +172,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1021538726>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/480315333> ;
+        dc:description    "Απόσπασμα εκ της Επετηρίδος του Παρνασσού"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-organizations/482753425> ;
         dc:subject        "Toponyms"@en , "Τοπωνύμια"@el ;
         dc:title          "Τα ονόματα των δήμων"@el ;
@@ -179,6 +190,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1591423522>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1075805574> ;
+        dc:description    "Κωνσταντῖνος Μ. Κούμας. Σύνταγμα Φιλοσοφίας..., τ. Β´, 1818, τ. Γ´, 1819, Βιέννη, Ἰωάν. Βαρθ. Τεσεβέκιος, τ. Δ´, 1820, Βιέννη, Ἰωάννης Σνείρερος. Inventory number 0140701407 "@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/2040137680> , <http://semantics.gr/authorities/ecc-schema-persons/1237840875> ;
         dc:subject        "Νεοελληνικός Διαφωτισμός"@el , "Modern Greek Enlightenment"@en ;
         dc:title          "Σύνταγμα Φιλοσοφίας..."@el ;
@@ -194,6 +206,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1324465820> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/1200" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/1200/0007000024902.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1129451894#agg>
@@ -202,6 +215,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1129451894> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/519" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/519/MAY_BIO_DOY.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-places/1006798342>
@@ -248,6 +262,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1129451894>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1523630531> ;
+        dc:description    "Το βιβλίο έχει τυπωθεί με ιδιόμορφο τρόπο και φαίνεται σαν να πρόκειται για δύο διαφορετικά βιβλία. Το πρώτο με τίτλο \"Ανδρών αγαθών βίος, Αδαμάντιου Κοραή και του Κυβερνήτου της Ελλάδος Ιωάννου Α. Κ. Καποδίστρια, οις αφιέρωται και η βίβλος\", το οποίο περιλαμβάνει την \"Επιτομή Φυσικής εις βιβλία τρία\". Το δεύτερο με τίτλο \"Μεταφυσική εις τέσσαρα: Οντολογίαν, ψυχολογίαν, κοσμολογίαν, θεολογίαν...\""@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/938825274> ;
         dc:subject        "Φυσική"@el , "Physics"@en ;
         dc:title          "Ξυνωρίς : ήτοι Φυσική και Μεταφυσική"@el ;
@@ -264,6 +279,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/216821042> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/565" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/565/VLA_STI_THE.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1477234989>
@@ -275,6 +291,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/993599624>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1810992534> , <http://semantics.gr/authorities/ecc-schema-persons/1664310147> ;
+        dc:description    "Τίτλος ράχης : Αδ. Κοραή επιστολαί, Β' απάνθισμα"@el , "Τίτλος ράχης αντ. συλλογής Σιδερίδη : \"Απάνθισμα επιστολών\""@el , "Περιέχει κατάλογο συνδρομητών"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/938825274> ;
         dc:subject        "Correspondence "@en , "Αλληλογραφία "@el ;
         dc:title          "Απάνθισμα δεύτερον επιστολών Αδαμάντιου Κοραή"@el ;
@@ -306,6 +323,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1630199219>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/237166398> ;
+        dc:description    "Πρακτικά της Μουσικολογικής Συνάξεως που πραγματοποιήθηκε στις 10 και 11 Νοεμβρίου 2000 στο Μέγαρο της Ακαδημίας Αθηνών"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         dc:subject        "Βυζαντινή Μουσική"@el , "Byzantine music"@en ;
         dc:title          "Οι δύο όψεις της ελληνικής μουσικής κληρονομιάς : αφιέρωμα εις μνήμην Σπυρίδωνος Περιστέρη"@el ;
@@ -322,11 +340,13 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/72610197> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/513" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/513/KL_POL_AE00041_TA.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/2100003983>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1801119122> , <http://semantics.gr/authorities/ecc-schema-persons/136696310> ;
+        dc:description    "Στο verso της σελίδας τίτλου : \"A Amsterdam, chez Antoine Bruin, sur le Blomgraft. 1748\""@el , "Οι σελίδες 385, 386 έχουν αντικατασταθεί με χειρόγραφο παρένθετο φύλλο"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/863310369> ;
         dc:subject        "Eastern Orthodox Church"@en , "Ορθόδοξη Ανατολική Εκκλησία"@el ;
         dc:title          "Λατίνων θρησκείας έλεγχοι 36, κ' τίς ο εκάστου λόγος"@el ;
@@ -360,6 +380,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/2049190340> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/512" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/512/KL_POL_AE00038.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1801119122>
@@ -372,6 +393,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1865403944>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1321660146> ;
+        dc:description    "Εκδοθέντα μετά μελέτης ιστορικής περί μεσαιωνικού Ελληνισμού"@el , "Σε δύο μέρη.\n"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-organizations/182566957> , <http://semantics.gr/authorities/ecc-schema-persons/544734171> , <http://semantics.gr/authorities/ecc-schema-persons/1451964972> ;
         dc:subject        "Δημοτικά τραγούδια"@el , "Folk songs"@en ;
         dc:title          "Άσματα δημοτικά της Ελλάδος"@el ;
@@ -388,6 +410,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1024011884> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/575" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/575/VLA_IST-A_FOT.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-places/1041269571>
@@ -430,6 +453,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1591423522> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2143430299> ;
         edm:isShownAt      "https://www.searchculture.gr/aggregator/edm/SGT/000064-%3A271473" ;
+        edm:isShownBy      "http://repository.onassislibrary.gr/images/kiaso/5640_163549_800_800_800_800_72_.jpg" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2143430299> .
 
 <http://semantics.gr/authorities/ecc-schema-organizations/482753425>
@@ -447,6 +471,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1304777455> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/501" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/501/EPE_THE_THE.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-places/1291288932>
@@ -462,6 +487,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/216821042>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/93060026> , <http://semantics.gr/authorities/ecc-schema-persons/507099587> ;
+        dc:description    "\"Νυν πρώτον τύποις εκδοθέντα φιλοτίμω δαπάνη των αυταδελφών Κυρίων Ζωσιμάδων\", \"Επιστασία Ιωνά του εκ Μονής Κλήμενος της εν Ολύμπω\""@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/1938998462> ;
         dc:subject        "Γεωγραφία"@el , "Geography"@en ;
         dc:title          "Στοιχεία γεωγραφίας"@el ;
@@ -524,6 +550,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1510936129>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/1321660146> ;
+        dc:description    "Περιέχει βιβλιογραφικές παραπομπές και σχόλια"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-organizations/100440823> ;
         dc:subject        "Ελληνική γλώσσα"@el , "Neohellenic poetry"@en , "Greek language"@en , "Νεοελληνική ποίηση"@el ;
         dc:title          "Πόθεν η κοινή λέξις τραγουδώ; : σκέψεις περί ελληνικής ποιήσεως"@el ;
@@ -547,6 +574,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/302934855> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/541" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/541/ROI_GRA_DOU.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1495549868>
@@ -569,6 +597,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1788954835> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/553" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/553/SID_APO_APO.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-books-dataset/1865403944#agg>
@@ -577,6 +606,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1865403944> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/540" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/540/ROI_ASM_ZAB.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-places/1860424726>
@@ -587,6 +617,7 @@
 <http://semantics.gr/authorities/ecc-books-dataset/1304777455>
         a                 edm:ProvidedCHO ;
         dc:creator        <http://semantics.gr/authorities/ecc-schema-persons/202508895> , <http://semantics.gr/authorities/ecc-schema-persons/1523630531> ;
+        dc:description    "Eις τόμους δύο"@el ;
         dc:publisher      <http://semantics.gr/authorities/ecc-schema-persons/938825274> ;
         dc:subject        "Βουκολική Ποίηση"@el , "Pastoral poetry"@en ;
         dc:title          "Θεόκριτος παραφρασθείς"@el ;
@@ -603,6 +634,7 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/1021538726> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/506" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/506/KL_EP_POL_AE00031.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .
 
 <http://semantics.gr/authorities/ecc-schema-persons/1810992534>
@@ -633,4 +665,5 @@
         edm:aggregatedCHO  <http://semantics.gr/authorities/ecc-books-dataset/993599624> ;
         edm:dataProvider   <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> ;
         edm:isShownAt      "http://editions.academyofathens.gr/epetirides/xmlui/handle/20.500.11855/551" ;
+        edm:isShownBy      "http://editions.academyofathens.gr/epetirides/xmlui/bitstream/handle/20.500.11855/551/SID_APA-B_KOR.pdf" ;
         edm:provider       <http://semantics.gr/authorities/ecc-schema-organizations/2004336711> .

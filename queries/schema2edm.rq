@@ -4,29 +4,31 @@ PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX void:    <http://rdfs.org/ns/void#>
 PREFIX schema:  <http://schema.org/>
 PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
 PREFIX ore:     <http://www.openarchives.org/ore/terms/>
 
 CONSTRUCT {
     ?uri_cho a edm:ProvidedCHO ;
-         edm:type "TEXT" ;
-         edm:country "el" ;
-         dc:creator ?author ;
+         edm:type ?edm_type ;
+         dc:creator ?creator ;
          dc:description ?description ;
          dc:type ?genre ;
-         dc:subject ?keywords ;
+         dc:subject ?subject ;
          dc:title ?name ;
          dc:publisher ?publisher ;
          owl:sameAs ?sameAs ;
          dcterms:spatial ?spatial ;
-         dcterms:temporal ?temporal .
+         dcterms:temporal ?temporal ;
+         dcterms:medium ?material .   
 
     ?uri_ore a ore:Aggregation ;
          edm:aggregatedCHO ?uri_cho ;
          edm:provider ?provider ;
          edm:dataProvider ?provider ;
          dc:rights ?license ;
+         edm:isShownBy ?isShownBy ;
          edm:isShownAt ?url .
 
     ?uri_org a edm:Agent ;
@@ -46,24 +48,47 @@ CONSTRUCT {
 }
 WHERE {
     {
-	  ?uri_cho a schema:Book .
+      {
+	   ?uri_cho a schema:Sculpture .
+        BIND(("IMAGE") as ?edm_type)
+      }
+      UNION 
+      {
+	   ?uri_cho a schema:VisualArtwork .
+        BIND(("IMAGE") as ?edm_type)
+      }
+      UNION
+      {
+        ?uri_cho a schema:Book .
+        BIND(("TEXT") as ?edm_type)
+      }
       BIND(  URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
-      OPTIONAL { ?uri_cho schema:creator ?author }
-      OPTIONAL { ?uri_cho schema:description ?desc }
+      OPTIONAL { ?uri_cho schema:creator ?creator }
+      OPTIONAL { ?uri_cho schema:description ?description }
       OPTIONAL { ?uri_cho schema:genre ?genre . 
-                 FILTER (lang( ?genre) = "en")
-                 BIND(str(?genre) as ?dc_genre)
+                FILTER (lang( ?genre) = "en")
+                BIND(str(?genre) as ?dc_genre)
                }
       OPTIONAL { ?uri_cho schema:image ?image }
-      OPTIONAL { ?uri_cho schema:keywords ?keywords }
+      OPTIONAL { ?uri_cho schema:keywords ?subject }
+      OPTIONAL { ?uri_cho schema:about ?subject }
       OPTIONAL { ?uri_cho schema:license ?license }
       OPTIONAL { ?uri_cho schema:name ?name }
+      OPTIONAL { 
+         # use a default the provider mentioned in the dataset description, if any...
+         ?dataset void:rootResource ?uri_cho .
+         ?dataset schema:license ?license .
+         ?dataset schema:provider ?provider . 
+      }
+      # use the provider name from the resource description
       OPTIONAL { ?uri_cho schema:provider ?provider }
       OPTIONAL { ?uri_cho schema:publisher ?publisher }
       OPTIONAL { ?uri_cho schema:sameAs ?sameAs }
       OPTIONAL { ?uri_cho schema:spatial ?spatial }
       OPTIONAL { ?uri_cho schema:temporal ?temporal }
+      OPTIONAL { ?uri_cho schema:material ?material }
       OPTIONAL { ?uri_cho schema:url ?url }
+      OPTIONAL { ?uri_cho schema:image ?isShownBy }
     }
     UNION 
     {

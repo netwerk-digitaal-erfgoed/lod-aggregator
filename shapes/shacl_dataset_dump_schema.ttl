@@ -41,10 +41,10 @@ ex:dataset_dump_distr a sh:NodeShape ;
 
   # it should point to a downloadable dataset 
   sh:property [
-    sh:path schema:contentURL ;
-    sh:nodeKind sh:IRI ;
+    sh:path schema:contentUrl ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
-    sh:message "missing or invalid 'downloadURL' (IRI value expected)"] ;
+    sh:message "missing or invalid 'downloadURL' (IRI or Literal value expected)"] ;
 
   # and it should be in a valid RDF mime type
   sh:property [

@@ -42,35 +42,68 @@ while [[ "$#" > 1 ]]; do case $1 in
     --shape) 
       rel_shape_file=$SHAPE_DIR/$2
       shape_file=/$BASE_DIR/$rel_shape_file
+      shift; shift
       ;;
     --data)
       rel_data_file=$DATA_DIR/$2
       data_file=/$BASE_DIR/$rel_data_file
+      shift; shift
       ;;
     --output)
       rel_output_file=$DATA_DIR/$2
       output_file=/$BASE_DIR/$rel_output_file
+      shift; shift
       ;;
     --query)
       rel_query_file=$QUERY_DIR/$2
       query_file=/$BASE_DIR/$rel_query_file
+      shift; shift
       ;;
     --format)
       format=$2
+      shift; shift
+      ;;
+    --dataset-uri)
+      dataset_uri=$2
+      shift; shift
+      ;;
+    --description-only)
+      description_only="true"
+      shift
       ;;
     *) break;;
-    esac; shift; shift
+    esac; 
 done
 
 
-case $TOOL in 
+case $TOOL in
+  crawl) 
+    echo
+    echo "Checking input parametes..."
+    echo
+    check_arg_and_exit_on_error "dataset-uri" $dataset_uri
+    check_arg_and_exit_on_error "output" $output_file
+    if [ -z $description_only ]; then
+      echo "Starting crawling dataset $dataset_uri..."
+      cd /app/crawler/
+      ./crawler.sh -dataset_uri $dataset_uri -output_file $output_file &> /$BASE_DIR/$DATA_DIR/crawler.log
+      echo
+      echo "Ready, results (if any) written to $rel_output_file, check /$BASE_DIR/$DATA_DIR/crawler.log for details..."
+    else
+      echo "Starting crawling dataset $dataset_uri..."
+      cd /app/crawler/
+      ./crawler.sh -dataset_uri $dataset_uri -dataset_description_only -output_file $output_file &> /$BASE_DIR/$DATA_DIR/crawler.log
+      echo
+      echo "Ready, results (if any) written to $rel_output_file, check /$BASE_DIR/$DATA_DIR/crawler.log for details..."
+    fi
+    ;; 
   validate) 
     echo
     echo "Checking input parameters..."
     echo
-    check_arg_and_exit_on_error "shape-file" $shape_file
-    check_arg_and_exit_on_error "data-file" $data_file
-    check_arg_and_exit_on_error "output-file" $output_file
+    check_arg_and_exit_on_error "shape" $shape_file
+    check_arg_and_exit_on_error "data" $data_file
+    check_arg_and_exit_on_error "output" $output_file
     echo "Starting SHACL validation with shapes: $rel_shape_file on input data $rel_data_file..."
     shacl validate --shapes $shape_file --data $data_file > $output_file
     echo
@@ -80,9 +113,9 @@ case $TOOL in
     echo
     echo "Checking input parametes..."
     echo
-    check_arg_and_exit_on_error "query-file" $query_file
-    check_arg_and_exit_on_error "data-file" $data_file
-    check_arg_and_exit_on_error "output-file" $output_file
+    check_arg_and_exit_on_error "query" $query_file
+    check_arg_and_exit_on_error "data" $data_file
+    check_arg_and_exit_on_error "output" $output_file
     echo "Starting conversion with query: $rel_query_file and input data: $rel_data_file..."
     sparql --query $query_file --data $data_file --results $format > $output_file
     echo
@@ -92,8 +125,8 @@ case $TOOL in
     echo
     echo "Checking input parametes..."
     echo
-    check_arg_and_exit_on_error "data-file" $data_file
-    check_arg_and_exit_on_error "output-file" $output_file
+    check_arg_and_exit_on_error "data" $data_file
+    check_arg_and_exit_on_error "output" $output_file
     check_arg_and_exit_on_error "format" $format
     echo "Starting serialization to $format format on input data: $rel_data_file..."
     riot --output=$format $data_file > $output_file

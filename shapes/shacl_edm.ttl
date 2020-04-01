@@ -23,18 +23,18 @@ ex:hasSubject sh:or (
     sh:datatype rdf:langString ;
     sh:minCount 1 ]
   [ sh:path dcterms:spatial ;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ]
   [ sh:path dcterms:temporal ;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ] ).
 
 ex:hasShown sh:or (
   [ sh:path edm:isShownAt ;
-    sh:nodeKind sh:IRI ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ]
   [ sh:path edm:isShownBy ;
-    sh:nodeKind sh:IRI ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ] ) .
 
 ex:hasLang sh:or (
@@ -62,7 +62,7 @@ ex:ProvidedCHO a sh:NodeShape ;
     sh:message "no valid langString for dc:title or dc:description"];
   sh:node [
     sh:node ex:hasSubject ;
-    sh:message "no valid langString for dc:subject, dc:type, dc:spatial or dc:temporal" ];
+    sh:message "no valid langString for dc:subject, dc:type, dcterms:spatial or dcterms:temporal" ];
   sh:node [
     sh:node ex:hasLang ;
     sh:message "missing dc:language value for edm:type='TEXT'" ].
@@ -71,12 +71,12 @@ ex:Aggregation a sh:NodeShape ;
   sh:targetClass ore:Aggregation ;
   sh:property [
     sh:path edm:provider;
-    sh:nodeKind sh:IRI ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
     sh:message "missing value for edm:provider" ];
   sh:property [
     sh:path edm:dataProvider;
-    sh:nodeKind sh:IRI ;
+    sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
     sh:message "missing value for edm:dataProvider" ];
   sh:property [
