@@ -16,7 +16,7 @@ Run the crawler using the following syntax:
 docker-compose run --rm --user 1000:1000 crawl starter.sh \
   --dataset-uri {dataset URI}\
   --output {ouput filename}\
-  [--dataset_description_only]
+  [--description_only]
 ```
 
 Set `--user` to your UID:GID to prevent docker-compose from creating files owned by 'root'. 
@@ -61,7 +61,7 @@ For this purpose one of the available SHACL shape files can be used depending on
  
 For example a dataset listing a set of URI and described in DCAT can be validated with the shape file `shape_dataset_list_dcat.ttl`
 
-Note: currently not all shape files are available yet (work in progress, check the `shapes` dir first).
+_Note: currently not all shape files are available yet (work in progress, check the `shapes` dir first)._
 
 ## Zip
 
