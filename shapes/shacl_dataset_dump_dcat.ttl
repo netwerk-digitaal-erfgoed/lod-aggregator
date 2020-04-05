@@ -16,9 +16,9 @@ ex:dataset_dump a sh:NodeShape ;
   # a title is required
   sh:property [
     sh:path dcterms:title;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1 ;
-    sh:message "missing or invalid 'title' (LangString value expected)"] ;
+    sh:message "missing or invalid 'title'"] ;
 
   # a Distribution defintion is required
   sh:property [

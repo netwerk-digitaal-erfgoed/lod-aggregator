@@ -17,18 +17,18 @@ CONSTRUCT {
          dc:type ?genre ;
          dc:subject ?subject ;
          dc:title ?name ;
-         dcterms:alternative ?altName ;
          dc:publisher ?publisher ;
          owl:sameAs ?sameAs ;
          dcterms:spatial ?spatial ;
          dcterms:temporal ?temporal ;
+         dc:language "el" ;
          dcterms:medium ?material .   
 
     ?uri_ore a ore:Aggregation ;
          edm:aggregatedCHO ?uri_cho ;
          edm:provider ?provider ;
-         edm:dataProvider ?dataProvider ;
-         edm:rights ?license ;
+         edm:dataProvider ?provider ;
+         dc:rights ?license ;
          edm:isShownBy ?isShownBy ;
          edm:isShownAt ?url .
 
@@ -58,29 +58,12 @@ WHERE {
 	   ?uri_cho a schema:VisualArtwork .
         BIND(("IMAGE") as ?edm_type)
       }
-      UNION 
-      {
-	   ?uri_cho a schema:Painting .
-        BIND(("IMAGE") as ?edm_type)
-      }
-      UNION 
-      {
-	   ?uri_cho a schema:Photograph .
-        BIND(("IMAGE") as ?edm_type)
-      }
       UNION
       {
         ?uri_cho a schema:Book .
         BIND(("TEXT") as ?edm_type)
       }
-
-      # Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource. 
-      BIND( URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
-
-      # NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
-      # Europeana requires the provider value to be specified through the aggregation process.
-      BIND( STR('VAR_PROVIDER') as ?provider)
-
+      BIND(  URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
       OPTIONAL { ?uri_cho schema:creator ?creator }
       OPTIONAL { ?uri_cho schema:description ?description }
       OPTIONAL { ?uri_cho schema:genre ?genre . 
@@ -92,21 +75,14 @@ WHERE {
       OPTIONAL { ?uri_cho schema:about ?subject }
       OPTIONAL { ?uri_cho schema:license ?license }
       OPTIONAL { ?uri_cho schema:name ?name }
-      OPTIONAL { ?uri_cho schema:alternateName ?altName }
       OPTIONAL { 
          # use a default the provider mentioned in the dataset description, if any...
          ?dataset void:rootResource ?uri_cho .
-         ?dataset schema:provider ?dataProvider . 
-      }
-      OPTIONAL { 
-         # use a default the license statement mentioned in the dataset description, if any...
-         ?dataset void:rootResource ?uri_cho .
          ?dataset schema:license ?license .
+         ?dataset schema:provider ?provider . 
       }
-      OPTIONAL { 
-           # use the provider from the resource description
-           ?uri_cho schema:provider ?dataProvider 
-      }
+      # use the provider name from the resource description
+      OPTIONAL { ?uri_cho schema:provider ?provider }
       OPTIONAL { ?uri_cho schema:publisher ?publisher }
       OPTIONAL { ?uri_cho schema:sameAs ?sameAs }
       OPTIONAL { ?uri_cho schema:spatial ?spatial }

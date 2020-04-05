@@ -9,7 +9,8 @@ services:
       PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/scripts
     restart: always
     volumes:
-      - .:/opt  
+      - .:/opt
+    env_file: .env  
   validate:
     image: stain/jena
     container_name: validate
@@ -18,7 +19,8 @@ services:
       PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
     restart: always
     volumes:
-      - .:/opt 
+      - .:/opt
+    env_file: .env  
   map:
     image: stain/jena
     container_name: map
@@ -28,6 +30,7 @@ services:
     restart: always
     volumes:
       - .:/opt
+    env_file: .env  
   serialize:
     image: stain/jena
     container_name: serialize
@@ -37,4 +40,4 @@ services:
     restart: always
     volumes:
       - .:/opt
-
+    env_file: .env  

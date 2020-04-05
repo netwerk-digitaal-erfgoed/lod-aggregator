@@ -13,35 +13,39 @@ The tools (except `crawler` and `gzip` at this moment) expect data to be in `./d
 Start with downloading the dataset description only
 
 ```bash
-docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
-  -dataset_uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten \
-  -dataset_description_only \
-  -output_file /opt/data/centsprenten_dataset.nt \
-  -log_file /opt/crawler.log
+docker-compose run --rm --user 1000:1000 crawl starter.sh \
+  --dataset-uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten \
+  --description-only \
+  --output centsprenten-dataset.nt
 ```
-
-Set `--user` to your UID:GID to prevent docker-compose from creating files owned by 'root'.
 
 ## Validate dataset description
 
-Before processing the complete data a validation of the dataset description is recommended. One of the SHACL shape files can be used depending on the distribution (list, dump, query) and ontology (VOID, DCAT, Schema.org) used for the dataset. In this example we have a Schema.org description with a list of resources so the shape file to be used is: `shape_dataset_list_schema.ttl`  
+Before processing the complete data we validated the dataset description. We used a SHACL shape file defined for datasets with URI lists using the Schema.org ontology:
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
-  --data centsprenten_dataset.nt \
+  --data centsprenten-dataset.nt \
   --shape shacl_dataset_list_schema.ttl \
-  --output ecc-books-val-ds.ttl
+  --output centsprenten-dataset-val-ds.ttl
 ```
+
+The validation fails because the dataset description has no schema:name property which a required according to [the specification](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg).
 
 ## Crawl the full data
 
-Download the complete dataset using the crawler.
+But the complete dataset could be downloaded using the crawler.
 
 ```bash
-docker-compose run --rm --user 1000:1000 crawler /bin/bash ./crawler.sh \
-    -dataset_uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten \
-    -output_file /opt/data/centsprenten.nt \
-    -log_file /opt/crawler.log
+docker-compose run --rm --user 1000:1000 crawl starter.sh \
+  --dataset-uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten \
+  --output centsprenten.nt
+```
+
+Because the dataset and the dataset description are in seperate files we copy merge them into one file:
+
+```bash
+cat ./data/centsprenten-dataset.nt ./data/centsprenten.nt > ./data/centsprenten-total.nt
 ```
 
 ## Map the data
@@ -50,11 +54,13 @@ Map the crawled data to EDM using a 'construct' SPARQL query
 
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data centsprenten.nt \
+  --data centsprenten-total.nt \
   --query schema2edm.rq \
   --format RDF/XML \
-  --output centsprenten_edm.rdf
+  --output centsprenten-edm.rdf
 ```
+
+Note: in `.env` VAR_PROVIDER was set to 'KB'.
 
 ## Validate the data
 
@@ -62,14 +68,14 @@ Validate the EDM data using SHACL shape constraints
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
-  --data centsprenten_edm.rdf \
+  --data centsprenten-edm.rdf \
   --shape shacl_edm.ttl \
-  --output validate_results.ttl
+  --output centsprenten-edm-val.ttl
 ```
 
 ## Zip the result for transport to Europena
 
 ```bash
 # note the ./data in this command!
-gzip ./data/centsprenten_edm.rdf
+gzip ./data/centsprenten-edm.rdf
 ```
