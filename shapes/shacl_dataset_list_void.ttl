@@ -16,9 +16,9 @@ ex:dataset_list a sh:NodeShape ;
   # a title is required
   sh:property [
     sh:path dcterms:title ;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1 ;
-    sh:message "missing or invalid 'title' LangString value"] ;
+    sh:message "missing or invalid 'title'"] ;
 
 ## Issue: according to the spec for VOID is ok to have no license property on the dataset level
 ##        but in that case there should be license property on the cho level.

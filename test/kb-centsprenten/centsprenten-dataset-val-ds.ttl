@@ -1,0 +1,19 @@
+@prefix schema: <http://schema.org/> .
+@prefix ex:    <http://example.org/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+[ a            sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ a                             sh:ValidationResult ;
+                 sh:focusNode                  <http://data.bibliotheken.nl/id/dataset/rise-centsprenten> ;
+                 sh:resultMessage              "missing or invalid 'title'" ;
+                 sh:resultPath                 schema:name ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                [] 
+               ]
+] .

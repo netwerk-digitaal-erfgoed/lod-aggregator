@@ -22,6 +22,10 @@ if [ -z $QUERY_DIR ]; then
     QUERY_DIR="queries"
 fi
 
+if [ -z $VAR_PROVIDER ]; then
+    VAR_PROVIDER="unknown"
+fi
+
 # default format for use with riot
 format='Turtle'
 
@@ -71,6 +75,10 @@ while [[ "$#" > 1 ]]; do case $1 in
       description_only="true"
       shift
       ;;
+    --provider)
+      VAR_PROVIDER=$2
+      shift; shift
+      ;;
     *) break;;
     esac; 
 done
@@ -88,13 +96,13 @@ case $TOOL in
       cd /app/crawler/
       ./crawler.sh -dataset_uri $dataset_uri -output_file $output_file &> /$BASE_DIR/$DATA_DIR/crawler.log
       echo
-      echo "Ready, results (if any) written to $rel_output_file, check /$BASE_DIR/$DATA_DIR/crawler.log for details..."
+      echo "Ready, results (if any) written to $rel_output_file, check $DATA_DIR/crawler.log for details..."
     else
       echo "Starting crawling dataset $dataset_uri..."
       cd /app/crawler/
       ./crawler.sh -dataset_uri $dataset_uri -dataset_description_only -output_file $output_file &> /$BASE_DIR/$DATA_DIR/crawler.log
       echo
-      echo "Ready, results (if any) written to $rel_output_file, check /$BASE_DIR/$DATA_DIR/crawler.log for details..."
+      echo "Ready, results (if any) written to $rel_output_file, check $DATA_DIR/crawler.log for details..."
     fi
     ;; 
   validate) 
@@ -113,12 +121,23 @@ case $TOOL in
     echo
     echo "Checking input parametes..."
     echo
+    if [ "$VAR_PROVIDER" == "unknown" ]; then
+       echo "Eror: Value Provider can not be 'unknown'!"
+       echo "Please specify provider throug environment (VAR_PROVIDER) variable or option {--provider <name>}."
+       exit 1
+    fi
     check_arg_and_exit_on_error "query" $query_file
     check_arg_and_exit_on_error "data" $data_file
     check_arg_and_exit_on_error "output" $output_file
+
+    # Replace the VAR_PROVIDER text in the query with $VAR_PROVIDER
+    # Make a copy to keep the orginal query untouched.
+    tmp_query=/$BASE_DIR/$QUERY_DIR/tmp.rq
+    cp $query_file $tmp_query
+    sed -i "s/VAR_PROVIDER/$VAR_PROVIDER/g" $tmp_query
+
     echo "Starting conversion with query: $rel_query_file and input data: $rel_data_file..."
-    sparql --query $query_file --data $data_file --results $format > $output_file
-    echo
+    sparql --query $tmp_query --data $data_file --results $format > $output_file
     echo "Ready, results written to $rel_output_file..."
     ;;
   serialize) 

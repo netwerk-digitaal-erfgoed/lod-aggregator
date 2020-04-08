@@ -15,9 +15,9 @@ ex:dataset_list a sh:NodeShape ;
   # a title is required
   sh:property [ 
     sh:path schema:name ;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1; 
-    sh:message "missing or invalid 'title' LangString value"] ;
+    sh:message "missing or invalid 'title'"] ;
 
   # a machine readable license is required 
   sh:property [

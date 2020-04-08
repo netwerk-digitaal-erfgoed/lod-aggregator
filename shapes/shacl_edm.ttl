@@ -9,18 +9,18 @@
 
 ex:hasTitle sh:or (
     [ sh:path dc:description;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1 ]
     [ sh:path dc:title;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1 ] ) .    
 
 ex:hasSubject sh:or (
   [ sh:path dc:subject ;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1 ]
   [ sh:path dc:type ;
-    sh:datatype rdf:langString ;
+    sh:nodeKind sh:Literal ;
     sh:minCount 1 ]
   [ sh:path dcterms:spatial ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -48,13 +48,8 @@ ex:hasLang sh:or (
 ex:ProvidedCHO a sh:NodeShape ;
   sh:targetClass edm:ProvidedCHO ;
   sh:property [
-    sh:path edm:country;
-    sh:nodeKind sh:Literal;
-    sh:minCount 1 ;
-    sh:maxCount 1 ;
-    sh:message "missing or invalid edm:country value" ];
-  sh:property [
     sh:path edm:type ;
+    sh:minCount 1 ;
     sh:in ( "TEXT" "VIDEO" "SOUND" "IMAGE" "3D" );
     sh:message "invalid edm:type value"];
   sh:node [ 
@@ -73,18 +68,19 @@ ex:Aggregation a sh:NodeShape ;
     sh:path edm:provider;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
-    sh:message "missing value for edm:provider" ];
+    sh:maxCount 1 ; 
+    sh:message "wrong or missing value for edm:provider" ];
   sh:property [
     sh:path edm:dataProvider;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
-    sh:message "missing value for edm:dataProvider" ];
+    sh:maxCount 1 ;
+    sh:message "wrong or missing value for edm:dataProvider" ];
   sh:property [
-    sh:path dc:rights ;
+    sh:path edm:rights ;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
-    sh:maxCount 1 ;
-    sh:message "missing or invalid dc:rights value"];
+    sh:message "missing or invalid edm:rights value"];
   sh:node [ 
     sh:node ex:hasShown ;
     sh:message "no valid IRI for edm:isShownAt or edm:isShownBy" ].

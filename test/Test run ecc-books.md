@@ -1,8 +1,8 @@
 # Test run with the ECC Books dataset
 
-Canonical URL of the dataset: http://www.semantics.gr/authorities/vocabularies/ecc-books-dataset 
+Canonical URL of the dataset: <http://semantics.gr/authorities/vocabularies/ecc-books-dataset>
 
-## Downloading the dataset description using the crawler tool:
+## Downloading the dataset description using the crawler tool
 
 Currently the crawler doesn't support a straight download of the dataset yet. Instead we used the following work around to download the complete dataset (including the dataset description). The following 'curl' command was run in the home dir of the lod-aggregator:
 
@@ -37,9 +37,11 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
   --output ecc-books-edm.rdf
 ```
 
+Note: in `.env` VAR_PROVIDER was set to 'ECC'.
+
 ## Validate the total the EDM data
 
-Next the generated EDM data was validated based on the requirements listed in ["Guidelines for providing and handling Schema.org metadata in compliance with Europeana"](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg/edit).
+Next the generated EDM data was validated.
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
@@ -48,7 +50,9 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output ecc-books-edm-val.ttl
 ```
 
-This results in a number of violations that still need to be investigated, see the gr_validate.ttl report for more info.
+This results in a list of violations because in the dc:language tag is missing which is required for edm:TEXT types, see the gr_validate.ttl report for more info.
+
+It is possible to fix this in the mapping query by adding the `dc:language "el"` explictly to the query. See `ecc-books2edm.rq` in the `ecc-books` test dir.
 
 ## Zip the result for transport to Europena
 
