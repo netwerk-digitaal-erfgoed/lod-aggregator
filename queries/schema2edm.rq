@@ -50,25 +50,11 @@ CONSTRUCT {
 WHERE {
     {
       {
-	   ?uri_cho a schema:Sculpture .
+	    ?uri_cho a ?type .
+        VALUES ?type { schema:Sculpture schema:VisualArtwork schema:Painting schema:Photograph }
         BIND(("IMAGE") as ?edm_type)
       }
       UNION 
-      {
-	   ?uri_cho a schema:VisualArtwork .
-        BIND(("IMAGE") as ?edm_type)
-      }
-      UNION 
-      {
-	   ?uri_cho a schema:Painting .
-        BIND(("IMAGE") as ?edm_type)
-      }
-      UNION 
-      {
-	   ?uri_cho a schema:Photograph .
-        BIND(("IMAGE") as ?edm_type)
-      }
-      UNION
       {
         ?uri_cho a schema:Book .
         BIND(("TEXT") as ?edm_type)

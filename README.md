@@ -55,18 +55,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output {result file}
 ```
 
-The result file is an formal SHACL validation report written in Turtle and can be found in the `data` dir. 
-
-Normally the validation process is run on the generated EDM datafile after running the mapper. The default `shacl_edm.ttl` shape file validates the EDM on the requirements specified by Europeana in the document mentioned above.
-
-Note: Before crawling the complete data a validation of the dataset description is recommended to test the validity of the dataset description. The requirements for dataset descriptions that can be processed by the lod-aggregator are described in [Specifying a linked data dataset for Europeana and aggregators](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg).
-
-For checking the description againts these requirements one of the available SHACL shape files can be used depending on the distribution type _list, dump, query_ and schema used _VOID, DCAT, Schema.org_ used for the dataset. The naming sequence is as follows:
- `shape_dataset_{distribution type}_{schema type}.ttl`.
-
-For example a dataset listing a set of URI and described in DCAT can be validated with the shape file `shape_dataset_list_dcat.ttl`
-
-_Note: currently not all shape files are available yet (work in progress, check the `shapes` dir first)._
+The result file is an formal SHACL validation report written in Turtle and can be found in the `data` dir. See the [`shapes` dir](./shapes) for more info on the available shape files and tools available for developping and debugging.
 
 ## Zip
 

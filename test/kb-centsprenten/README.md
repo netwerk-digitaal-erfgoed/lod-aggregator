@@ -1,14 +1,8 @@
-# Using the lod-aggregator tools
+# Test run with the ECC paintings dataset
 
-## Build the crawler
+Canonical URL of the dataset: <http://data.bibliotheken.nl/id/dataset/rise-centsprenten>
 
-`docker-compose build --no-cache crawler`
-
-No further configuration is needed. See `docker-compose.yaml` and `./scripts/starter.sh` for more details on how the JENA tools (sparql, shacl, riot) are being called.
-
-The tools (except `crawler` and `gzip` at this moment) expect data to be in `./data`, shape files in `./shapes`, queries in `./queries`. Environment variables (in `.env`) can be set to override these defaults.
-
-## Crawl dataset description
+## Downloading the dataset using the crawler tool
 
 Start with downloading the dataset description only
 
@@ -19,7 +13,7 @@ docker-compose run --rm --user 1000:1000 crawl starter.sh \
   --output centsprenten-dataset.nt
 ```
 
-## Validate dataset description
+## Validating the dataset description
 
 Before processing the complete data we validated the dataset description. We used a SHACL shape file defined for datasets with URI lists using the Schema.org ontology:
 
@@ -30,11 +24,9 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output centsprenten-dataset-val-ds.ttl
 ```
 
-The validation fails because the dataset description has no schema:name property which a required according to [the specification](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg).
+The validation fails because the dataset description has no `schema:name` property which a required according to [the specification](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg). This in not a blocking issue, it is possible to continue with the full download.
 
-## Crawl the full data
-
-But the complete dataset could be downloaded using the crawler.
+## Downloading the full data
 
 ```bash
 docker-compose run --rm --user 1000:1000 crawl starter.sh \
@@ -42,19 +34,13 @@ docker-compose run --rm --user 1000:1000 crawl starter.sh \
   --output centsprenten.nt
 ```
 
-Because the dataset and the dataset description are in seperate files we copy merge them into one file:
+## Mapping the schema.org data to EDM data
 
-```bash
-cat ./data/centsprenten-dataset.nt ./data/centsprenten.nt > ./data/centsprenten-total.nt
-```
-
-## Map the data
-
-Map the crawled data to EDM using a 'construct' SPARQL query
+Next step was doing the actual conversion of the resources.
 
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data centsprenten-total.nt \
+  --data centsprenten.nt \
   --query schema2edm.rq \
   --format RDF/XML \
   --output centsprenten-edm.rdf
@@ -72,6 +58,8 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --shape shacl_edm.ttl \
   --output centsprenten-edm-val.ttl
 ```
+
+The validation resulted in no errors.
 
 ## Zip the result for transport to Europena
 

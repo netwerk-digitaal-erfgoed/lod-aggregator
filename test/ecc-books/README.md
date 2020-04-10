@@ -2,14 +2,14 @@
 
 Canonical URL of the dataset: <http://semantics.gr/authorities/vocabularies/ecc-books-dataset>
 
-## Downloading the dataset description using the crawler tool
+This dataset consists of the complete data including a dataset description.
 
-Currently the crawler doesn't support a straight download of the dataset yet. Instead we used the following work around to download the complete dataset (including the dataset description). The following 'curl' command was run in the home dir of the lod-aggregator:
+## Downloading the dataset using the crawler tool
 
 ```bash
-curl -H "Accept: application/rdf+xml" \
-     https://www.semantics.gr/authorities/vocabularies/ecc-books-dataset \
-     > ./data/ecc-books.rdf
+docker-compose run --rm --user 1000:1000 crawl starter.sh  \
+   --dataset-uri http://semantics.gr/authorities/vocabularies/ecc-books-dataset \
+   --output ecc-books.nt
 ```
 
 ## Validating the dataset description
@@ -18,12 +18,12 @@ Before processing the complete data we validated the dataset description. We use
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
-  --data ecc-books.rdf \
+  --data ecc-books.nt \
   --shape shacl_dataset_list_void.ttl \
   --output ecc-books-val-ds.ttl
 ```
 
-The validation was succesful, see the gr_validate_dataset.ttl report.
+The validation was succesful, see the ecc-books-val-ds.ttl report.
 
 ## Mapping the schema.org data to EDM data
 
@@ -31,7 +31,7 @@ Next step was doing the actual conversion of the resources.
 
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data ecc-books.rdf \
+  --data ecc-books.nt \
   --query schema2edm.rq \
   --format RDF/XML \
   --output ecc-books-edm.rdf
@@ -50,9 +50,11 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output ecc-books-edm-val.ttl
 ```
 
-This results in a list of violations because in the dc:language tag is missing which is required for edm:TEXT types, see the gr_validate.ttl report for more info.
+This results in a list of violations because in the dc:language tag is missing which is required for edm:TEXT types, see the ecc-books-edm-val.ttl report for more info.
 
-It is possible to fix this in the mapping query by adding the `dc:language "el"` explictly to the query. See `ecc-books2edm.rq` in the `ecc-books` test dir.
+Note: Some of the SHACL messages are still very unclear, it needs some debugging to find the cause of the error. This needs some improvement.
+
+We fixed this in the mapping query by adding the `dc:language "el"` explictly to the query. See `ecc-books2edm.rq` in the `ecc-books` test dir.
 
 ## Zip the result for transport to Europena
 

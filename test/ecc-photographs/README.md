@@ -2,15 +2,12 @@
 
 Canonical URL of the dataset: <http://semantics.gr/authorities/vocabularies/ecc-photographs-dataset>
 
-## Downloading the dataset description using the crawler tool
-
-Currently the crawler doesn't support a straight download of the dataset yet. Instead we used the following work around to download the complete dataset (including the dataset description). The following 'curl' command was run in the home dir of the lod-aggregator:
+## Downloading the dataset using the crawler tool
 
 ```bash
-# note the ./data/ in this command!
-curl -H "Accept: application/rdf+xml" \
-     https://www.semantics.gr/authorities/vocabularies/ecc-photographs-dataset \
-     > ./data/ecc-photographs.rdf
+docker-compose run --rm --user 1000:1000 crawl starter.sh  \
+   --dataset-uri http://semantics.gr/authorities/vocabularies/ecc-photographs-dataset \
+   --output ecc-photographs.nt
 ```
 
 ## Validating the dataset description
@@ -19,7 +16,7 @@ Before processing the complete data we validated the dataset description. We use
 
 ```bash
 docker-compose run --rm --user 1000:1000 validate starter.sh \
-  --data ecc-photographs.rdf \
+  --data ecc-photographs.nt \
   --shape shacl_dataset_list_void.ttl \
   --output ecc-photographs-val-ds.ttl
 ```
@@ -32,7 +29,7 @@ Next step was doing the actual conversion of the resources.
 
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data ecc-photographs.rdf \
+  --data ecc-photographs.nt \
   --query schema2edm.rq \
   --format RDF/XML \
   --output ecc-photographs-edm.rdf
