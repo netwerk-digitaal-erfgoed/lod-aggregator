@@ -1,12 +1,23 @@
 # Using the lod-aggregator tools
 
-## Build the crawler
+## Installation
+
+Afther cloning the repository only a build of the crawl service is required. Use the following command: 
 
 `docker-compose build --no-cache crawl`
 
-No further configuration is needed. See `docker-compose.yaml` and `./scripts/starter.sh` for more details on how the crawler and JENA tools (sparql, shacl, riot) are being called.
+Europeana requires and identification of the institution that runs the LOD aggregation service. This can be specified in the `.env` file:
 
-The tools expect data to be in `./data`, shape files in `./shapes`, queries in `./queries`. Environment variables (in `.env`) can be set to override these defaults.
+```bash
+cp env.dist .env
+# use your favorite editor to set VAR_PROVIDER to the appropriate value in `.env`
+```
+
+No further configuration is needed. See [docker-compose.yaml](./docker-compose.yaml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (sparql, shacl, riot) are being called.
+
+All services are run in containers started by the `docker-compose run` command. In order to prevent docker from creating files owned by root on your filesystem specify the `--user UID:GID` option when running the docker-compose command. UID:GID should match your current account settings (in this documentation 1000:1000 is used as an example).
+
+The tools expect input files to be in `./data`, shape files to be in `./shapes` and query files to be in `./queries`. Environment variables (in `.env`) can be set to override these defaults.
 
 ## Crawler
 
@@ -19,15 +30,13 @@ docker-compose run --rm --user 1000:1000 crawl starter.sh \
   [--description_only]
 ```
 
-Set `--user` to your UID:GID to prevent docker-compose from creating files owned by 'root'. 
-
 To download **only the dataset description** found at the URI of the dataset use the option `--description-only`.
 
-Check the `crawler.log` logfile for the results of the crawl proces. Both progress and error information can be found here.
+Check the `crawler.log` logfile in the `data` dir for the results of the crawl proces. Both progress and error information can be found here.
 
 ## Mapper
 
-Run the mapper tool to convert the downloaded Linked Data into an output format using a SPARQL CONSTRUCT query. The default configuration is based on converting data in schema.org format to EDM. See the `schema2edm.rq` query in the queries dir for more details.
+Run the mapper tool to convert the downloaded Linked Data into an output format using a SPARQL CONSTRUCT query. The default configuration is based on converting data in schema.org format to EDM. The generic sparql query in `schema2edm.rq` takes care of this, see the [queries dir](./queries) for more information.
 
 ```bash
 docker-compose run --rm --user 1000:1000 map starter.sh \
@@ -38,11 +47,7 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
   [--format {serialization format}]
 ```
 
-The default serialization is Turtle. For delivery to Europeana `RDF/XML` is prefered, this can be specified through the `--output RDF/XML` option. See the `starter.sh` script in the `scripts` dir for the available serialization formats.
-
-The standard mapping from Schema.org to EDM is based on the requirements described in ["Guidelines for providing and handling Schema.org metadata in compliance with Europeana"](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg).
-
-Europeana requires a reference to the provider responsible for performing the lod-aggregation. This can be specified during run time using the `--provider {provider naam}` option, by setting the VAR_PROVIDER environment variable using the `.env` file.
+The default serialization is Turtle. For delivery to Europeana `RDF/XML` is prefered, this can be specified through the `--output RDF/XML` option. See the [starter.sh script](./scripts/starter.sh) for the available serialization formats.
 
 ## Validator
 
@@ -55,7 +60,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output {result file}
 ```
 
-The result file is an formal SHACL validation report written in Turtle and can be found in the `data` dir. See the [`shapes` dir](./shapes) for more info on the available shape files and tools available for developping and debugging.
+The result file is an formal SHACL validation report written in Turtle and can be found in the `data` dir. See the [shapes dir](./shapes) for more info on the available shape files and tools for testing and debugging shape files.
 
 ## Zip
 
