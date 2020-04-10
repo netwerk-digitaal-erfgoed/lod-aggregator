@@ -13,7 +13,7 @@ cp env.dist .env
 # use your favorite editor to set VAR_PROVIDER to the appropriate value in `.env`
 ```
 
-No further configuration is needed. See [docker-compose.yaml](./docker-compose.yaml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (sparql, shacl, riot) are being called.
+No further configuration is needed. See [docker-compose.yaml](./docker-compose.yaml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (sparql and shacl) are being called.
 
 All services are run in containers started by the `docker-compose run` command. In order to prevent docker from creating files owned by root on your filesystem specify the `--user UID:GID` option when running the docker-compose command. UID:GID should match your current account settings (in this documentation 1000:1000 is used as an example).
 
@@ -71,3 +71,7 @@ Zip the result for transport to Europena:
 gzip ./data/{file name}
 ```
 The result can be found in the `data` dir with the extension `.gz`
+
+## Test runs
+
+In order to demonstrate the use of the tools with real world LOD data a number of test cases have been documented. See the [test dir](./test) for more information.
