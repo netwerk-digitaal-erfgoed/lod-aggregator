@@ -62,6 +62,31 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
 
 The result file is an formal SHACL validation report written in Turtle and can be found in the `data` dir. See the [shapes dir](./shapes) for more info on the available shape files and tools for testing and debugging shape files.
 
+## Export validation results
+
+For further processing a CSV containing the results of a validation run can be created with the following command:
+
+```bash
+docker-compose run --rm --user 1000:1000 map starter.sh \
+  --data {validation report} \
+  --query list-errors.rq \
+  --format CSV \
+  --output errors.csv
+```
+
+## Convert RDF data into different serializations
+
+For debugging and testing it can ben helpfull to convert RDF into other seriazilion formats using this command:
+
+```bash
+docker-compose run --rm --user 1000:1000 serialize starter.sh \
+  --data {input file} \
+[ --format {RDF format} ] \
+  --output {output file}
+```
+
+See the [starter.sh](./scripts/starter.sh) script for a full list of `format` options. The default format is Turtle.
+
 ## Zip
 
 Zip the result for transport to Europena:

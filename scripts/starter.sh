@@ -29,7 +29,7 @@ fi
 # default format for use with riot
 format='Turtle'
 
-# supported formats are: 
+# supported RDF formats are: 
 #    Turtle
 #    RDF/XML
 #    N-Triples
@@ -39,7 +39,8 @@ format='Turtle'
 #    N-Quads
 #    TriX
 #    RDF Binary
-
+#
+# other non-RDF formats are: text, XML, JSON, CSV, TSV.
 
 # Parse command line arguments
 while [[ "$#" > 1 ]]; do case $1 in

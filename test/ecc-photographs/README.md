@@ -21,7 +21,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
   --output ecc-photographs-val-ds.ttl
 ```
 
-The validation was succesful, see the gr_validate_dataset.ttl report.
+The validation was succesful, see the ecc-photographs-val-ds.ttl report.
 
 ## Mapping the schema.org data to EDM data
 
