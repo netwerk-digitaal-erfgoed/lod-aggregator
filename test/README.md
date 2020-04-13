@@ -13,6 +13,10 @@ In this test dir the following test runs will be documented:
 3. [paintings dataset](./ecc-paintings)
 4. [photographs dataset](./ecc-photographs)
 
-* Datasets from the Dutch National Library (KB)
+* Dataset from the Dutch National Library (KB)
 
 1. [Centsprenten](./kb-centsprenten)
+
+* Dataset from the National Library of Portugal (BNP)
+  
+1. [Registo Nacional de Obras Digitais (RNOD)](./bnp-rnod)
