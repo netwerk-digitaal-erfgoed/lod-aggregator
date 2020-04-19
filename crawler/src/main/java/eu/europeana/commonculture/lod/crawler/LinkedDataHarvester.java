@@ -38,6 +38,7 @@ import eu.europeana.commonculture.lod.crawler.rdf.SparqlClient;
 import eu.europeana.commonculture.lod.crawler.rdf.SparqlClient.Handler;
 import eu.europeana.commonculture.lod.datasetmetadata.DatasetDescription;
 import eu.europeana.commonculture.lod.datasetmetadata.Distribution;
+import eu.europeana.commonculture.lod.datasetmetadata.HarvestMethod;
 import eu.europeana.commonculture.lod.datasetmetadata.SparqlEndpoint;
 
 public class LinkedDataHarvester {
@@ -69,11 +70,15 @@ public class LinkedDataHarvester {
 		else if(outFile.getParentFile().exists() && outFile.isDirectory())
 			throw new IOException("Invalid parameter: Crawling 'output_file' parameter cannot be a directory: "+outFile.getPath());
 		
-		DatasetDescription dataset = new DatasetDescription(datasetUri);
 		if(datasetDescriptionOnly) 
 			return harvestDatasetDescription(outFile);
+
+		DatasetDescription dataset = new DatasetDescription(datasetUri);
 		
-		switch (dataset.chooseHarvestMethod()) {
+		HarvestMethod harvestMethod = dataset.chooseHarvestMethod();
+		if(harvestMethod==null)
+			throw new AccessException(datasetUri, "Dataset description: No suitable harvesting method found");
+		switch (harvestMethod) {
 		case DISTRIBUTION:
 			download(dataset, outFile);
 			return 1; //for distributions the number of resources is not known
@@ -82,7 +87,7 @@ public class LinkedDataHarvester {
 		case SPARQL:
 			return crawlSparql(dataset, outFile);			
 		default:
-			return 0;
+			throw new AccessException(datasetUri, "Dataset description: No suitable harvesting method found");
 		}
 	}
 
@@ -124,7 +129,7 @@ public class LinkedDataHarvester {
 
 	private int crawl(DatasetDescription dataset, File outFile) throws AccessException, InterruptedException, IOException {
 		ArrayList<String> seeds=new ArrayList<String>(dataset.listRootResources());
-		seeds.add(datasetUri);
+		seeds.add(dataset.getUri());
 		LinkedDataCrawler crawler=new LinkedDataCrawler(seeds, maxDepth, maxSeedsPerSet);
 		return crawler.crawl(outFile);
 	}

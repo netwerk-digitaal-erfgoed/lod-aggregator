@@ -29,6 +29,8 @@ public final class RdfReg {
 	public static String NsProv="http://www.w3.org/ns/prov#";
 	
 	public static final Property DQV_HAS_QUALITY_ANNOTATION=ResourceFactory.createProperty(NsDqv+"hasQualityAnnotation");
+	public static final Resource DCAT_DATASET = ResourceFactory.createResource(NsDcat+"Dataset");
+	public static final Resource VOID_DATASET = ResourceFactory.createResource(NsVoid+"Dataset");
 
 	public static final Property OA_HAS_BODY=ResourceFactory.createProperty(NsOa+"hasBody");
 

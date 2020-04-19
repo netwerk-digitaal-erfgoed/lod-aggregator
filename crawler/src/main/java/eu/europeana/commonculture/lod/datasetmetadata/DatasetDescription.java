@@ -2,7 +2,9 @@ package eu.europeana.commonculture.lod.datasetmetadata;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
@@ -11,6 +13,7 @@ import org.apache.jena.rdf.model.StmtIterator;
 
 import eu.europeana.commonculture.lod.crawler.http.AccessException;
 import eu.europeana.commonculture.lod.crawler.rdf.RdfReg;
+import eu.europeana.commonculture.lod.crawler.rdf.RdfRegRdf;
 import eu.europeana.commonculture.lod.crawler.rdf.RdfUtil;
 import eu.europeana.commonculture.lod.crawler.rdf.RegSchemaorg;
 
@@ -21,8 +24,21 @@ public class DatasetDescription {
 	public DatasetDescription(String datasetUri) throws AccessException, InterruptedException, IOException {
 		this.datasetUri = datasetUri;
 		model = RdfUtil.readRdfFromUri(datasetUri);
-		if (model==null || !RdfUtil.contains(datasetUri, model))
-			throw new AccessException(datasetUri, "No RDF resource available for the dataset URI");
+		if (model!=null && RdfUtil.contains(datasetUri, model))
+			return;
+		//Search for an RDF resource for a Dataset
+		Set<Resource> dss=new HashSet<Resource>();
+		for(Resource r : model.listResourcesWithProperty(RdfRegRdf.type, RegSchemaorg.Dataset).toList()) 
+			dss.add(r);
+		for(Resource r : model.listResourcesWithProperty(RdfRegRdf.type, RdfReg.DCAT_DATASET).toList()) 
+			dss.add(r);
+		for(Resource r : model.listResourcesWithProperty(RdfRegRdf.type, RdfReg.VOID_DATASET).toList()) 
+			dss.add(r);
+		if(dss.size()==1)
+			datasetUri=dss.iterator().next().getURI();
+		else if(dss.size()>1)
+			throw new AccessException(datasetUri, "More than one Dataset found at URL");
+		throw new AccessException(datasetUri, "No RDF resource available for the dataset URI");
 	}
 
 	public HarvestMethod chooseHarvestMethod() {
@@ -69,9 +85,13 @@ public class DatasetDescription {
 			endPointUrl = distribution.getProperty(RdfReg.DCAT_ACCESS_URL);
 			if(endPointUrl!=null) 
 				if (isSparqlCompliant(distribution.listProperties(RdfReg.DCTERMS_CONFORMS_TO)))
-					return RdfUtil.getUriOrLiteralValue(endPointUrl.getObject());			 
-			 return null;
+					return RdfUtil.getUriOrLiteralValue(endPointUrl.getObject());
+			Resource generatedBy=RdfUtil.findResource(distribution, model.createProperty("http://www.w3.org/ns/prov#wasGeneratedBy"));
+			if(generatedBy!=null) 
+				dataService=RdfUtil.findResource(generatedBy, model.createProperty("http://www.w3.org/ns/prov#used"));
 		}
+		if (dataService==null ) 			
+			return null;
 		
 		if (!isSparqlCompliant(dataService.listProperties(RdfReg.DCTERMS_CONFORMS_TO))) return null;
 		endPointUrl = dataService.getProperty(RdfReg.DCAT_ENDPOINT_URL);
@@ -101,7 +121,7 @@ public class DatasetDescription {
 		if (searchAction!=null ) {
 			Statement query = searchAction.getProperty(RdfReg.SCHEMAORG_QUERY);
 			if (query!=null ) 
-				endpoint.setQuery(query.getObject().asLiteral().getString());
+				endpoint.setQuery(query.getObject().asLiteral().getString().trim());
 		}
 		return endpoint;
 	}
@@ -143,5 +163,9 @@ public class DatasetDescription {
 
 	public Model getRdf() {
 		return model;
+	}
+
+	public String getUri() {
+		return datasetUri;
 	}
 }

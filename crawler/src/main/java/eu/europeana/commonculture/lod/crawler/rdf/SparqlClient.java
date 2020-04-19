@@ -26,7 +26,7 @@ public class SparqlClient {
 	public SparqlClient(String baseUrl, String queryPrefix) {
 		super();
 		this.baseUrl = baseUrl;
-		this.queryPrefix = queryPrefix;
+		this.queryPrefix = queryPrefix ==null? "" : queryPrefix;
 	}
 	
 	public SparqlClient(String baseUrl, Map<String, String> queryPrefixes) {
