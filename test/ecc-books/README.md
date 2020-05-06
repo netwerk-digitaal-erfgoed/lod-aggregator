@@ -56,7 +56,7 @@ Note: Some of the SHACL messages are still very unclear, it needs some debugging
 
 We fixed this in the mapping query by adding the `dc:language "el"` explictly to the query. See `ecc-books2edm.rq` in the `ecc-books` test dir.
 
-## Zip the result for transport to Europena
+## Zip the result for transport to Europeana
 
 ```bash
 # note the ./data in this command!
