@@ -1,6 +1,8 @@
+*.xml
 *.ttl
 *.nt
 *.rdf
 *.log
 *.gz
 *.csv
+*.zip
