@@ -7,36 +7,6 @@
 @prefix edm:     <http://www.europeana.eu/schemas/edm/> .
 @prefix ore:     <http://www.openarchives.org/ore/terms/> .
 
-ex:hasTitle sh:or (
-    [ sh:path dc:description;
-    sh:nodeKind sh:Literal ;
-    sh:minCount 1 ]
-    [ sh:path dc:title;
-    sh:nodeKind sh:Literal ;
-    sh:minCount 1 ] ) .    
-
-ex:hasSubject sh:or (
-  [ sh:path dc:subject ;
-    sh:nodeKind sh:Literal ;
-    sh:minCount 1 ]
-  [ sh:path dc:type ;
-    sh:nodeKind sh:Literal ;
-    sh:minCount 1 ]
-  [ sh:path dcterms:spatial ;
-    sh:nodeKind sh:IRIOrLiteral ;
-    sh:minCount 1 ]
-  [ sh:path dcterms:temporal ;
-    sh:nodeKind sh:IRIOrLiteral ;
-    sh:minCount 1 ] ).
-
-ex:hasShown sh:or (
-  [ sh:path edm:isShownAt ;
-    sh:nodeKind sh:IRIOrLiteral ;
-    sh:minCount 1 ]
-  [ sh:path edm:isShownBy ;
-    sh:nodeKind sh:IRIOrLiteral ;
-    sh:minCount 1 ] ) .
-
 ex:hasLang sh:or (
    [ sh:not [ sh:path edm:type ;
        sh:datatype xsd:string ;
@@ -51,16 +21,18 @@ ex:ProvidedCHO a sh:NodeShape ;
     sh:path edm:type ;
     sh:minCount 1 ;
     sh:in ( "TEXT" "VIDEO" "SOUND" "IMAGE" "3D" );
-    sh:message "invalid edm:type value"];
-  sh:node [ 
-    sh:node ex:hasTitle ;
-    sh:message "no valid langString for dc:title or dc:description"];
-  sh:node [
-    sh:node ex:hasSubject ;
-    sh:message "no valid langString for dc:subject, dc:type, dcterms:spatial or dcterms:temporal" ];
+    sh:message "Missing or invalid value for edm:type"];
+  sh:property [  
+    sh:path [ sh:alternativePath (dc:title dc:description)];
+    sh:minCount 1 ; 
+    sh:message "At least one the following properties should be present: dc:description"];
+  sh:property [  
+    sh:path [ sh:alternativePath (dc:subject dc:type dcterms:spatial dcterms:temporal)];
+    sh:minCount 1 ; 
+    sh:message "At least one the following properties should be present: dc:subject, dc:type, dcterms:spatial or dcterms:temporal"];
   sh:node [
     sh:node ex:hasLang ;
-    sh:message "missing dc:language value for edm:type='TEXT'" ].
+    sh:message "Property dc:language is required with edm:type='TEXT'" ].
 
 ex:Aggregation a sh:NodeShape ;
   sh:targetClass ore:Aggregation ;
@@ -69,18 +41,19 @@ ex:Aggregation a sh:NodeShape ;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
     sh:maxCount 1 ; 
-    sh:message "wrong or missing value for edm:provider" ];
+    sh:message "Missing or invalid value for edm:provider" ];
   sh:property [
     sh:path edm:dataProvider;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
     sh:maxCount 1 ;
-    sh:message "wrong or missing value for edm:dataProvider" ];
+    sh:message "Missing or invalid value for edm:dataProvider" ];
   sh:property [
     sh:path edm:rights ;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:minCount 1 ;
-    sh:message "missing or invalid edm:rights value"];
-  sh:node [ 
-    sh:node ex:hasShown ;
-    sh:message "no valid IRI for edm:isShownAt or edm:isShownBy" ].
+    sh:message "Missing or invalid value for edm:rights"];
+  sh:property [  
+    sh:path [ sh:alternativePath (edm:isShownAt edm:isShownBy)];
+    sh:minCount 1 ; 
+    sh:message "At least one the following properties should be present: edm:isShownAt or edm:isShownBy"].

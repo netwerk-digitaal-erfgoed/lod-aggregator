@@ -84,7 +84,7 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
   [--format {serialization format}]
 ```
 
-The default serialization is Turtle. For delivery to Europeana `RDF/XML` is prefered, this can be specified through the `--output RDF/XML` option. See the [starter.sh script](./scripts/starter.sh) for the available serialization formats.
+The default serialization is `RDF/XML` as this is the preferred format for delivery to Europeana. This can be overruled with `--output <format>` option. See the [starter.sh script](./scripts/starter.sh) for the available serialization formats.
 
 ## Running the validator
 
