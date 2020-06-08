@@ -61,7 +61,7 @@ docker-compose run --rm --user 1000:1000 validate starter.sh \
 
 The validation resulted in no errors.
 
-## Zip the result for transport to Europena
+## Zip the result for transport to Europeana
 
 ```bash
 # note the ./data in this command!

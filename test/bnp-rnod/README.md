@@ -73,7 +73,7 @@ docker-compose run --rm --user 1000:1000 map starter.sh \
 
 The main problems found are resources without an `edm:rights` property and (some SHACL debugging was neccessary here) resources without a `edm:shownBy` or `edm:shownAt` property.
 
-## Zip the result for transport to Europena
+## Zip the result for transport to Europeana
 
 ```bash
 # note the ./data in this command!

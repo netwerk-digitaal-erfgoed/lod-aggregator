@@ -49,6 +49,6 @@ ex:dataset_dump_distr a sh:NodeShape ;
   # and it should be in a valid RDF mime type
   sh:property [
     sh:path schema:encodingFormat ;
-    sh:in ("application/rdf+xml" "text/n3" "application/n-triples" "application/x-turtle" "application/ld+son") ;
+    sh:in ("application/rdf+xml" "text/n3" "application/n-triples" "application/x-turtle" "application/ld+json") ;
     sh:minCount 1 ;
-    sh:message "missing or invalid 'mediaType', allowed values are: ‘application/rdf+xml’, ‘text/n3’, ‘application/n-triples’, ‘application/x-turtle’, or ‘application/ld+son’)"] .
+    sh:message "missing or invalid 'mediaType', allowed values are: ‘application/rdf+xml’, ‘text/n3’, ‘application/n-triples’, ‘application/x-turtle’, or ‘application/ld+json’)"] .
