@@ -1,9 +1,0 @@
-<http://oai.bn.pt/conjunto_de_dados/rnod-europeana.rdf> <http://schema.org/name> "Registo Nacional de Obras Digitais"@pt .
-<http://oai.bn.pt/conjunto_de_dados/rnod-europeana.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
-<http://oai.bn.pt/conjunto_de_dados/rnod-europeana.rdf> <http://schema.org/license> <http://creativecommons.org/publicdomain/zero/1.0/> .
-<http://oai.bn.pt/conjunto_de_dados/rnod-europeana.rdf> <http://schema.org/provider> "Biblioteca Nacional de Portugal" .
-<http://oai.bn.pt/conjunto_de_dados/rnod-europeana.rdf> <http://schema.org/distribution> <http://opendata.bnportugal.gov.pt/conjunto_de_dados/rnod-europeana.rdf#distribution> .
-<http://opendata.bnportugal.gov.pt/conjunto_de_dados/rnod-europeana.rdf#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataDownload> .
-<http://opendata.bnportugal.gov.pt/conjunto_de_dados/rnod-europeana.rdf#distribution> <http://schema.org/contentUrl> <http://opendata.bnportugal.gov.pt/docs/rnod_europeana.rdfxml.zip> .
-<http://opendata.bnportugal.gov.pt/conjunto_de_dados/rnod-europeana.rdf#distribution> <http://schema.org/encodingFormat> "application/rdf+xml" .
-<http://opendata.bnportugal.gov.pt/conjunto_de_dados/rnod-europeana.rdf#distribution> <http://schema.org/license> <http://creativecommons.org/publicdomain/mark/1.0/> .

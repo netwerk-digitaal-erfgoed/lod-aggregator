@@ -5,6 +5,10 @@ set -e
 scripts_dir=$(cd $(dirname $0) && pwd -P)
 source $scripts_dir/utils.sh
 
+# the Jena java tools run in memory so we increase the default heapsize maximum
+JVM_ARGS="-Xmx8G"
+export JVM_ARGS
+
 # Defaults which can be set through .ENV or through the 'environment' command in docker-compose config
 if [ -z $BASE_DIR ]; then
     BASE_DIR="opt"
@@ -26,8 +30,8 @@ if [ -z $VAR_PROVIDER ]; then
     VAR_PROVIDER="unknown"
 fi
 
-# default format for use with riot
-format='Turtle'
+# default format for map and serialize service
+format='RDF/XML'
 
 # supported RDF formats are: 
 #    Turtle
@@ -88,7 +92,7 @@ done
 case $TOOL in
   crawl) 
     echo
-    echo "Checking input parametes..."
+    echo "Checking input parameters..."
     echo
     check_arg_and_exit_on_error "dataset-uri" $dataset_uri
     check_arg_and_exit_on_error "output" $output_file
@@ -106,6 +110,18 @@ case $TOOL in
       echo "Ready, results (if any) written to $rel_output_file, check $DATA_DIR/crawler.log for details..."
     fi
     ;; 
+    convert) 
+    echo
+    echo "Checking input parameters..."
+    echo
+    check_arg_and_exit_on_error "data" $data_file
+    check_arg_and_exit_on_error "output" $output_file
+    echo "Starting conversion to XML for $data_file..."
+    cd /app/crawler/
+    ./rdf2edm.sh -input_file $data_file -output_file $output_file &> /$BASE_DIR/$DATA_DIR/converter.log
+    echo
+    echo "Ready, results (if any) written to $rel_output_file, check $DATA_DIR/converter.log for details..."
+    ;; 
   validate) 
     echo
     echo "Checking input parameters..."
@@ -120,7 +136,7 @@ case $TOOL in
     ;;
   map) 
     echo
-    echo "Checking input parametes..."
+    echo "Checking input parameters..."
     echo
     if [ "$VAR_PROVIDER" == "unknown" ]; then
        echo "Eror: Value Provider can not be 'unknown'!"
@@ -136,14 +152,13 @@ case $TOOL in
     tmp_query=/$BASE_DIR/$QUERY_DIR/tmp.rq
     cp $query_file $tmp_query
     sed -i "s/VAR_PROVIDER/$VAR_PROVIDER/g" $tmp_query
-
     echo "Starting conversion with query: $rel_query_file and input data: $rel_data_file..."
-    sparql --query $tmp_query --data $data_file --results $format > $output_file
+    sparql --query $tmp_query --data $data_file --results $format --time > $output_file
     echo "Ready, results written to $rel_output_file..."
     ;;
   serialize) 
     echo
-    echo "Checking input parametes..."
+    echo "Checking input parameters..."
     echo
     check_arg_and_exit_on_error "data" $data_file
     check_arg_and_exit_on_error "output" $output_file

@@ -1,0 +1,54 @@
+version: "3"
+services:
+  crawl:
+    image: crawler:latest
+    build: ./crawler
+    container_name: crawler
+    environment:
+      TOOL: crawl
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/scripts
+    restart: always
+    volumes:
+      - .:/opt
+    env_file: .env 
+  convert:
+    image: crawler:latest
+    build: ./crawler
+    container_name: convert
+    environment:
+      TOOL: convert
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/scripts
+    restart: always
+    volumes:
+      - .:/opt
+    env_file: .env  
+  validate:
+    image: stain/jena
+    container_name: validate
+    environment:
+      TOOL: validate
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+    restart: always
+    volumes:
+      - .:/opt
+    env_file: .env  
+  map:
+    image: stain/jena
+    container_name: map
+    environment:
+      TOOL: map
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+    restart: always
+    volumes:
+      - .:/opt
+    env_file: .env  
+  serialize:
+    image: stain/jena
+    container_name: serialize
+    environment:
+      TOOL: serialize
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+    restart: always
+    volumes:
+      - .:/opt
+    env_file: .env  
