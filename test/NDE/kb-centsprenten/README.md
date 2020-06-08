@@ -1,4 +1,4 @@
-# Test run with the ECC paintings dataset
+# Test run with the KB - Centsprenten dataset
 
 Canonical URL of the dataset: <http://data.bibliotheken.nl/id/dataset/rise-centsprenten>
 
