@@ -4,6 +4,11 @@
 
 An increasing number of heritage institutes are taking steps to publish their collection information as Linked Open Data (LOD), especially in Schema.org to increase the visibility in Google and other major search engines. To lower the barriers for the contributing data to Europeana we designed a basic pipeline, the **LOD-aggregator**, that harvests the published Linked Data and converts the Schema.org information to the Europeana Data Model (EDM) to make the ingest in the Europeana harvesting platform possible. This pipeline was build to demonstrate the feasibility for this approach and to prove that production ready data can be provided this way.
 
+See the following specifications for more background information:
+
+* [Specifying a linked data dataset for Europeana and aggregators](https://zenodo.org/record/3817314)
+* [Guidelines for providing and handling Schema.org metadata in compliance with Europeana](https://zenodo.org/record/3817236)
+  
 _This software was developped as part of the Europeana Common Culture project. Main development and testing was done by Europeana R&D and the Dutch Digital Heritage Network (NDE)._
 
 ## Installation
@@ -23,25 +28,25 @@ cp env.dist .env
 
 The tools expect input files to be in `./data`, shape files to be in `./shapes` and query files to be in `./queries`. Use the environment variables in `.env` to change these defaults.
 
-**Important:** Europeana requires an identification label of the institution that runs the LOD aggregation service. This can be specified in the `.env` file with the VAR_PROVIDER variable or set with the `--provider` parameter during runtime.
-
 After cloning the repository only a build of the crawl service is required. Use the following command:
 
 ```bash
 docker-compose build --no-cache crawl
 ```
 
-**Important**
+**Important notes:**
 
-Run the following command **each time** you start a new session: 
+* Europeana requires an identification label of the institution that runs the LOD aggregation service. This can be specified in the `.env` file with the VAR_PROVIDER variable or set with the `--provider` parameter during runtime.
 
-```bash
-source bin/setpath
-```
+* Run the following command **each time** you start a new session:
 
-This will add ./bin path to your $PATH so you can run the commands without prefixing them.
+  ```bash
+  source bin/setpath
+  ```
 
-No further configuration is needed. See [docker-compose.yaml](./docker-compose.yaml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (`sparql` and `shacl`) are being called.
+  This will add ./bin path to your $PATH so you can run the commands without prefixing them.
+
+No further configuration is needed. See [docker-compose.yml](./docker-compose.yml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (`sparql` and `shacl`) are being called in more detail.
 
 ## General workflow
 
@@ -63,7 +68,7 @@ Optional steps:
 
 ### Documented test runs
 
-In order to demonstrate the use of these tools with real world LOD data a number of test cases have been documented. See the [test directory](./tests) for more information.
+In order to demonstrate the use of these tools with real world LOD data a number of test cases have been documented. See the [tests directory](./tests) for more information.
 
 ## Running the crawler
 
@@ -115,7 +120,6 @@ convert.sh --data {input file} --output {output file`.zip`}
 ```
 
 Because the output file is a zipfile the extension should be set to `.zip`.
-
 
 ## Converting RDF data into different serializations
 
