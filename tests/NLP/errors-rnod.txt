@@ -1,0 +1,1392 @@
+focusNode,message
+http://id.bnportugal.gov.pt/bib/rnod/138982#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/139002#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/139017#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/139698#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/139699#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/139700#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/139701#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140785#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140785#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140786#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140786#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140788#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140788#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140789#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140789#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140790#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140790#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140791#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140791#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140792#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140792#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140793#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140793#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140794#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140794#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/140795#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/140795#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163409#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163409#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163410#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163410#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163411#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163411#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163412#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163412#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163413#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163413#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163414#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163414#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163415#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163415#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163416#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163416#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163417#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163417#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163418#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163418#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163419#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163419#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163420#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163420#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163421#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163421#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163422#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163422#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163423#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163423#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163424#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163424#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163425#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163425#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163426#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163426#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163427#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163427#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163428#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163428#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163429#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163429#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163430#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163430#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163431#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163431#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163432#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163432#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163433#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163433#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163434#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163434#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163435#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163435#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163436#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163436#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163437#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163437#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163438#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163438#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163440#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163440#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163441#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163441#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163442#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163442#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163443#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163443#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163444#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163444#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163445#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163445#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163446#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163446#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163447#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163447#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163448#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163448#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163449#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163449#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163450#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163450#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163451#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163451#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163452#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163452#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/163453#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/163453#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/17837#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/17837#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/17870#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/17870#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192493#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192493#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192524#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192524#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192526#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192526#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192528#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192528#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192530#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192530#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192534#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192534#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192536#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192536#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192538#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192538#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192541#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192541#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192543#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192543#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192547#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192547#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192549#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192549#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192553#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192553#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192603#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192603#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/192641#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/192641#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197838#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197838#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197839#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197839#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197840#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197840#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197841#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197841#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197842#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197842#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197843#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197843#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197844#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197844#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197845#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197845#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197846#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197846#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197847#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197847#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197848#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197848#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197849#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197849#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197850#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197850#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197851#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197851#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197852#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197852#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197853#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197853#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197854#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197854#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197855#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197855#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197856#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197856#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197857#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197857#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197858#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197858#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197859#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197859#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197860#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197860#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197861#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197861#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197862#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197862#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197863#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197863#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197864#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197864#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197865#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197865#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197866#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197866#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197867#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197867#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197868#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197868#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197869#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197869#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197870#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197870#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197871#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197871#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197872#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197872#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197873#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197873#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197874#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197874#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197875#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197875#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197876#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197876#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197877#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197877#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197878#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197878#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197879#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197879#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197880#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197880#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197881#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197881#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197882#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197882#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197883#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197883#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197884#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197884#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197885#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197885#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197886#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197886#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197887#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197887#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197888#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197888#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197889#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197889#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197890#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197890#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197891#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197891#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197892#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197892#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197893#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197893#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197894#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197894#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197895#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197895#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197896#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197896#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197897#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197897#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197898#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197898#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197899#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197899#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197900#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197900#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197901#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197901#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197902#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197902#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197903#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197903#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197904#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197904#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197905#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197905#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197906#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197906#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197907#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197907#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197908#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197908#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197909#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197909#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197910#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197910#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197911#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197911#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197912#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197912#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197913#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197913#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197914#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197914#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197915#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197915#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197916#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197916#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197917#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197917#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197936#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197936#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197937#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197937#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197938#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197938#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197939#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197939#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197940#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197940#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197941#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197941#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197942#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197942#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197943#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197943#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197944#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197944#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197945#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197945#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197946#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197946#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197947#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197947#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197948#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197948#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197949#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197949#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197950#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197950#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197951#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197951#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197952#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197952#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197953#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197953#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197954#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197954#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197955#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197955#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197956#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197956#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197957#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197957#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197958#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197958#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197959#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197959#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197960#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197960#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197961#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197961#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197962#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197962#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197963#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197963#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197964#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197964#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/197965#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/197965#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198029#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198029#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198030#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198030#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198031#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198031#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198032#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198032#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198033#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198033#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198034#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198034#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198035#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198035#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198036#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198036#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198037#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198037#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198038#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198038#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198040#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198040#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198041#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198041#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198042#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198042#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198043#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198043#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198044#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198044#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198045#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198045#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198046#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198046#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198047#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198047#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198048#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198048#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198049#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198049#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198050#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198050#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198051#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198051#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198052#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198052#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198053#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198053#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198055#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198055#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198056#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198056#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198057#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198057#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198058#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198058#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198059#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198059#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198060#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198060#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198061#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198061#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198062#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198062#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198063#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198063#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198064#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198064#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198065#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198065#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198066#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198066#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198067#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198067#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/198068#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/198068#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208526#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208526#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208527#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208527#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208528#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208528#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208529#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208529#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208530#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208530#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208531#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208531#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208532#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208532#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208533#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208533#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208534#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208534#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208535#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208535#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208536#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208536#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208537#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208537#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208538#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208538#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208539#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208539#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208540#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208540#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208541#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208541#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208543#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208543#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208544#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208544#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208545#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208545#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208546#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208546#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208547#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208547#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208548#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208548#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208549#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208549#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208550#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208550#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208551#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208551#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208552#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208552#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208553#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208553#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208554#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208554#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208555#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208555#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208556#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208556#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208557#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208557#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208558#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208558#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208559#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208559#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208560#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208560#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208561#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208561#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208562#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208562#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208563#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208563#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208564#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208564#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208568#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208568#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/208569#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/208569#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210688#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210688#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210689#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210689#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210690#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210690#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210691#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210691#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210692#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210692#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210693#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210693#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210694#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210694#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210695#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210695#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210696#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210696#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210697#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210697#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210698#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210698#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210699#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210699#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210700#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210700#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210701#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210701#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210702#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210702#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210704#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210704#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210705#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210705#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210706#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210706#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210707#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210707#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210708#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210708#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210709#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210709#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210710#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210710#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210711#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210711#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210712#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210712#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210713#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210713#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210714#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210714#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210715#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210715#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210716#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210716#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210717#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210717#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210718#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210718#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210719#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210719#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210720#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210720#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210721#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210721#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210722#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210722#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210723#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210723#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210724#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210724#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210725#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210725#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210726#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210726#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210727#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210727#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210728#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210728#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210729#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210729#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210730#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210730#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210731#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210731#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210732#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210732#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210733#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210733#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210734#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210734#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210735#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210735#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210736#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210736#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210737#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210737#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210738#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210738#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210739#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210739#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210740#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210740#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210837#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210837#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210838#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210838#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210839#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210839#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210840#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210840#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210841#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210841#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210842#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210842#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210843#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210843#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210844#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210844#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210845#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210845#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210846#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210846#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210847#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210847#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210848#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210848#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210849#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210849#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210850#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210850#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210851#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210851#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210852#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210852#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210853#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210853#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210854#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210854#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210855#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210855#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210856#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210856#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210857#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210857#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210858#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210858#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210859#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210859#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210860#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210860#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210861#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210861#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210862#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210862#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210863#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210863#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210864#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210864#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210866#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210866#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210867#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210867#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210868#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210868#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210869#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210869#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210870#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210870#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210871#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210871#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210872#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210872#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210873#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210873#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210874#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210874#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210875#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210875#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210876#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210876#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210877#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210877#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210878#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210878#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210879#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210879#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210880#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210880#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210881#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210881#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210882#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210882#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210883#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210883#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210884#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210884#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210885#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210885#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210886#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210886#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210887#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210887#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210888#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210888#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210889#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210889#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210890#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210890#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210891#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210891#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210892#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210892#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210893#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210893#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210894#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210894#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210895#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210895#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210896#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210896#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210897#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210897#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210898#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210898#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210899#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210899#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210900#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210900#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210901#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210901#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210902#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210902#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210903#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210903#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210904#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210904#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210905#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210905#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210906#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210906#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210907#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210907#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210908#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210908#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210909#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210909#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210910#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210910#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210911#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210911#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210912#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210912#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210913#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210913#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210914#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210914#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210915#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210915#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210916#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210916#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210917#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210917#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210918#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210918#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210919#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210919#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210920#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210920#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210921#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210921#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210927#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210927#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210928#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210928#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210929#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210929#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210930#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210930#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210931#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210931#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210932#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210932#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210933#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210933#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210934#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210934#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210935#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210935#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210936#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210936#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210937#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210937#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210938#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210938#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210939#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210939#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210940#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210940#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210941#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210941#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210942#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210942#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210944#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210944#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210945#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210945#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210946#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210946#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210947#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210947#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210948#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210948#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210949#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210949#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210950#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210950#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210951#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210951#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210952#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210952#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210953#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210953#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210954#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210954#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210955#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210955#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210956#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210956#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210957#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210957#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210958#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210958#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210959#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210959#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210960#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210960#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210961#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210961#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210962#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210962#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210963#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210963#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210964#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210964#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210965#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210965#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210966#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210966#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210982#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210982#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210983#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210983#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210984#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210984#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210985#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210985#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210986#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210986#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210987#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210987#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210988#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210988#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210989#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210989#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210990#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210990#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210991#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210991#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210992#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210992#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210993#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210993#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210994#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210994#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210995#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210995#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210996#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210996#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210997#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210997#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210998#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210998#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/210999#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/210999#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211000#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211000#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211001#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211001#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211002#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211002#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211003#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211003#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211004#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211004#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211005#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211005#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211006#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211006#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211007#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211007#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211008#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211008#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211009#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211009#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211010#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211010#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211011#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211011#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211012#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211012#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211013#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211013#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211014#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211014#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211015#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211015#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211016#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211016#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211017#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211017#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211018#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211018#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211019#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211019#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211020#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211020#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211021#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211021#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211028#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211028#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211295#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211295#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211296#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211296#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211297#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211297#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211298#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211298#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211299#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211299#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211300#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211300#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211301#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211301#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211302#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211302#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211303#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211303#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211304#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211304#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211305#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211305#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211306#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211306#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211307#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211307#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211308#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211308#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211309#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211309#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211310#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211310#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211311#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211311#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211312#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211312#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211313#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211313#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211314#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211314#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211315#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211315#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211316#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211316#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211317#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211317#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211318#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211318#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211319#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211319#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211320#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211320#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211321#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211321#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211322#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211322#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211323#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211323#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211324#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211324#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211325#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211325#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211326#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211326#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211327#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211327#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211328#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211328#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211329#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211329#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211330#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211330#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211331#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211331#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211332#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211332#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211333#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211333#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211334#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211334#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211335#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211335#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211336#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211336#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211337#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211337#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211338#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211338#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211339#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211339#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211340#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211340#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211341#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211341#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211342#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211342#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211343#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211343#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211344#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211344#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211348#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211355#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211357#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211363#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211368#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211369#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211371#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211372#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211373#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211375#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211376#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211377#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211378#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211379#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211380#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211381#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211393#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211401#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211401#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211402#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211402#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211403#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211403#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211404#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211404#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211405#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211405#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211406#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211406#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211407#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211407#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211408#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211408#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211409#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211409#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211410#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211410#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211411#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211411#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211412#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211412#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211413#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211413#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211414#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211414#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211415#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211415#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211416#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211416#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211417#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211417#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211418#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211418#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211419#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211419#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211420#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211420#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211421#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211421#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211422#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211422#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211423#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211423#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211424#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211424#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211425#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211425#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211426#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211426#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211427#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211427#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211428#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211428#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211429#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211429#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211430#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211430#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211431#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211431#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211432#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211432#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211433#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211433#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211434#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211434#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211435#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211435#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211436#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211436#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211437#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211437#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211438#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211438#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211439#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211439#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211440#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211440#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211441#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211441#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211442#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211442#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211443#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211443#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211444#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211444#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211445#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211445#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211446#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211446#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211447#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211447#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211448#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211448#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211449#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211449#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211450#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211450#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211451#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211451#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211452#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211452#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211453#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211453#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211454#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211454#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211455#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211455#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211456#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211456#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211457#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211457#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211458#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211458#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211459#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211459#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211460#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211460#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211461#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211461#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211462#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211462#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211463#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211463#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211464#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211464#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211465#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211465#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211466#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211466#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211467#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211467#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211468#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211468#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211469#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211469#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211470#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211470#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211471#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211471#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211472#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211472#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211473#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211473#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211474#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211474#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211475#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211475#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211476#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211476#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211477#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211477#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211478#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211478#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211479#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211479#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211480#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211480#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211481#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211481#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211482#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211482#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211483#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211483#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211484#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211484#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211485#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211485#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211486#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211486#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211487#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211487#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211488#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211488#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211489#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211489#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211490#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211490#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211491#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211491#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211492#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211492#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211493#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211493#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211494#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211494#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211495#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211495#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211496#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211496#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211497#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211497#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211498#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211498#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211499#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211499#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211500#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211500#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211502#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211502#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211503#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211503#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211504#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211504#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211505#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211505#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211506#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211506#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211507#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211507#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211508#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211508#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211509#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211509#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211510#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211510#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211511#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211511#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211512#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211512#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211513#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211513#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211514#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211514#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211515#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211515#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211516#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211516#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211517#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211517#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211518#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211518#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211530#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211530#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211531#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211531#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211532#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211532#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211533#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211533#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211534#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211534#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211535#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211535#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211536#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211536#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211537#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211537#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211538#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211538#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211539#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211539#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211540#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211540#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211541#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211541#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211542#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211542#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211543#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211543#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211544#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211544#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211545#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211545#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211546#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211546#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211547#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211547#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211929#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211929#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211930#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211930#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/211931#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/211931#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/213079,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213079>
+http://id.bnportugal.gov.pt/bib/rnod/213146,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213146>
+http://id.bnportugal.gov.pt/bib/rnod/213193,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213193>
+http://id.bnportugal.gov.pt/bib/rnod/213204,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213204>
+http://id.bnportugal.gov.pt/bib/rnod/213219,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213219>
+http://id.bnportugal.gov.pt/bib/rnod/213261,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213261>
+http://id.bnportugal.gov.pt/bib/rnod/213311,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213311>
+http://id.bnportugal.gov.pt/bib/rnod/213314,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/213314>
+http://id.bnportugal.gov.pt/bib/rnod/213416#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/213416#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/219462,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/219462>
+http://id.bnportugal.gov.pt/bib/rnod/219463,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/219463>
+http://id.bnportugal.gov.pt/bib/rnod/227238,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/227238>
+http://id.bnportugal.gov.pt/bib/rnod/237562#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/237562#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/286060#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/29129,Node at focusNode <http://id.bnportugal.gov.pt/bib/rnod/29129>
+http://id.bnportugal.gov.pt/bib/rnod/42605#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/42605#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50829#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/50829#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50832#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50833#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50834#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50835#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50836#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50837#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50838#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50839#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50840#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50841#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50842#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50843#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50844#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50845#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50846#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50847#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50848#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/50848#aggregation,Missing or invalid value for edm:rights
+http://id.bnportugal.gov.pt/bib/rnod/50849#aggregation,At least one the following properties should be present: edm:isShownAt or edm:isShownBy
+http://id.bnportugal.gov.pt/bib/rnod/50849#aggregation,Missing or invalid value for edm:rights

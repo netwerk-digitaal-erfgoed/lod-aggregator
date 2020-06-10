@@ -7,4 +7,4 @@ do
 done
 export CLASSPATH=$CLASSPATH
 
-java -Djava.util.logging.config.file="logging.properties" -Dsun.net.inetaddr.ttl=0 -Xmx16G -cp classes:$CLASSPATH eu.europeana.commonculture.lod.crawler.CommandLineInterface $*
+java -Djava.util.logging.config.file="logging.properties" -Dsun.net.inetaddr.ttl=0 $JVM_ARGS -cp classes:$CLASSPATH eu.europeana.commonculture.lod.crawler.CommandLineInterface $*

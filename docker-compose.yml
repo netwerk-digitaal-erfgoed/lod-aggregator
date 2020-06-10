@@ -6,7 +6,7 @@ services:
     container_name: crawler
     environment:
       TOOL: crawl
-      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/scripts
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
     restart: always
     volumes:
       - .:/opt
@@ -17,7 +17,7 @@ services:
     container_name: convert
     environment:
       TOOL: convert
-      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/scripts
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
     restart: always
     volumes:
       - .:/opt
@@ -27,7 +27,7 @@ services:
     container_name: validate
     environment:
       TOOL: validate
-      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/bin
     restart: always
     volumes:
       - .:/opt
@@ -37,7 +37,7 @@ services:
     container_name: map
     environment:
       TOOL: map
-      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/bin
     restart: always
     volumes:
       - .:/opt
@@ -47,7 +47,7 @@ services:
     container_name: serialize
     environment:
       TOOL: serialize
-      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/scripts
+      PATH: /usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/jena/bin:/opt/bin
     restart: always
     volumes:
       - .:/opt

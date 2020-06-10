@@ -31,10 +31,17 @@ After cloning the repository only a build of the crawl service is required. Use 
 docker-compose build --no-cache crawl
 ```
 
-No further configuration is needed. See [docker-compose.yaml](./docker-compose.yaml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (`sparql` and `shacl`) are being called.
+**Important**
 
-**Note:**
-All services are run in containers started by the `docker-compose run` command. In order to prevent docker from creating files owned by root on your filesystem specify the `--user UID:GID` option when running the docker-compose command. UID:GID should match your current account settings (in this documentation 1000:1000 is used as an example).
+Run the following command **each time** you start a new session: 
+
+```bash
+source bin/setpath
+```
+
+This will add ./bin path to your $PATH so you can run the commands without prefixing them.
+
+No further configuration is needed. See [docker-compose.yaml](./docker-compose.yaml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (`sparql` and `shacl`) are being called.
 
 ## General workflow
 
@@ -46,25 +53,24 @@ For a generic harvesting process the following tasks should be performed:
 
 3. run the **validate service** to validate the generated EDM data
 
+4. run the **convert service** to prepare the data for ingesting into Europeana
+
 Optional steps:
 
 - run the **craw** and **validate service** to download and check only the dataset description
 - run the **serialize service** to transform the RDF from one serialization (N-Triples, RDF/XML, Turtle) into another
-- zip the datasets for efficient transportation (depending on the tools on your OS)
+
 
 ### Documented test runs
 
-In order to demonstrate the use of these tools with real world LOD data a number of test cases have been documented. See the [test directory](./test) for more information.
+In order to demonstrate the use of these tools with real world LOD data a number of test cases have been documented. See the [test directory](./tests) for more information.
 
 ## Running the crawler
 
 Run the crawler using the following command:
 
 ```bash
-docker-compose run --rm --user 1000:1000 crawl starter.sh \
-  --dataset-uri {dataset URI}\
-  --output {output filename}\
-  [--description_only]
+crawl.sh --dataset-uri {dataset URI} --output {output filename} [--description_only]
 ```
 
 To download **only the dataset description** found at the URI of the dataset use the option `--description-only`.
@@ -76,61 +82,47 @@ Check the `crawler.log` logfile in the `data` dir for the results of the crawl p
 Run the mapper tool to convert the downloaded Linked Data into an output format using a SPARQL CONSTRUCT query. The default configuration is based on converting data in schema.org format to EDM. The generic sparql query in `schema2edm.rq` takes care of this, see the [queries dir](./queries) for more information.
 
 ```bash
-docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data {data file} \
-  --query {query file} \
-  --output {output file} \
-  [--provider { provider name } ] \
-  [--format {serialization format}]
+map.sh --data {data file} --output {output file} \
+  [ --query {query file} ] \
+  [ --format {serialization format} ] \
+  [ --provider { provider name } ]
 ```
 
-The default serialization is `RDF/XML` as this is the preferred format for delivery to Europeana. This can be overruled with `--output <format>` option. See the [starter.sh script](./scripts/starter.sh) for the available serialization formats.
+The default query file used is `schema2edm.rq`. For fixing input data or mapping from other formats to EDM you can provide your own sparql construct query.
+
+The default serialization is `RDF/XML` as this is the preferred format for delivery to Europeana. This can be overruled with `--format <format>` option. See the [starter.sh script](./scripts/starter.sh) for the available serialization formats.
+
+The provider option sets the `edm:provider` property, if not specified it is derived from the VAR_PROVIDER variable set in `.env`.
 
 ## Running the validator
 
 Run the validator using the following command:
 
 ```bash
-docker-compose run --rm --user 1000:1000 validate starter.sh \
-  --data {data file} \
-  --shape {shape file} \
-  --output {result file}
+validate.sh --data {data file} [ --shape {shape file} ]
 ```
 
-The result file is a formal SHACL validation report written in Turtle and can be found in the `data` dir. See the [shapes dir](./shapes) for more info on the available shape files and tools for testing and debugging shape files.
+The default shape file is `shacl_edm.ttl` and checks the data according to the EDM specifications. 
 
-### Export validation results to CSV
+The result of the validation is written to `errors.txt`. 
 
-For further processing a CSV containing the results of a validation run can be created with the following command:
+## Prepare the data for delivery to Europeana 
+
+The Europeana import proces is XML based so the data also needs to comply with certain XML constraints. The following command takes care of this. The result is a zipfile containing seperate records for each resource.
 
 ```bash
-docker-compose run --rm --user 1000:1000 map starter.sh \
-  --data {validation report} \
-  --query list-errors.rq \
-  --format CSV \
-  --output errors.csv
+convert.sh --data {input file} --output {output file`.zip`}
 ```
+
+Because the output file is a zipfile the extension should be set to `.zip`.
+
 
 ## Converting RDF data into different serializations
 
 For debugging and testing it can be helpful to convert RDF into other serialization formats using this command:
 
 ```bash
-docker-compose run --rm --user 1000:1000 serialize starter.sh \
-  --data {input file} \
-[ --format {RDF format} ] \
-  --output {output file}
+serialize.sh --data {input file} --format {RDF format} --output {output file}
 ```
 
-See the [starter.sh](./scripts/starter.sh) script for a full list of `format` options. The default format is Turtle.
-
-## Creating a zip file
-
-Zip the result for transport to Europeana:
-
-```bash
-# note the ./data in this command!
-gzip ./data/{file name}
-```
-
-The result can be found in the `data` dir with the extension `.gz`
+See the [starter.sh](./scripts/starter.sh) script for a full list of `format` options.

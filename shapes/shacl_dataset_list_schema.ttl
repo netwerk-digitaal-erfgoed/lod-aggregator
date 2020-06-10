@@ -17,7 +17,7 @@ ex:dataset_list a sh:NodeShape ;
     sh:path schema:name ;
     sh:nodeKind sh:Literal ;
     sh:minCount 1; 
-    sh:message "missing or invalid 'title'"] ;
+    sh:message "missing or invalid 'schema:name'"] ;
 
   # a machine readable license is required 
   sh:property [
@@ -25,7 +25,7 @@ ex:dataset_list a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
     sh:minCount 1 ;
     sh:maxCount 1 ;
-    sh:message "missing or invalid 'license' IRI value"] ;
+    sh:message "missing or invalid 'schema:license'"] ;
 
   # and one or more RDF resources should be listed using the void:rootResource property
   sh:property [
