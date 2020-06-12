@@ -139,7 +139,7 @@ public class EdmRdfToXmlSerializer {
 				predicateEl.setTextContent(litStr);
 //	            predicateEl.setTextContent(((Literal)object).getString());
                 if(!StringUtils.isEmpty(((Literal)object).getLanguage()))
-	                predicateEl.setAttributeNS(RdfReg.NsXml, "lang", ((Literal)object).getLanguage());
+	                predicateEl.setAttributeNS(RdfReg.NsXml, "xml:lang", ((Literal)object).getLanguage());
                 if(!discardDataTypes)
 	            	if(((Literal)object).getDatatype()!=null && !((Literal)object).getDatatype().getURI().equals("http://www.w3.org/2001/XMLSchema#string"))
 		                predicateEl.setAttributeNS(Rdf.NS, "rdf:datatype", ((Literal)object).getDatatype().toString());
