@@ -55,5 +55,6 @@ ex:Aggregation a sh:NodeShape ;
     sh:message "Missing or invalid value for edm:rights"];
   sh:property [  
     sh:path [ sh:alternativePath (edm:isShownAt edm:isShownBy)];
+    sh:nodeKind sh:IRI ;
     sh:minCount 1 ; 
-    sh:message "At least one the following properties should be present: edm:isShownAt or edm:isShownBy"].
+    sh:message "At least one the following properties should be present: edm:isShownAt or edm:isShownBy and should have a valid URI"].

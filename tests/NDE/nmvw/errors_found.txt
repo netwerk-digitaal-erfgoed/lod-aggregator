@@ -1,0 +1,16 @@
+# fix invalid RDF field <ehibition>
+sed -i 's|exhibition|http://schema.org/isPartOf|g' nmvw.nt
+
+Two clusters of 'koepelrecords' with no information, removed with these commands:
+
+# delete "Koepelrecord RV-13787 Foto archiefkaarten"
+sed -i '/1045099/d' nmvw.nt
+
+# delete "Koepelrecord RV-13788 diazichtkasten
+sed -i '/1045100/d' nmvw.nt
+
+614 records with insufficient information, see validation_errors.txt
+
+11 complains about Unicode, see converter.log for full list, example error:
+{W131} String not in Unicode Normal Form C: 
+"Typische zwarte mannenhoed die nu bekend staat als 'kat', maar waarvan de precieze benaming ‘hŭngnip’....

@@ -1,0 +1,12 @@
+<http://cclod.netwerkdigitaalerfgoed.nl/nmvw-description.ttl>
+        <http://schema.org/name>      "Nationaal Museum voor Wereldculturen"@nl ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://schema.org/Dataset> ;
+        <http://schema.org/license>   <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        <http://schema.org/provider>  "Nationaal Museum voor Wereldculturen" ;
+        <http://schema.org/distribution>  <http://cclod.netwerkdigitaalerfgoed.nl/nmvw-description.ttl#distribution> .
+
+<http://cclod.netwerkdigitaalerfgoed.nl/nmvw-description.ttl#distribution>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://schema.org/DataDownload> ;
+        <http://schema.org/contentUrl>  <http://collectie.wereldculturen.nl/downloads/XMLRDFobjects.zip> ;
+        <http://schema.org/encodingFormat>  "application/rdf+xml" ;
+        <http://schema.org/license>     <http://creativecommons.org/publicdomain/mark/1.0/> .

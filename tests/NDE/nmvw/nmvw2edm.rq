@@ -1,0 +1,86 @@
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX schema:  <http://schema.org/>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms/>
+
+CONSTRUCT {
+    ?uri_cho a edm:ProvidedCHO ;
+         edm:type ?edm_type ;
+         dc:creator ?creator ;
+         dc:description ?description ;
+         dc:type ?dc_type ;
+         dc:subject ?uri_subject ;
+         dc:title ?title ;
+         dcterms:spatial ?uri_spatial ;
+         dcterms:temporal ?temporal ;
+         dcterms:extent ?extent ;
+         dcterms:medium ?material .   
+
+    ?uri_ore a ore:Aggregation ;
+         edm:aggregatedCHO ?uri_cho ;
+         edm:provider ?provider ;
+         edm:dataProvider ?dataProvider ;
+         edm:rights ?license ;
+         edm:isShownBy ?isShownBy ;
+         edm:isShownAt ?url .
+
+     #?uri_thes a skos:Concept ;
+     #    skos:prefLabel ?prefLabel ;
+     #    skos:broader ?broader ;
+     #    skos:altLabel ?altLabel ; 
+     #    skos:exactMatch ?exactMatch ;
+     #    skos:inScheme ?inScheme ;
+     #    skos:narrower ?narrower ;
+     #    skos:notation ?notation ;
+     #    skos:note ?note .
+}
+WHERE {
+     {
+      ?uri_cho a dcterms:PhysicalResource ;
+               edm:type ?edm_type ;        
+               edm:isShownAt ?url ;
+               edm:isShownBy ?isShownBy ;
+               edm:provider ?dataProvider .
+
+      # Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource. 
+      BIND( URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
+
+      # NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
+      # Europeana requires the provider value to be specified through the aggregation process.
+      BIND( STR('VAR_PROVIDER') as ?provider)
+
+      OPTIONAL { ?uri_cho dc:creator ?creator }
+      OPTIONAL { ?uri_cho dc:description ?description }
+      OPTIONAL { ?uri_cho dc:subject ?uri_subject }
+      OPTIONAL { ?uri_cho edm:object ?uri_subject }
+      OPTIONAL { ?uri_cho dc:title ?name }
+      OPTIONAL { ?uri_cho edm:rights ?license }
+      OPTIONAL { ?uri_cho dcterms:extent ?extent }
+      OPTIONAL { ?uri_cho dc:type ?dc_type }
+      OPTIONAL { ?uri_cho dcterms:spatial ?uri_spatial }
+      OPTIONAL { ?uri_cho dcterms:created ?temporal }
+      OPTIONAL { ?uri_cho dcterms:medium ?material }
+      BIND( IF(BOUND(?name),?name,"geen titel") as ?title )
+    }  
+    UNION{
+      # optional mapping of the thesaurus 
+      # no mapping needed here because the thesaurus is fully compliant with Europeana mapping rules
+      #?uri_thes a skos:Concept .
+      #OPTIONAL { ?uri_thes skos:broader ?broader }
+      #OPTIONAL { ?uri_thes skos:altLabel ?altLabel }
+      #OPTIONAL { ?uri_thes skos:exactMatch ?exactMatch }
+      #OPTIONAL { ?uri_thes skos:inScheme ?inScheme }
+      #OPTIONAL { ?uri_thes skos:narrower ?narrower }
+      #OPTIONAL { ?uri_thes skos:notation ?notation }
+      #OPTIONAL { ?uri_thes skos:note ?note }
+      #OPTIONAL { ?uri_thes skos:prefLabel ?prefLabel }
+    }
+}
+
+	
