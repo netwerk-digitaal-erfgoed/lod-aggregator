@@ -7,7 +7,7 @@ The dataset description was constructed and published for testing purposes. The 
 ## Download the dataset
 
 ```bash
-crawl.sh --dataset-uri http://data.bibliotheken.nl/id/dataset/rise-centsprenten --output centsprenten.nt
+crawl.sh --dataset-uri <http://cclod.netwerkdigitaalerfgoed.nl/nmvw-description.ttl> --output nmvw.nt
 ```
 
 The crawler.log complained about an invalid property `<exhibition>`. Inspecting the data showed that there was a long list of stale resources without any data connected to it. Both problems were fixed by editing the download file use the `sed` tool from the command line. See the file `errors_found.txt` for details.  

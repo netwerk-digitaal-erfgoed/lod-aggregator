@@ -10,7 +10,7 @@ To learn more on RDF validation in general and the details of ShEX and SHACL lan
 
 The main validation step is checking the converted Linked Data to check on compliance with the [Europeana Data Model defintions](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation//EDM_Definition_v5.2.8_102017.pdf). The default `shacl_edm.ttl` shape file validates the EDM on the requirements specified by Europeana.
 
-Before crawling the complete data a validation of the dataset description is recommended to test the validity of the dataset description. The requirements for dataset descriptions that can be processed by the lod-aggregator are described in [Specifying a linked data dataset for Europeana and aggregators](https://docs.google.com/document/d/1ffQt8LyHuldWMbFr79HEZ-_vQUVpcNqaCOAqzN12ycg).
+Before crawling the complete data a validation of the dataset description is recommended to test the validity of the dataset description. The requirements for dataset descriptions that can be processed by the lod-aggregator are described in [Specifying a linked data dataset for Europeana and aggregators](https://zenodo.org/record/3817314).
 
 For checking the description against these requirements one of the available SHACL shape files can be used. Depending on the **distribution type** _list, dump, query_ and **used vocabulary** _VOID, DCAT, Schema.org_ for the dataset.
 The naming sequence is as follows: `shape_dataset_{distribution type}_{schema type}.ttl`.

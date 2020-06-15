@@ -22,7 +22,6 @@ CONSTRUCT {
          owl:sameAs ?sameAs ;
          dcterms:spatial ?spatial ;
          dcterms:temporal ?temporal ;
-         dc:language "el" ;
          dcterms:medium ?material .   
 
     ?uri_ore a ore:Aggregation ;
@@ -76,7 +75,7 @@ WHERE {
                }
       OPTIONAL { ?uri_cho schema:keywords ?subject }
       OPTIONAL { ?uri_cho schema:about ?subject }
-      OPTIONAL { ?uri_cho schema:license ?license }
+      OPTIONAL { ?uri_cho schema:license ?cho_license }
       OPTIONAL { ?uri_cho schema:name ?name }
       OPTIONAL { ?uri_cho schema:alternateName ?altName }
       OPTIONAL { 
@@ -85,9 +84,9 @@ WHERE {
          ?dataset schema:provider ?dataProvider . 
       }
       OPTIONAL { 
-         # use a default the license statement mentioned in the dataset description, if any...
+         # use as default the license statement mentioned in the dataset description, if any...
          ?dataset void:rootResource ?uri_cho .
-         ?dataset schema:license ?license .
+         ?dataset schema:license ?dataset_license .
       }
       OPTIONAL { 
          # use the provider from the resource description
@@ -108,6 +107,7 @@ WHERE {
         ?uri_cho schema:image ?image
         BIND(IRI(?image) as ?isShownBy)
       }
+      BIND(COALESCE(IRI(?cho_license),IRI(?dataset_license),"no license info") as ?license)
     }
     UNION 
     {

@@ -50,7 +50,7 @@ ex:Aggregation a sh:NodeShape ;
     sh:message "Missing or invalid value for edm:dataProvider" ];
   sh:property [
     sh:path edm:rights ;
-    sh:nodeKind sh:IRIOrLiteral ;
+    sh:nodeKind sh:IRI ;
     sh:minCount 1 ;
     sh:message "Missing or invalid value for edm:rights"];
   sh:property [  
