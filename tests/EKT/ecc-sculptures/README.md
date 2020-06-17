@@ -24,8 +24,10 @@ According to `errors.txt` the validation was succesful.
 
 Next step was doing the actual conversion of the resources.
 
+Note: The conversion ran into errors because of illegal encoding of unicode characters (use of lower case instead of uppercase for %xx characters). We fixed this by adding a hack to the sparql query. See `ecc-ucfix2edm.rq` for more details. Normally the (data)provider would be asked to fix the non-compliant URIs ofcourse.
+
 ```bash
-map.sh --data ecc-sculptures.nt --output ecc-sculptures-edm.rdf
+map.sh --data ecc-sculptures.nt --query ecc-ucfix2edm.rq --output ecc-sculptures-edm.rdf
 ```
 
 Note: in `.env` `VAR_PROVIDER` was set to 'EKT' to set the `edm:provider` property in this query.

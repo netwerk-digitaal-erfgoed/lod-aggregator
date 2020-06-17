@@ -1,0 +1,146 @@
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX schema:  <http://schema.org/>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms/>
+
+CONSTRUCT {
+    ?uri_cho a edm:ProvidedCHO ;
+         edm:type ?edm_type ;
+         dc:creator ?creator ;
+         dc:description ?description ;
+         dc:type ?genre ;
+         dc:subject ?subject ;
+         dc:title ?name ;
+         dcterms:alternative ?altName ;
+         dc:publisher ?publisher ;
+         owl:sameAs ?sameAs ;
+         dcterms:spatial ?spatial ;
+         dcterms:temporal ?temporal ;
+         dcterms:medium ?material .   
+
+    ?uri_ore a ore:Aggregation ;
+         edm:aggregatedCHO ?uri_cho ;
+         edm:provider ?provider ;
+         edm:dataProvider ?dataProvider ;
+         edm:rights ?license ;
+         edm:isShownBy ?isShownBy ;
+         edm:isShownAt ?isShownAt .
+
+    ?uri_org a edm:Agent ;
+         skos:prefLabel ?org_name ;
+         skos:note ?org_description .
+
+    ?uri_pers a edm:Agent ;
+         skos:prefLabel ?pers_name ;
+         skos:altLabel ?pers_additionalName ;
+         edm:begin ?pers_birthDate ;
+         edm:end ?pers_deathDate .
+
+    ?uri_pl a edm:Place ;
+        skos:prefLabel ?pl_name ;
+        skos:altLabel ?pl_additionalName ;
+        owl:sameAs ?pl_sameAs .
+}
+WHERE {
+    {
+      {
+	    ?uri_cho a ?type .
+        VALUES ?type { schema:Sculpture schema:VisualArtwork schema:Painting schema:Photograph }
+        BIND(("IMAGE") as ?edm_type)
+      }
+      UNION 
+      {
+        ?uri_cho a schema:Book .
+        BIND(("TEXT") as ?edm_type)
+      }
+
+      # Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource. 
+      BIND( URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
+
+      # NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
+      # Europeana requires the provider value to be specified through the aggregation process.
+      BIND( STR('VAR_PROVIDER') as ?provider)
+
+      OPTIONAL { ?uri_cho schema:creator ?creator }
+      OPTIONAL { ?uri_cho schema:description ?description }
+      OPTIONAL { ?uri_cho schema:genre ?genre . 
+                FILTER (lang( ?genre) = "en")
+                BIND(str(?genre) as ?dc_genre)
+               }
+      OPTIONAL { ?uri_cho schema:keywords ?subject }
+      OPTIONAL { ?uri_cho schema:about ?subject }
+      OPTIONAL { ?uri_cho schema:license ?cho_license }
+      OPTIONAL { ?uri_cho schema:name ?name }
+      OPTIONAL { ?uri_cho schema:alternateName ?altName }
+      OPTIONAL { 
+         # use a default the provider mentioned in the dataset description, if any...
+         ?dataset void:rootResource ?uri_cho .
+         ?dataset schema:provider ?dataProvider . 
+      }
+      OPTIONAL { 
+         # use as default the license statement mentioned in the dataset description, if any...
+         ?dataset void:rootResource ?uri_cho .
+         ?dataset schema:license ?dataset_license .
+      }
+      OPTIONAL { 
+         # use the provider from the resource description
+         ?uri_cho schema:provider ?dataProvider 
+      }
+      OPTIONAL { ?uri_cho schema:publisher ?publisher }
+      OPTIONAL { ?uri_cho schema:sameAs ?sameAs }
+      OPTIONAL { ?uri_cho schema:spatial ?spatial }
+      OPTIONAL { ?uri_cho schema:temporal ?temporal }
+      OPTIONAL { ?uri_cho schema:material ?material }
+      OPTIONAL {
+        # Europeana requires valid URI for edm:isShownAt 
+        #
+        # Below an extremly dirty hack to fix some invalid Unicode URIs in the input data 
+        # for example: "https://www.averoffmuseum.gr/%cf%80%cf%81.....
+        # "%" encoded Unicode characters should be in UPPERCASE according to the standards
+        # the jena sparql throws an error on this but appears to process it anyway?
+        # so we split the url and force uppercase on the location part
+        #
+        # Normaly the input data should be fixed by the provider of course!!
+        #
+        ?uri_cho schema:url ?raw_url 
+        BIND(STRAFTER(STRAFTER(?raw_url,"//"),"/") as ?adr)
+        BIND(STRBEFORE(?raw_url,?adr) as ?dn)
+        BIND(IF(CONTAINS(?adr,"%"),CONCAT(?dn,UCASE(?adr)),?raw_url) as ?url )
+        BIND(IRI(?url) as ?isShownAt)  
+      }
+      OPTIONAL {
+        # Europeana requires valid URI for edm:isShownBy 
+        ?uri_cho schema:image ?image
+        BIND(IRI(?image) as ?isShownBy)
+      }
+      BIND(COALESCE(IRI(?cho_license),IRI(?dataset_license),"no license info") as ?license)
+    }
+    UNION 
+    {
+	    ?uri_org a schema:Organization .
+        OPTIONAL { ?uri_org schema:name ?org_name }
+        OPTIONAL { ?uri_org schema:description ?org_desc }
+    }
+    UNION
+    {
+	    ?uri_pers a schema:Person .
+        OPTIONAL { ?uri_pers schema:name ?pers_name }
+        OPTIONAL { ?uri_pers schema:additionalName ?pers_additionalName }
+        OPTIONAL { ?uri_pers schema:birthDate ?pers_birthDate }
+        OPTIONAL { ?uri_pers schema:deathDate ?pers_deathDate }
+        OPTIONAL { ?uri_pers schema:description ?pers_desc }        
+    }
+    UNION
+    {
+	    ?uri_pl a schema:Place .
+        OPTIONAL { ?uri_pl schema:name ?pl_name }
+        OPTIONAL { ?uri_pl schema:alternateName ?pl_alternateName }
+        OPTIONAL { ?uri_pl schema:sameAs ?pl_sameAs }        
+    }
+}
