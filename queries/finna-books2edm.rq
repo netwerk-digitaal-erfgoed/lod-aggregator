@@ -1,0 +1,94 @@
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX schema:  <http://schema.org/>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms/>
+PREFIX bf:      <http://id.loc.gov/ontologies/bibframe/>
+
+CONSTRUCT {
+    ?inst a edm:ProvidedCHO ;
+         edm:type ?edm_type ;
+         dc:identifier ?identifier ;
+         dc:creator ?creator ;
+         dc:contributor ?contributor ;
+         dc:description ?description ;
+         dc:subject ?subject ;
+         dc:title ?name ;
+         dc:publisher ?publisher ;
+         dc:date ?date ;
+         dc:extent ?extent ;
+         dc:language ?language ;
+         dcterms:isPartOf ?isPartOf ;
+         owl:sameAs ?sameAs ;
+         dcterms:spatial ?spatial ;
+         dcterms:temporal ?temporal ;
+         dcterms:medium ?material .   
+
+    ?inst_aggr a ore:Aggregation ;
+         edm:aggregatedCHO ?inst ;
+         edm:provider ?provider ;
+         edm:dataProvider ?dataProvider ;
+         edm:rights ?license ;
+         edm:isShownAt ?url .
+
+    ?thes_uri a skos:Concept ;
+              skos:prefLabel ?prefLabel .
+
+#    ?uri_org a edm:Agent ;
+#         skos:prefLabel ?org_name ;
+#         skos:note ?org_description .
+}
+WHERE {
+    {
+      # treat instances of type schema:Book with a digital representation as CHO
+      ?inst a bf:Instance .
+      ?inst a schema:Book .
+      BIND(("TEXT") as ?edm_type)
+    
+      # make sure we have only instances with a valid IRI
+      ?inst schema:url ?url .
+      FILTER (ISIRI(?url))
+
+      # Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource. 
+      BIND( URI(CONCAT(STR(?inst),"#agg")) as ?inst_aggr)
+
+      # NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
+      # Europeana requires the provider value to be specified through the aggregation process.
+      BIND( STR('VAR_PROVIDER') as ?provider)
+      BIND( STR('VAR_PROVIDER') as ?dataProvider)
+
+      # The license statement is missing from the aggregated work and instances resources
+      # so we assume this CC license is appropriate??
+      BIND(IRI("http://creativecommons.org/licenses/by-nc-nd/4.0/") as ?license)
+
+      # identify the worklevel 
+      ?inst schema:exampleOfWork ?work .
+
+      # map the properties from the instance level
+      OPTIONAL { ?inst schema:identifier ?identifier }
+      OPTIONAL { ?inst schema:isbn ?identifier }
+      OPTIONAL { ?inst schema:issn ?identifier }
+      OPTIONAL { ?inst schema:description ?description }
+      OPTIONAL { ?inst schema:name ?name }
+      OPTIONAL { ?inst schema:publisher ?publisher }
+      OPTIONAL { ?inst schema:sameAs ?sameAs }
+      OPTIONAL { ?inst schema:datePublished ?date }
+      OPTIONAL { ?inst schema:isPartOf ?isPartOf }
+      OPTIONAL { ?inst schema:numberOfPages ?extent }
+
+      # map the properties from the work level
+      OPTIONAL { ?work schema:about ?subject }
+      OPTIONAL { ?work schema:author ?creator }
+      OPTIONAL { ?work schema:contributor ?contributor }
+      OPTIONAL { ?work schema:inLanguage ?language }
+    }
+    UNION {
+      ?thes_uri skos:prefLabel ?prefLabel
+    }
+      
+}

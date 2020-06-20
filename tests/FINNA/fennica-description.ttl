@@ -1,0 +1,35 @@
+@base <http://data.nationallibrary.fi/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://cclod.netwerkdigitaalerfgoed.nl/fennica.ttl>
+    dcterms:title "Fennica – The Finnish National Bibliography"@en ;
+    a dcat:Dataset ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        prov:wasGeneratedBy [
+            a schema:SearchAction ;
+            schema:query """
+              PREFIX schema: <http://schema.org/>
+              PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+              SELECT distinct ?instance {
+                ?instance a schema:Book .
+                ?instance schema:url ?url . # must have a digital instance
+                ?instance schema:exampleOfWork ?work .
+                ?work schema:about ?about . # must have a subject/topic
+                FILTER (!ISBLANK(?about))
+                FILTER (!ISBLANK(?url))
+              }
+	    """ ;
+            prov:used <http://data.nationallibrary.fi>
+        ] 
+    ] .
+    
+<http://data.nationallibrary.fi>
+    dcterms:conformsTo <http://www.w3.org/TR/sparql11-query/> ;
+    a <dcat:Dataservice>, <prov:Entity> ;
+    dcat:endpointURL <http://data.nationallibrary.fi/bib/sparql> .
