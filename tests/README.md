@@ -2,21 +2,43 @@
 
 ## Test runs to illustrate the working of the tools
 
-_Work in progress!_
-
-In this test dir the following test runs will be documented:
+In the `tests` directory the following test runs are documented:
 
 * Datasets from the Greek National Aggregator (EKT)
   
-1. [books dataset](./EKT/ecc-books)
-2. [sculptures dataset](./EKT/ecc-sculptures)
-3. [paintings dataset](./EKT/ecc-paintings)
-4. [photographs dataset](./EKT/ecc-photographs)
+  * [Books sample dataset](./EKT/ecc-books)
+  * [Sculptures sample dataset](./EKT/ecc-sculptures)
+  * [Paintings sample dataset](./EKT/ecc-paintings)
+  * [Photographs sample dataset](./EKT/ecc-photographs)
 
 * Dataset from the Dutch Digital Heritage Network (NDE)
 
-1. [National Library - Centsprenten dataset](./NDE/kb-centsprenten)
+  * [National Library - Centsprenten dataset](./NDE/kb-centsprenten)
+  * [Nationaal Museum van Wereldculturen - Collection dataset](./NDE/nmvw)
 
 * Dataset from the National Library of Portugal (BNP)
   
-1. [Registo Nacional de Obras Digitais (RNOD)](./NLP/bnp-rnod)
+  * [Registo Nacional de Obras Digitais (RNOD)](./NLP/bnp-rnod)
+
+* Dataset from the Finnish National Library (FINNA)
+
+  * [E-books Finnisch National Library](./FINNA)
+
+Quantative test results:
+
+Provider | dataset name | crawl type | # triples | size	| crawling time (sec) | # crawled resources | 	mapping time (sec)
+---------|--------------|------------|-----------|------|---------------------|---------------------|------------------
+EKT | ecc-books | dump | 1416 | 420K | 26.87 | 1? | 0.387
+EKT | ecc-sculptures | dump | 1152 | 366K | 25.98 | 1? | 0.367
+EKT | ecc-photographes | dump | 1113 | 296K | 26.09 | 1? | 0.414
+EKT | ecc-paintings | dump | 1136 | 370K | 25.75 | 1? | 0.372
+NDE | kb-centsprenten | links | 41977 | 5.4M | 633.15 | 1255 | 3.44
+NDE | nmvw | dump | 14.945.723 | 2.0 G | 108.28 | 1 | 531.4
+NLP | rnod | dump | 3.030.649 | 390M | 175,7 | 1 | no conversion needed
+FINNA | fennica | sparql | 33.967.718 | 4.4G | 24646 | 48216 | 281.13
+
+* tests run on laptop with i7-8550U CPU / 1.80GHz / 8-core | 16Gb Memory 
+JVM run with `-Xmx12G` option
+* \# triples measured  with `wc -l` on .nt file
+* crawling time measured with bash `time` prefix
+* mapping time measured through jena sparql `-time` option
