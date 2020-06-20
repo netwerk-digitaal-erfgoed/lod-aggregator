@@ -1,4 +1,4 @@
-# Test run with the KB-Centsprenten dataset
+# Test run with the Fennica dataset from Finish National Library
 
 Temporary URL of the dataset description <http://cclod.netwerkdigitaalerfgoed.nl/fennica.ttl>
 

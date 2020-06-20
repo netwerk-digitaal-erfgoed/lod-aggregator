@@ -12,7 +12,7 @@ crawl.sh --dataset-uri <http://cclod.netwerkdigitaalerfgoed.nl/nmvw-description.
 
 The crawler.log complained about an invalid property `<exhibition>`. Inspecting the data showed that there was a long list of stale resources without any data connected to it. Both problems were fixed by editing the download file use the `sed` tool from the command line. See the file `errors_found.txt` for details.  
 
-## Map the schema.org data to EDM data
+## Map the input data to EDM 
 
 Next step was doing the actual conversion of the resources.
 
