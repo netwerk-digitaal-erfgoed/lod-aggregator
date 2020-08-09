@@ -15,7 +15,7 @@ Temporary URL of the datasets:
 
 In the config file .env the variable for the provider VAR_PROVIDER was set to 'SOCH'. 
 
-For running the scripts used in this test we must first must run the following command for the root of the lod-aggregator:
+For running the scripts described below we must first run the following command in the root of the lod-aggregator:
 
 ```bash
 source bin/setpaths
@@ -53,7 +53,7 @@ Copy the `fixes.sh` to the data dir and run it:
 
 ## Map the schema.org data to EDM data
 
-The default conversion of the lod-aggregator is based on Schema.org to EDM conversion. In this case the input data is modelled using the [KSAMSÖK](http://kulturarvsdata.se/ksamsok#) Ontology. The default schema2edm query was modified for basic support for the KSAMÖK data. This is a first attempt to demonstrate the feasibility. For a full conversion a more detailled query is neccessary. The resulting query [ksamsok2edm.rq](../queries/ksamsok2edm.rq) was used to do conversion.
+The default conversion of the lod-aggregator is based on Schema.org to EDM conversion. In this case the input data is modelled using the [KSAMSÖK](http://kulturarvsdata.se/ksamsok#) ontology. The default schema2edm query was modified for basic support for the KSAMÖK data. This is a first attempt to demonstrate the feasibility. For a full conversion a more detailled query is neccessary. The resulting query [ksamsok2edm.rq](../../queries/ksamsok2edm.rq) was used to do conversion.
 
 Next step was doing the actual conversion of the resources.
 
@@ -63,7 +63,7 @@ map.sh --data soch-lsh-total.nt --query ksamsok2edm.rq --output soch-lsh-edm.rdf
 
 ## Validate the EDM data
 
-Next the generated EDM data was validated using a SHACL validation. See the SHACL definition in the [shacl_edm shapesfile](../shapes/shacl_edm.ttl).
+Next the generated EDM data was validated using a SHACL validation. See the SHACL definition in the [shacl_edm shapesfile](../../shapes/shacl_edm.ttl).
 
 ```bash
 validate.sh --data soch-lsh-edm.rdf

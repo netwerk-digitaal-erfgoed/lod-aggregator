@@ -24,6 +24,10 @@ In the `tests` directory the following test runs are documented:
 
   * [E-books Finnisch National Library](./FINNA)
 
+* Dataset from the Swedish National Heritage Board (SOCH)
+
+  * [Objects from the The Royal Armoury Museum](./SOCH)
+
 Quantative test results:
 
 Provider | dataset name | crawl type | result EDM file (NDE server) | visible in Europeana | # triples | size | crawling time (sec) | # crawled resources | mapping time (sec)
