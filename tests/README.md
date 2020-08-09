@@ -36,8 +36,9 @@ NDE | kb-centsprenten | links | [centsprenten-edm.zip (1.7M)](http://cclod.netwe
 NDE | nmvw | dump | [nmvw-edm.zip (870M)](http://cclod.netwerkdigitaalerfgoed.nl/nmvw-edm.zip) | - | 14.945.723 | 2.0 G | 108.28 | 1 | 531.4
 NLP | rnod | dump | [rnod-edm.zip (118M)](http://cclod.netwerkdigitaalerfgoed.nl/rnod-edm.zip) | - | 3.030.649 | 390M | 175,7 | 1 | no conversion needed
 FINNA | fennica | sparql | [fennica-edm.zip (56M)](http://cclod.netwerkdigitaalerfgoed.nl/fennica-edm.zip) | - | 33.967.718 | 4.4G | 24646 | 48216 | 281.13
-
+SOCH | LSH | dump | [soch-lsh-edm.zip (48M)](http://cclod.netwerkdigitaalerfgoed.nl/soch-lsh-edm.zip) | - | 3.491.551 | 528M | 99.7 | 2 | 112.6
 * tests run on laptop with i7-8550U CPU / 1.80GHz / 8-core | 16Gb Memory ; JVM run with `-Xmx12G` option
+
 * \# triples measured  with `wc -l` on .nt file
 * crawling time measured with bash `time` prefix
 * mapping time measured through jena sparql `-time` option

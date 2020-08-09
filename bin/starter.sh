@@ -6,7 +6,7 @@ scripts_dir=$(cd $(dirname $0) && pwd -P)
 source $scripts_dir/utils.sh
 
 # the Jena java tools run in memory so we increase the default heapsize maximum
-JVM_ARGS="-Xmx12G"
+JVM_ARGS="-Xmx28G"
 export JVM_ARGS
 
 # Defaults which can be set through .ENV or through the 'environment' command in docker-compose config

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+
+<http://cclod.netwerkdigitaalerfgoed.nl/soch_lsh_agents.ttl>
+    a schema:Dataset ;
+    schema:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    schema:name "SOCH LSH Agents"@en ;
+    schema:provider "SOCH" ;
+    schema:distribution [
+      schema:contentUrl <http://cclod.netwerkdigitaalerfgoed.nl/soch_lsh_agents.zip> ;
+      schema:encodingFormat "text/turtle" ;
+      schema:license <http://creativecommons.org/publicdomain/mark/1.0/> ;
+      a schema:DataDownload 
+    ] .
