@@ -24,8 +24,9 @@ ex:ProvidedCHO a sh:NodeShape ;
     sh:message "Missing or invalid value for edm:type"];
   sh:property [  
     sh:path [ sh:alternativePath (dc:title dc:description)];
-    sh:minCount 1 ; 
-    sh:message "At least one the following properties should be present: dc:description"];
+    sh:minCount 1 ;
+    sh:minLength 1 ; # no empty string allowed 
+    sh:message "At least one the following properties should be present: dc:title or dc:description"];
   sh:property [  
     sh:path [ sh:alternativePath (dc:subject dc:type dcterms:spatial dcterms:temporal)];
     sh:minCount 1 ; 
@@ -63,4 +64,14 @@ ex:Aggregation a sh:NodeShape ;
     sh:path [ sh:alternativePath (edm:isShownAt edm:isShownBy)];
     sh:nodeKind sh:IRI ;
     sh:minCount 1 ; 
-    sh:message "At least one the following properties should be present: edm:isShownAt or edm:isShownBy and should have a valid URI"].
+    sh:message "At least one the following properties should be present: edm:isShownAt or edm:isShownBy and should have a valid URI"];
+  sh:property [
+    sh:path edm:isShownAt ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:message "Only one occurence of edm:isShownAt is allowed"];  
+  sh:property [
+    sh:path edm:isShownBy ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    sh:message "Only one occurence of edm:isShownBy is allowed"].

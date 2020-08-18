@@ -1,0 +1,3095 @@
+{
+  "status": "completed",
+  "portal-preview": "https://metis-sandbox-preview-api-prod-portal.eanadev.org/portal/search?view=grid&q=edm_datasetName:110_soch-lsh-sample*",
+  "portal-publish": "https://metis-sandbox-publish-api-prod-portal.eanadev.org/portal/search?view=grid&q=edm_datasetName:110_soch-lsh-sample*",
+  "total-records": 600,
+  "processed-records": 600,
+  "progress-by-step": [
+    {
+      "step": "import",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "validate (edm external)",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "transform",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "validate (edm internal)",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "normalise",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "enrich",
+      "total": 600,
+      "success": 0,
+      "fail": 0,
+      "warn": 600,
+      "errors": [
+        {
+          "type": "warning",
+          "message": "Exception occurred while trying to perform enrichment.",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36457",
+            "http://kulturarvsdata.se/LSH/objects/36458",
+            "http://kulturarvsdata.se/LSH/objects/36459",
+            "http://kulturarvsdata.se/LSH/objects/36460",
+            "http://kulturarvsdata.se/LSH/objects/36461",
+            "http://kulturarvsdata.se/LSH/objects/36462",
+            "http://kulturarvsdata.se/LSH/objects/36463",
+            "http://kulturarvsdata.se/LSH/objects/36464",
+            "http://kulturarvsdata.se/LSH/objects/36465",
+            "http://kulturarvsdata.se/LSH/objects/36466",
+            "http://kulturarvsdata.se/LSH/objects/36467",
+            "http://kulturarvsdata.se/LSH/objects/36468",
+            "http://kulturarvsdata.se/LSH/objects/36469",
+            "http://kulturarvsdata.se/LSH/objects/36470",
+            "http://kulturarvsdata.se/LSH/objects/36471",
+            "http://kulturarvsdata.se/LSH/objects/36472",
+            "http://kulturarvsdata.se/LSH/objects/36473",
+            "http://kulturarvsdata.se/LSH/objects/36474",
+            "http://kulturarvsdata.se/LSH/objects/36475",
+            "http://kulturarvsdata.se/LSH/objects/36476",
+            "http://kulturarvsdata.se/LSH/objects/36477",
+            "http://kulturarvsdata.se/LSH/objects/36478",
+            "http://kulturarvsdata.se/LSH/objects/36479",
+            "http://kulturarvsdata.se/LSH/objects/36480",
+            "http://kulturarvsdata.se/LSH/objects/36481",
+            "http://kulturarvsdata.se/LSH/objects/36482",
+            "http://kulturarvsdata.se/LSH/objects/36483",
+            "http://kulturarvsdata.se/LSH/objects/36484",
+            "http://kulturarvsdata.se/LSH/objects/36485",
+            "http://kulturarvsdata.se/LSH/objects/36486",
+            "http://kulturarvsdata.se/LSH/objects/36487",
+            "http://kulturarvsdata.se/LSH/objects/36488",
+            "http://kulturarvsdata.se/LSH/objects/36489",
+            "http://kulturarvsdata.se/LSH/objects/36490",
+            "http://kulturarvsdata.se/LSH/objects/36491",
+            "http://kulturarvsdata.se/LSH/objects/36492",
+            "http://kulturarvsdata.se/LSH/objects/36493",
+            "http://kulturarvsdata.se/LSH/objects/36494",
+            "http://kulturarvsdata.se/LSH/objects/36495",
+            "http://kulturarvsdata.se/LSH/objects/36496",
+            "http://kulturarvsdata.se/LSH/objects/36497",
+            "http://kulturarvsdata.se/LSH/objects/36498",
+            "http://kulturarvsdata.se/LSH/objects/36499",
+            "http://kulturarvsdata.se/LSH/objects/36500",
+            "http://kulturarvsdata.se/LSH/objects/36501",
+            "http://kulturarvsdata.se/LSH/objects/36502",
+            "http://kulturarvsdata.se/LSH/objects/36503",
+            "http://kulturarvsdata.se/LSH/objects/36504",
+            "http://kulturarvsdata.se/LSH/objects/36505",
+            "http://kulturarvsdata.se/LSH/objects/36506",
+            "http://kulturarvsdata.se/LSH/objects/36507",
+            "http://kulturarvsdata.se/LSH/objects/36508",
+            "http://kulturarvsdata.se/LSH/objects/36509",
+            "http://kulturarvsdata.se/LSH/objects/36510",
+            "http://kulturarvsdata.se/LSH/objects/36511",
+            "http://kulturarvsdata.se/LSH/objects/36512",
+            "http://kulturarvsdata.se/LSH/objects/36513",
+            "http://kulturarvsdata.se/LSH/objects/36514",
+            "http://kulturarvsdata.se/LSH/objects/36515",
+            "http://kulturarvsdata.se/LSH/objects/36516",
+            "http://kulturarvsdata.se/LSH/objects/36517",
+            "http://kulturarvsdata.se/LSH/objects/36518",
+            "http://kulturarvsdata.se/LSH/objects/36519",
+            "http://kulturarvsdata.se/LSH/objects/36520",
+            "http://kulturarvsdata.se/LSH/objects/36521",
+            "http://kulturarvsdata.se/LSH/objects/36522",
+            "http://kulturarvsdata.se/LSH/objects/36523",
+            "http://kulturarvsdata.se/LSH/objects/36524",
+            "http://kulturarvsdata.se/LSH/objects/36525",
+            "http://kulturarvsdata.se/LSH/objects/36526",
+            "http://kulturarvsdata.se/LSH/objects/36527",
+            "http://kulturarvsdata.se/LSH/objects/36528",
+            "http://kulturarvsdata.se/LSH/objects/36529",
+            "http://kulturarvsdata.se/LSH/objects/36530",
+            "http://kulturarvsdata.se/LSH/objects/36531",
+            "http://kulturarvsdata.se/LSH/objects/36532",
+            "http://kulturarvsdata.se/LSH/objects/36533",
+            "http://kulturarvsdata.se/LSH/objects/36534",
+            "http://kulturarvsdata.se/LSH/objects/36535",
+            "http://kulturarvsdata.se/LSH/objects/36536",
+            "http://kulturarvsdata.se/LSH/objects/36537",
+            "http://kulturarvsdata.se/LSH/objects/36538",
+            "http://kulturarvsdata.se/LSH/objects/36539",
+            "http://kulturarvsdata.se/LSH/objects/36540",
+            "http://kulturarvsdata.se/LSH/objects/36541",
+            "http://kulturarvsdata.se/LSH/objects/36542",
+            "http://kulturarvsdata.se/LSH/objects/36543",
+            "http://kulturarvsdata.se/LSH/objects/36544",
+            "http://kulturarvsdata.se/LSH/objects/36545",
+            "http://kulturarvsdata.se/LSH/objects/36546",
+            "http://kulturarvsdata.se/LSH/objects/36547",
+            "http://kulturarvsdata.se/LSH/objects/36548",
+            "http://kulturarvsdata.se/LSH/objects/36549",
+            "http://kulturarvsdata.se/LSH/objects/36550",
+            "http://kulturarvsdata.se/LSH/objects/36551",
+            "http://kulturarvsdata.se/LSH/objects/36552",
+            "http://kulturarvsdata.se/LSH/objects/36553",
+            "http://kulturarvsdata.se/LSH/objects/36554",
+            "http://kulturarvsdata.se/LSH/objects/36555",
+            "http://kulturarvsdata.se/LSH/objects/36556",
+            "http://kulturarvsdata.se/LSH/objects/36557",
+            "http://kulturarvsdata.se/LSH/objects/36558",
+            "http://kulturarvsdata.se/LSH/objects/36559",
+            "http://kulturarvsdata.se/LSH/objects/36560",
+            "http://kulturarvsdata.se/LSH/objects/36561",
+            "http://kulturarvsdata.se/LSH/objects/36562",
+            "http://kulturarvsdata.se/LSH/objects/36563",
+            "http://kulturarvsdata.se/LSH/objects/36564",
+            "http://kulturarvsdata.se/LSH/objects/36565",
+            "http://kulturarvsdata.se/LSH/objects/36566",
+            "http://kulturarvsdata.se/LSH/objects/36567",
+            "http://kulturarvsdata.se/LSH/objects/36568",
+            "http://kulturarvsdata.se/LSH/objects/36569",
+            "http://kulturarvsdata.se/LSH/objects/36570",
+            "http://kulturarvsdata.se/LSH/objects/36571",
+            "http://kulturarvsdata.se/LSH/objects/36572",
+            "http://kulturarvsdata.se/LSH/objects/36573",
+            "http://kulturarvsdata.se/LSH/objects/36574",
+            "http://kulturarvsdata.se/LSH/objects/36575",
+            "http://kulturarvsdata.se/LSH/objects/36576",
+            "http://kulturarvsdata.se/LSH/objects/36577",
+            "http://kulturarvsdata.se/LSH/objects/36578",
+            "http://kulturarvsdata.se/LSH/objects/36579",
+            "http://kulturarvsdata.se/LSH/objects/36580",
+            "http://kulturarvsdata.se/LSH/objects/36581",
+            "http://kulturarvsdata.se/LSH/objects/36582",
+            "http://kulturarvsdata.se/LSH/objects/36583",
+            "http://kulturarvsdata.se/LSH/objects/36584",
+            "http://kulturarvsdata.se/LSH/objects/36585",
+            "http://kulturarvsdata.se/LSH/objects/36586",
+            "http://kulturarvsdata.se/LSH/objects/36587",
+            "http://kulturarvsdata.se/LSH/objects/36588",
+            "http://kulturarvsdata.se/LSH/objects/36589",
+            "http://kulturarvsdata.se/LSH/objects/36590",
+            "http://kulturarvsdata.se/LSH/objects/36591",
+            "http://kulturarvsdata.se/LSH/objects/36592",
+            "http://kulturarvsdata.se/LSH/objects/36593",
+            "http://kulturarvsdata.se/LSH/objects/36594",
+            "http://kulturarvsdata.se/LSH/objects/36595",
+            "http://kulturarvsdata.se/LSH/objects/36596",
+            "http://kulturarvsdata.se/LSH/objects/36597",
+            "http://kulturarvsdata.se/LSH/objects/36598",
+            "http://kulturarvsdata.se/LSH/objects/36599",
+            "http://kulturarvsdata.se/LSH/objects/36600",
+            "http://kulturarvsdata.se/LSH/objects/36601",
+            "http://kulturarvsdata.se/LSH/objects/36602",
+            "http://kulturarvsdata.se/LSH/objects/36603",
+            "http://kulturarvsdata.se/LSH/objects/36604",
+            "http://kulturarvsdata.se/LSH/objects/36605",
+            "http://kulturarvsdata.se/LSH/objects/36606",
+            "http://kulturarvsdata.se/LSH/objects/36607",
+            "http://kulturarvsdata.se/LSH/objects/36608",
+            "http://kulturarvsdata.se/LSH/objects/36609",
+            "http://kulturarvsdata.se/LSH/objects/36610",
+            "http://kulturarvsdata.se/LSH/objects/36611",
+            "http://kulturarvsdata.se/LSH/objects/36612",
+            "http://kulturarvsdata.se/LSH/objects/36613",
+            "http://kulturarvsdata.se/LSH/objects/36614",
+            "http://kulturarvsdata.se/LSH/objects/36615",
+            "http://kulturarvsdata.se/LSH/objects/36616",
+            "http://kulturarvsdata.se/LSH/objects/36617",
+            "http://kulturarvsdata.se/LSH/objects/36618",
+            "http://kulturarvsdata.se/LSH/objects/36619",
+            "http://kulturarvsdata.se/LSH/objects/36620",
+            "http://kulturarvsdata.se/LSH/objects/36621",
+            "http://kulturarvsdata.se/LSH/objects/36622",
+            "http://kulturarvsdata.se/LSH/objects/36623",
+            "http://kulturarvsdata.se/LSH/objects/36624",
+            "http://kulturarvsdata.se/LSH/objects/36625",
+            "http://kulturarvsdata.se/LSH/objects/36626",
+            "http://kulturarvsdata.se/LSH/objects/36628",
+            "http://kulturarvsdata.se/LSH/objects/36629",
+            "http://kulturarvsdata.se/LSH/objects/36630",
+            "http://kulturarvsdata.se/LSH/objects/36631",
+            "http://kulturarvsdata.se/LSH/objects/36632",
+            "http://kulturarvsdata.se/LSH/objects/36633",
+            "http://kulturarvsdata.se/LSH/objects/36634",
+            "http://kulturarvsdata.se/LSH/objects/36635",
+            "http://kulturarvsdata.se/LSH/objects/36636",
+            "http://kulturarvsdata.se/LSH/objects/36637",
+            "http://kulturarvsdata.se/LSH/objects/36638",
+            "http://kulturarvsdata.se/LSH/objects/36639",
+            "http://kulturarvsdata.se/LSH/objects/36640",
+            "http://kulturarvsdata.se/LSH/objects/36641",
+            "http://kulturarvsdata.se/LSH/objects/36642",
+            "http://kulturarvsdata.se/LSH/objects/36643",
+            "http://kulturarvsdata.se/LSH/objects/36644",
+            "http://kulturarvsdata.se/LSH/objects/36645",
+            "http://kulturarvsdata.se/LSH/objects/36646",
+            "http://kulturarvsdata.se/LSH/objects/36647",
+            "http://kulturarvsdata.se/LSH/objects/36648",
+            "http://kulturarvsdata.se/LSH/objects/36649",
+            "http://kulturarvsdata.se/LSH/objects/36650",
+            "http://kulturarvsdata.se/LSH/objects/36651",
+            "http://kulturarvsdata.se/LSH/objects/36652",
+            "http://kulturarvsdata.se/LSH/objects/36653",
+            "http://kulturarvsdata.se/LSH/objects/36654",
+            "http://kulturarvsdata.se/LSH/objects/36655",
+            "http://kulturarvsdata.se/LSH/objects/36656",
+            "http://kulturarvsdata.se/LSH/objects/36657",
+            "http://kulturarvsdata.se/LSH/objects/36658",
+            "http://kulturarvsdata.se/LSH/objects/36659",
+            "http://kulturarvsdata.se/LSH/objects/36660",
+            "http://kulturarvsdata.se/LSH/objects/36661",
+            "http://kulturarvsdata.se/LSH/objects/36662",
+            "http://kulturarvsdata.se/LSH/objects/36663",
+            "http://kulturarvsdata.se/LSH/objects/36664",
+            "http://kulturarvsdata.se/LSH/objects/36665",
+            "http://kulturarvsdata.se/LSH/objects/36666",
+            "http://kulturarvsdata.se/LSH/objects/36667",
+            "http://kulturarvsdata.se/LSH/objects/36668",
+            "http://kulturarvsdata.se/LSH/objects/36669",
+            "http://kulturarvsdata.se/LSH/objects/36670",
+            "http://kulturarvsdata.se/LSH/objects/36671",
+            "http://kulturarvsdata.se/LSH/objects/36672",
+            "http://kulturarvsdata.se/LSH/objects/36673",
+            "http://kulturarvsdata.se/LSH/objects/36674",
+            "http://kulturarvsdata.se/LSH/objects/36675",
+            "http://kulturarvsdata.se/LSH/objects/36676",
+            "http://kulturarvsdata.se/LSH/objects/36677",
+            "http://kulturarvsdata.se/LSH/objects/36678",
+            "http://kulturarvsdata.se/LSH/objects/36679",
+            "http://kulturarvsdata.se/LSH/objects/36680",
+            "http://kulturarvsdata.se/LSH/objects/36681",
+            "http://kulturarvsdata.se/LSH/objects/36682",
+            "http://kulturarvsdata.se/LSH/objects/36683",
+            "http://kulturarvsdata.se/LSH/objects/36684",
+            "http://kulturarvsdata.se/LSH/objects/36685",
+            "http://kulturarvsdata.se/LSH/objects/36686",
+            "http://kulturarvsdata.se/LSH/objects/36687",
+            "http://kulturarvsdata.se/LSH/objects/36688",
+            "http://kulturarvsdata.se/LSH/objects/36689",
+            "http://kulturarvsdata.se/LSH/objects/36690",
+            "http://kulturarvsdata.se/LSH/objects/36691",
+            "http://kulturarvsdata.se/LSH/objects/36692",
+            "http://kulturarvsdata.se/LSH/objects/36693",
+            "http://kulturarvsdata.se/LSH/objects/36694",
+            "http://kulturarvsdata.se/LSH/objects/36695",
+            "http://kulturarvsdata.se/LSH/objects/36696",
+            "http://kulturarvsdata.se/LSH/objects/36697",
+            "http://kulturarvsdata.se/LSH/objects/36698",
+            "http://kulturarvsdata.se/LSH/objects/36699",
+            "http://kulturarvsdata.se/LSH/objects/36700",
+            "http://kulturarvsdata.se/LSH/objects/36701",
+            "http://kulturarvsdata.se/LSH/objects/36702",
+            "http://kulturarvsdata.se/LSH/objects/36703",
+            "http://kulturarvsdata.se/LSH/objects/36704",
+            "http://kulturarvsdata.se/LSH/objects/36705",
+            "http://kulturarvsdata.se/LSH/objects/36706",
+            "http://kulturarvsdata.se/LSH/objects/36707",
+            "http://kulturarvsdata.se/LSH/objects/36708",
+            "http://kulturarvsdata.se/LSH/objects/36709",
+            "http://kulturarvsdata.se/LSH/objects/36710",
+            "http://kulturarvsdata.se/LSH/objects/36711",
+            "http://kulturarvsdata.se/LSH/objects/36712",
+            "http://kulturarvsdata.se/LSH/objects/36713",
+            "http://kulturarvsdata.se/LSH/objects/36714",
+            "http://kulturarvsdata.se/LSH/objects/36715",
+            "http://kulturarvsdata.se/LSH/objects/36716",
+            "http://kulturarvsdata.se/LSH/objects/36717",
+            "http://kulturarvsdata.se/LSH/objects/36718",
+            "http://kulturarvsdata.se/LSH/objects/36719",
+            "http://kulturarvsdata.se/LSH/objects/36720",
+            "http://kulturarvsdata.se/LSH/objects/36721",
+            "http://kulturarvsdata.se/LSH/objects/36722",
+            "http://kulturarvsdata.se/LSH/objects/36723",
+            "http://kulturarvsdata.se/LSH/objects/36724",
+            "http://kulturarvsdata.se/LSH/objects/36725",
+            "http://kulturarvsdata.se/LSH/objects/36726",
+            "http://kulturarvsdata.se/LSH/objects/36727",
+            "http://kulturarvsdata.se/LSH/objects/36728",
+            "http://kulturarvsdata.se/LSH/objects/36729",
+            "http://kulturarvsdata.se/LSH/objects/36730",
+            "http://kulturarvsdata.se/LSH/objects/36731",
+            "http://kulturarvsdata.se/LSH/objects/36732",
+            "http://kulturarvsdata.se/LSH/objects/36733",
+            "http://kulturarvsdata.se/LSH/objects/36734",
+            "http://kulturarvsdata.se/LSH/objects/36735",
+            "http://kulturarvsdata.se/LSH/objects/36736",
+            "http://kulturarvsdata.se/LSH/objects/36737",
+            "http://kulturarvsdata.se/LSH/objects/36738",
+            "http://kulturarvsdata.se/LSH/objects/36739",
+            "http://kulturarvsdata.se/LSH/objects/36740",
+            "http://kulturarvsdata.se/LSH/objects/36741",
+            "http://kulturarvsdata.se/LSH/objects/36742",
+            "http://kulturarvsdata.se/LSH/objects/36743",
+            "http://kulturarvsdata.se/LSH/objects/36744",
+            "http://kulturarvsdata.se/LSH/objects/36745",
+            "http://kulturarvsdata.se/LSH/objects/36746",
+            "http://kulturarvsdata.se/LSH/objects/36747",
+            "http://kulturarvsdata.se/LSH/objects/36748",
+            "http://kulturarvsdata.se/LSH/objects/36749",
+            "http://kulturarvsdata.se/LSH/objects/36750",
+            "http://kulturarvsdata.se/LSH/objects/36751",
+            "http://kulturarvsdata.se/LSH/objects/36752",
+            "http://kulturarvsdata.se/LSH/objects/36753",
+            "http://kulturarvsdata.se/LSH/objects/36754",
+            "http://kulturarvsdata.se/LSH/objects/36755",
+            "http://kulturarvsdata.se/LSH/objects/36756",
+            "http://kulturarvsdata.se/LSH/objects/36757",
+            "http://kulturarvsdata.se/LSH/objects/36758",
+            "http://kulturarvsdata.se/LSH/objects/36759",
+            "http://kulturarvsdata.se/LSH/objects/36760",
+            "http://kulturarvsdata.se/LSH/objects/36761",
+            "http://kulturarvsdata.se/LSH/objects/36762",
+            "http://kulturarvsdata.se/LSH/objects/36763",
+            "http://kulturarvsdata.se/LSH/objects/36764",
+            "http://kulturarvsdata.se/LSH/objects/36765",
+            "http://kulturarvsdata.se/LSH/objects/36766",
+            "http://kulturarvsdata.se/LSH/objects/36767",
+            "http://kulturarvsdata.se/LSH/objects/36768",
+            "http://kulturarvsdata.se/LSH/objects/36769",
+            "http://kulturarvsdata.se/LSH/objects/36770",
+            "http://kulturarvsdata.se/LSH/objects/36771",
+            "http://kulturarvsdata.se/LSH/objects/36772",
+            "http://kulturarvsdata.se/LSH/objects/36773",
+            "http://kulturarvsdata.se/LSH/objects/36774",
+            "http://kulturarvsdata.se/LSH/objects/36775",
+            "http://kulturarvsdata.se/LSH/objects/36776",
+            "http://kulturarvsdata.se/LSH/objects/36777",
+            "http://kulturarvsdata.se/LSH/objects/36778",
+            "http://kulturarvsdata.se/LSH/objects/36779",
+            "http://kulturarvsdata.se/LSH/objects/36781",
+            "http://kulturarvsdata.se/LSH/objects/36782",
+            "http://kulturarvsdata.se/LSH/objects/36783",
+            "http://kulturarvsdata.se/LSH/objects/36784",
+            "http://kulturarvsdata.se/LSH/objects/36785",
+            "http://kulturarvsdata.se/LSH/objects/36786",
+            "http://kulturarvsdata.se/LSH/objects/36787",
+            "http://kulturarvsdata.se/LSH/objects/36788",
+            "http://kulturarvsdata.se/LSH/objects/36789",
+            "http://kulturarvsdata.se/LSH/objects/36790",
+            "http://kulturarvsdata.se/LSH/objects/36791",
+            "http://kulturarvsdata.se/LSH/objects/36792",
+            "http://kulturarvsdata.se/LSH/objects/36793",
+            "http://kulturarvsdata.se/LSH/objects/36794",
+            "http://kulturarvsdata.se/LSH/objects/36795",
+            "http://kulturarvsdata.se/LSH/objects/36796",
+            "http://kulturarvsdata.se/LSH/objects/36797",
+            "http://kulturarvsdata.se/LSH/objects/36798",
+            "http://kulturarvsdata.se/LSH/objects/36799",
+            "http://kulturarvsdata.se/LSH/objects/36800",
+            "http://kulturarvsdata.se/LSH/objects/36801",
+            "http://kulturarvsdata.se/LSH/objects/36802",
+            "http://kulturarvsdata.se/LSH/objects/36803",
+            "http://kulturarvsdata.se/LSH/objects/36804",
+            "http://kulturarvsdata.se/LSH/objects/36805",
+            "http://kulturarvsdata.se/LSH/objects/36806",
+            "http://kulturarvsdata.se/LSH/objects/36807",
+            "http://kulturarvsdata.se/LSH/objects/36808",
+            "http://kulturarvsdata.se/LSH/objects/36809",
+            "http://kulturarvsdata.se/LSH/objects/36810",
+            "http://kulturarvsdata.se/LSH/objects/36811",
+            "http://kulturarvsdata.se/LSH/objects/36812",
+            "http://kulturarvsdata.se/LSH/objects/36813",
+            "http://kulturarvsdata.se/LSH/objects/36814",
+            "http://kulturarvsdata.se/LSH/objects/36815",
+            "http://kulturarvsdata.se/LSH/objects/36816",
+            "http://kulturarvsdata.se/LSH/objects/36817",
+            "http://kulturarvsdata.se/LSH/objects/36818",
+            "http://kulturarvsdata.se/LSH/objects/36819",
+            "http://kulturarvsdata.se/LSH/objects/36820",
+            "http://kulturarvsdata.se/LSH/objects/36821",
+            "http://kulturarvsdata.se/LSH/objects/36822",
+            "http://kulturarvsdata.se/LSH/objects/36823",
+            "http://kulturarvsdata.se/LSH/objects/36824",
+            "http://kulturarvsdata.se/LSH/objects/36825",
+            "http://kulturarvsdata.se/LSH/objects/36826",
+            "http://kulturarvsdata.se/LSH/objects/36827",
+            "http://kulturarvsdata.se/LSH/objects/36828",
+            "http://kulturarvsdata.se/LSH/objects/36829",
+            "http://kulturarvsdata.se/LSH/objects/36830",
+            "http://kulturarvsdata.se/LSH/objects/36831",
+            "http://kulturarvsdata.se/LSH/objects/36832",
+            "http://kulturarvsdata.se/LSH/objects/36833",
+            "http://kulturarvsdata.se/LSH/objects/36834",
+            "http://kulturarvsdata.se/LSH/objects/36835",
+            "http://kulturarvsdata.se/LSH/objects/36836",
+            "http://kulturarvsdata.se/LSH/objects/36837",
+            "http://kulturarvsdata.se/LSH/objects/36838",
+            "http://kulturarvsdata.se/LSH/objects/36839",
+            "http://kulturarvsdata.se/LSH/objects/36840",
+            "http://kulturarvsdata.se/LSH/objects/36841",
+            "http://kulturarvsdata.se/LSH/objects/36842",
+            "http://kulturarvsdata.se/LSH/objects/36843",
+            "http://kulturarvsdata.se/LSH/objects/36844",
+            "http://kulturarvsdata.se/LSH/objects/36845",
+            "http://kulturarvsdata.se/LSH/objects/36846",
+            "http://kulturarvsdata.se/LSH/objects/36847",
+            "http://kulturarvsdata.se/LSH/objects/36848",
+            "http://kulturarvsdata.se/LSH/objects/36849",
+            "http://kulturarvsdata.se/LSH/objects/36850",
+            "http://kulturarvsdata.se/LSH/objects/36851",
+            "http://kulturarvsdata.se/LSH/objects/36852",
+            "http://kulturarvsdata.se/LSH/objects/36853",
+            "http://kulturarvsdata.se/LSH/objects/36854",
+            "http://kulturarvsdata.se/LSH/objects/36855",
+            "http://kulturarvsdata.se/LSH/objects/36856",
+            "http://kulturarvsdata.se/LSH/objects/36857",
+            "http://kulturarvsdata.se/LSH/objects/36858",
+            "http://kulturarvsdata.se/LSH/objects/36859",
+            "http://kulturarvsdata.se/LSH/objects/36860",
+            "http://kulturarvsdata.se/LSH/objects/36861",
+            "http://kulturarvsdata.se/LSH/objects/36862",
+            "http://kulturarvsdata.se/LSH/objects/36863",
+            "http://kulturarvsdata.se/LSH/objects/36864",
+            "http://kulturarvsdata.se/LSH/objects/36865",
+            "http://kulturarvsdata.se/LSH/objects/36866",
+            "http://kulturarvsdata.se/LSH/objects/36867",
+            "http://kulturarvsdata.se/LSH/objects/36868",
+            "http://kulturarvsdata.se/LSH/objects/36869",
+            "http://kulturarvsdata.se/LSH/objects/36870",
+            "http://kulturarvsdata.se/LSH/objects/36871",
+            "http://kulturarvsdata.se/LSH/objects/36872",
+            "http://kulturarvsdata.se/LSH/objects/36873",
+            "http://kulturarvsdata.se/LSH/objects/36874",
+            "http://kulturarvsdata.se/LSH/objects/36875",
+            "http://kulturarvsdata.se/LSH/objects/36876",
+            "http://kulturarvsdata.se/LSH/objects/36877",
+            "http://kulturarvsdata.se/LSH/objects/36878",
+            "http://kulturarvsdata.se/LSH/objects/36879",
+            "http://kulturarvsdata.se/LSH/objects/36880",
+            "http://kulturarvsdata.se/LSH/objects/36881",
+            "http://kulturarvsdata.se/LSH/objects/36882",
+            "http://kulturarvsdata.se/LSH/objects/36883",
+            "http://kulturarvsdata.se/LSH/objects/36884",
+            "http://kulturarvsdata.se/LSH/objects/36885",
+            "http://kulturarvsdata.se/LSH/objects/36886",
+            "http://kulturarvsdata.se/LSH/objects/36887",
+            "http://kulturarvsdata.se/LSH/objects/36888",
+            "http://kulturarvsdata.se/LSH/objects/36889",
+            "http://kulturarvsdata.se/LSH/objects/36890",
+            "http://kulturarvsdata.se/LSH/objects/36891",
+            "http://kulturarvsdata.se/LSH/objects/36892",
+            "http://kulturarvsdata.se/LSH/objects/36893",
+            "http://kulturarvsdata.se/LSH/objects/36894",
+            "http://kulturarvsdata.se/LSH/objects/36895",
+            "http://kulturarvsdata.se/LSH/objects/36896",
+            "http://kulturarvsdata.se/LSH/objects/36897",
+            "http://kulturarvsdata.se/LSH/objects/36898",
+            "http://kulturarvsdata.se/LSH/objects/36899",
+            "http://kulturarvsdata.se/LSH/objects/36900",
+            "http://kulturarvsdata.se/LSH/objects/36901",
+            "http://kulturarvsdata.se/LSH/objects/36902",
+            "http://kulturarvsdata.se/LSH/objects/36903",
+            "http://kulturarvsdata.se/LSH/objects/36904",
+            "http://kulturarvsdata.se/LSH/objects/36905",
+            "http://kulturarvsdata.se/LSH/objects/36906",
+            "http://kulturarvsdata.se/LSH/objects/36907",
+            "http://kulturarvsdata.se/LSH/objects/36908",
+            "http://kulturarvsdata.se/LSH/objects/36909",
+            "http://kulturarvsdata.se/LSH/objects/36910",
+            "http://kulturarvsdata.se/LSH/objects/36911",
+            "http://kulturarvsdata.se/LSH/objects/36912",
+            "http://kulturarvsdata.se/LSH/objects/36913",
+            "http://kulturarvsdata.se/LSH/objects/36914",
+            "http://kulturarvsdata.se/LSH/objects/36915",
+            "http://kulturarvsdata.se/LSH/objects/36916",
+            "http://kulturarvsdata.se/LSH/objects/36917",
+            "http://kulturarvsdata.se/LSH/objects/36918",
+            "http://kulturarvsdata.se/LSH/objects/36919",
+            "http://kulturarvsdata.se/LSH/objects/36920",
+            "http://kulturarvsdata.se/LSH/objects/36921",
+            "http://kulturarvsdata.se/LSH/objects/36922",
+            "http://kulturarvsdata.se/LSH/objects/36923",
+            "http://kulturarvsdata.se/LSH/objects/36924",
+            "http://kulturarvsdata.se/LSH/objects/36925",
+            "http://kulturarvsdata.se/LSH/objects/36926",
+            "http://kulturarvsdata.se/LSH/objects/36927",
+            "http://kulturarvsdata.se/LSH/objects/36928",
+            "http://kulturarvsdata.se/LSH/objects/36929",
+            "http://kulturarvsdata.se/LSH/objects/36930",
+            "http://kulturarvsdata.se/LSH/objects/36931",
+            "http://kulturarvsdata.se/LSH/objects/36932",
+            "http://kulturarvsdata.se/LSH/objects/36933",
+            "http://kulturarvsdata.se/LSH/objects/36934",
+            "http://kulturarvsdata.se/LSH/objects/36935",
+            "http://kulturarvsdata.se/LSH/objects/36936",
+            "http://kulturarvsdata.se/LSH/objects/36937",
+            "http://kulturarvsdata.se/LSH/objects/36938",
+            "http://kulturarvsdata.se/LSH/objects/36939",
+            "http://kulturarvsdata.se/LSH/objects/36940",
+            "http://kulturarvsdata.se/LSH/objects/36941",
+            "http://kulturarvsdata.se/LSH/objects/36942",
+            "http://kulturarvsdata.se/LSH/objects/36943",
+            "http://kulturarvsdata.se/LSH/objects/36944",
+            "http://kulturarvsdata.se/LSH/objects/36945",
+            "http://kulturarvsdata.se/LSH/objects/36946",
+            "http://kulturarvsdata.se/LSH/objects/36947",
+            "http://kulturarvsdata.se/LSH/objects/36948",
+            "http://kulturarvsdata.se/LSH/objects/36949",
+            "http://kulturarvsdata.se/LSH/objects/36950",
+            "http://kulturarvsdata.se/LSH/objects/36951",
+            "http://kulturarvsdata.se/LSH/objects/36952",
+            "http://kulturarvsdata.se/LSH/objects/36953",
+            "http://kulturarvsdata.se/LSH/objects/36954",
+            "http://kulturarvsdata.se/LSH/objects/36955",
+            "http://kulturarvsdata.se/LSH/objects/36956",
+            "http://kulturarvsdata.se/LSH/objects/36957",
+            "http://kulturarvsdata.se/LSH/objects/36958",
+            "http://kulturarvsdata.se/LSH/objects/36959",
+            "http://kulturarvsdata.se/LSH/objects/36960",
+            "http://kulturarvsdata.se/LSH/objects/36961",
+            "http://kulturarvsdata.se/LSH/objects/36962",
+            "http://kulturarvsdata.se/LSH/objects/36963",
+            "http://kulturarvsdata.se/LSH/objects/36964",
+            "http://kulturarvsdata.se/LSH/objects/36965",
+            "http://kulturarvsdata.se/LSH/objects/36966",
+            "http://kulturarvsdata.se/LSH/objects/36967",
+            "http://kulturarvsdata.se/LSH/objects/36968",
+            "http://kulturarvsdata.se/LSH/objects/36969",
+            "http://kulturarvsdata.se/LSH/objects/36970",
+            "http://kulturarvsdata.se/LSH/objects/36971",
+            "http://kulturarvsdata.se/LSH/objects/36972",
+            "http://kulturarvsdata.se/LSH/objects/36973",
+            "http://kulturarvsdata.se/LSH/objects/36974",
+            "http://kulturarvsdata.se/LSH/objects/36975",
+            "http://kulturarvsdata.se/LSH/objects/36976",
+            "http://kulturarvsdata.se/LSH/objects/36977",
+            "http://kulturarvsdata.se/LSH/objects/36978",
+            "http://kulturarvsdata.se/LSH/objects/36979",
+            "http://kulturarvsdata.se/LSH/objects/36980",
+            "http://kulturarvsdata.se/LSH/objects/36981",
+            "http://kulturarvsdata.se/LSH/objects/36982",
+            "http://kulturarvsdata.se/LSH/objects/36983",
+            "http://kulturarvsdata.se/LSH/objects/36984",
+            "http://kulturarvsdata.se/LSH/objects/36985",
+            "http://kulturarvsdata.se/LSH/objects/36986",
+            "http://kulturarvsdata.se/LSH/objects/36987",
+            "http://kulturarvsdata.se/LSH/objects/36988",
+            "http://kulturarvsdata.se/LSH/objects/36989",
+            "http://kulturarvsdata.se/LSH/objects/36990",
+            "http://kulturarvsdata.se/LSH/objects/36991",
+            "http://kulturarvsdata.se/LSH/objects/36992",
+            "http://kulturarvsdata.se/LSH/objects/36993",
+            "http://kulturarvsdata.se/LSH/objects/36994",
+            "http://kulturarvsdata.se/LSH/objects/36995",
+            "http://kulturarvsdata.se/LSH/objects/36996",
+            "http://kulturarvsdata.se/LSH/objects/36997",
+            "http://kulturarvsdata.se/LSH/objects/36998",
+            "http://kulturarvsdata.se/LSH/objects/36999",
+            "http://kulturarvsdata.se/LSH/objects/37000",
+            "http://kulturarvsdata.se/LSH/objects/37001",
+            "http://kulturarvsdata.se/LSH/objects/37002",
+            "http://kulturarvsdata.se/LSH/objects/37003",
+            "http://kulturarvsdata.se/LSH/objects/37004",
+            "http://kulturarvsdata.se/LSH/objects/37005",
+            "http://kulturarvsdata.se/LSH/objects/37007",
+            "http://kulturarvsdata.se/LSH/objects/37008",
+            "http://kulturarvsdata.se/LSH/objects/37009",
+            "http://kulturarvsdata.se/LSH/objects/37010",
+            "http://kulturarvsdata.se/LSH/objects/37011",
+            "http://kulturarvsdata.se/LSH/objects/37012",
+            "http://kulturarvsdata.se/LSH/objects/37013",
+            "http://kulturarvsdata.se/LSH/objects/37014",
+            "http://kulturarvsdata.se/LSH/objects/37015",
+            "http://kulturarvsdata.se/LSH/objects/37016",
+            "http://kulturarvsdata.se/LSH/objects/37017",
+            "http://kulturarvsdata.se/LSH/objects/37018",
+            "http://kulturarvsdata.se/LSH/objects/37019",
+            "http://kulturarvsdata.se/LSH/objects/37020",
+            "http://kulturarvsdata.se/LSH/objects/37021",
+            "http://kulturarvsdata.se/LSH/objects/37022",
+            "http://kulturarvsdata.se/LSH/objects/37023",
+            "http://kulturarvsdata.se/LSH/objects/37024",
+            "http://kulturarvsdata.se/LSH/objects/37025",
+            "http://kulturarvsdata.se/LSH/objects/37026",
+            "http://kulturarvsdata.se/LSH/objects/37027",
+            "http://kulturarvsdata.se/LSH/objects/37028",
+            "http://kulturarvsdata.se/LSH/objects/37029",
+            "http://kulturarvsdata.se/LSH/objects/37030",
+            "http://kulturarvsdata.se/LSH/objects/37031",
+            "http://kulturarvsdata.se/LSH/objects/37032",
+            "http://kulturarvsdata.se/LSH/objects/37033",
+            "http://kulturarvsdata.se/LSH/objects/37034",
+            "http://kulturarvsdata.se/LSH/objects/37035",
+            "http://kulturarvsdata.se/LSH/objects/37036",
+            "http://kulturarvsdata.se/LSH/objects/37037",
+            "http://kulturarvsdata.se/LSH/objects/37038",
+            "http://kulturarvsdata.se/LSH/objects/37039",
+            "http://kulturarvsdata.se/LSH/objects/37040",
+            "http://kulturarvsdata.se/LSH/objects/37041",
+            "http://kulturarvsdata.se/LSH/objects/37042",
+            "http://kulturarvsdata.se/LSH/objects/37043",
+            "http://kulturarvsdata.se/LSH/objects/37044",
+            "http://kulturarvsdata.se/LSH/objects/37045",
+            "http://kulturarvsdata.se/LSH/objects/37046",
+            "http://kulturarvsdata.se/LSH/objects/37047",
+            "http://kulturarvsdata.se/LSH/objects/37048",
+            "http://kulturarvsdata.se/LSH/objects/37049",
+            "http://kulturarvsdata.se/LSH/objects/37050",
+            "http://kulturarvsdata.se/LSH/objects/37051",
+            "http://kulturarvsdata.se/LSH/objects/37052",
+            "http://kulturarvsdata.se/LSH/objects/37053",
+            "http://kulturarvsdata.se/LSH/objects/37054",
+            "http://kulturarvsdata.se/LSH/objects/37055",
+            "http://kulturarvsdata.se/LSH/objects/37056",
+            "http://kulturarvsdata.se/LSH/objects/37057",
+            "http://kulturarvsdata.se/LSH/objects/37058",
+            "http://kulturarvsdata.se/LSH/objects/37059"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "process media",
+      "total": 600,
+      "success": 278,
+      "fail": 0,
+      "warn": 322,
+      "errors": [
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36457&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36457"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ImageAsset&module=literature&objectId=42367&resolution=superImageResolution",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36457",
+            "http://kulturarvsdata.se/LSH/objects/36458",
+            "http://kulturarvsdata.se/LSH/objects/36459",
+            "http://kulturarvsdata.se/LSH/objects/36460",
+            "http://kulturarvsdata.se/LSH/objects/36461",
+            "http://kulturarvsdata.se/LSH/objects/36462",
+            "http://kulturarvsdata.se/LSH/objects/36463",
+            "http://kulturarvsdata.se/LSH/objects/36464",
+            "http://kulturarvsdata.se/LSH/objects/36465",
+            "http://kulturarvsdata.se/LSH/objects/36466",
+            "http://kulturarvsdata.se/LSH/objects/36467",
+            "http://kulturarvsdata.se/LSH/objects/36468",
+            "http://kulturarvsdata.se/LSH/objects/36469",
+            "http://kulturarvsdata.se/LSH/objects/36471",
+            "http://kulturarvsdata.se/LSH/objects/36472",
+            "http://kulturarvsdata.se/LSH/objects/36473",
+            "http://kulturarvsdata.se/LSH/objects/36474",
+            "http://kulturarvsdata.se/LSH/objects/36475",
+            "http://kulturarvsdata.se/LSH/objects/36476",
+            "http://kulturarvsdata.se/LSH/objects/36477",
+            "http://kulturarvsdata.se/LSH/objects/36478",
+            "http://kulturarvsdata.se/LSH/objects/36479",
+            "http://kulturarvsdata.se/LSH/objects/36483",
+            "http://kulturarvsdata.se/LSH/objects/36484",
+            "http://kulturarvsdata.se/LSH/objects/36485",
+            "http://kulturarvsdata.se/LSH/objects/36486",
+            "http://kulturarvsdata.se/LSH/objects/36487",
+            "http://kulturarvsdata.se/LSH/objects/36488",
+            "http://kulturarvsdata.se/LSH/objects/36489",
+            "http://kulturarvsdata.se/LSH/objects/36495",
+            "http://kulturarvsdata.se/LSH/objects/36496",
+            "http://kulturarvsdata.se/LSH/objects/36497",
+            "http://kulturarvsdata.se/LSH/objects/36498",
+            "http://kulturarvsdata.se/LSH/objects/36499",
+            "http://kulturarvsdata.se/LSH/objects/36510",
+            "http://kulturarvsdata.se/LSH/objects/36511",
+            "http://kulturarvsdata.se/LSH/objects/36520",
+            "http://kulturarvsdata.se/LSH/objects/36521",
+            "http://kulturarvsdata.se/LSH/objects/36522",
+            "http://kulturarvsdata.se/LSH/objects/36523",
+            "http://kulturarvsdata.se/LSH/objects/36527",
+            "http://kulturarvsdata.se/LSH/objects/36530",
+            "http://kulturarvsdata.se/LSH/objects/36531",
+            "http://kulturarvsdata.se/LSH/objects/36532",
+            "http://kulturarvsdata.se/LSH/objects/36533",
+            "http://kulturarvsdata.se/LSH/objects/36534",
+            "http://kulturarvsdata.se/LSH/objects/36535",
+            "http://kulturarvsdata.se/LSH/objects/36538",
+            "http://kulturarvsdata.se/LSH/objects/36540",
+            "http://kulturarvsdata.se/LSH/objects/36541",
+            "http://kulturarvsdata.se/LSH/objects/36542",
+            "http://kulturarvsdata.se/LSH/objects/36543",
+            "http://kulturarvsdata.se/LSH/objects/36544",
+            "http://kulturarvsdata.se/LSH/objects/36545",
+            "http://kulturarvsdata.se/LSH/objects/36546",
+            "http://kulturarvsdata.se/LSH/objects/36547",
+            "http://kulturarvsdata.se/LSH/objects/36550",
+            "http://kulturarvsdata.se/LSH/objects/36551",
+            "http://kulturarvsdata.se/LSH/objects/36552",
+            "http://kulturarvsdata.se/LSH/objects/36553",
+            "http://kulturarvsdata.se/LSH/objects/36554",
+            "http://kulturarvsdata.se/LSH/objects/36555",
+            "http://kulturarvsdata.se/LSH/objects/36556",
+            "http://kulturarvsdata.se/LSH/objects/36557",
+            "http://kulturarvsdata.se/LSH/objects/36558",
+            "http://kulturarvsdata.se/LSH/objects/36559",
+            "http://kulturarvsdata.se/LSH/objects/36560",
+            "http://kulturarvsdata.se/LSH/objects/36561",
+            "http://kulturarvsdata.se/LSH/objects/36562",
+            "http://kulturarvsdata.se/LSH/objects/36563",
+            "http://kulturarvsdata.se/LSH/objects/36564",
+            "http://kulturarvsdata.se/LSH/objects/36565",
+            "http://kulturarvsdata.se/LSH/objects/36566",
+            "http://kulturarvsdata.se/LSH/objects/36567",
+            "http://kulturarvsdata.se/LSH/objects/36568",
+            "http://kulturarvsdata.se/LSH/objects/36569",
+            "http://kulturarvsdata.se/LSH/objects/36570",
+            "http://kulturarvsdata.se/LSH/objects/36571",
+            "http://kulturarvsdata.se/LSH/objects/36572",
+            "http://kulturarvsdata.se/LSH/objects/36573",
+            "http://kulturarvsdata.se/LSH/objects/36574",
+            "http://kulturarvsdata.se/LSH/objects/36575",
+            "http://kulturarvsdata.se/LSH/objects/36576",
+            "http://kulturarvsdata.se/LSH/objects/36577",
+            "http://kulturarvsdata.se/LSH/objects/36578",
+            "http://kulturarvsdata.se/LSH/objects/36579",
+            "http://kulturarvsdata.se/LSH/objects/36580",
+            "http://kulturarvsdata.se/LSH/objects/36581",
+            "http://kulturarvsdata.se/LSH/objects/36582",
+            "http://kulturarvsdata.se/LSH/objects/36583",
+            "http://kulturarvsdata.se/LSH/objects/36584",
+            "http://kulturarvsdata.se/LSH/objects/36585",
+            "http://kulturarvsdata.se/LSH/objects/36586",
+            "http://kulturarvsdata.se/LSH/objects/36587",
+            "http://kulturarvsdata.se/LSH/objects/36588",
+            "http://kulturarvsdata.se/LSH/objects/36589",
+            "http://kulturarvsdata.se/LSH/objects/36592",
+            "http://kulturarvsdata.se/LSH/objects/36593",
+            "http://kulturarvsdata.se/LSH/objects/36594",
+            "http://kulturarvsdata.se/LSH/objects/36595",
+            "http://kulturarvsdata.se/LSH/objects/36596",
+            "http://kulturarvsdata.se/LSH/objects/36597",
+            "http://kulturarvsdata.se/LSH/objects/36598",
+            "http://kulturarvsdata.se/LSH/objects/36599",
+            "http://kulturarvsdata.se/LSH/objects/36611",
+            "http://kulturarvsdata.se/LSH/objects/36620",
+            "http://kulturarvsdata.se/LSH/objects/36630",
+            "http://kulturarvsdata.se/LSH/objects/36631",
+            "http://kulturarvsdata.se/LSH/objects/36632",
+            "http://kulturarvsdata.se/LSH/objects/36635",
+            "http://kulturarvsdata.se/LSH/objects/36640",
+            "http://kulturarvsdata.se/LSH/objects/36641",
+            "http://kulturarvsdata.se/LSH/objects/36642",
+            "http://kulturarvsdata.se/LSH/objects/36643",
+            "http://kulturarvsdata.se/LSH/objects/36644",
+            "http://kulturarvsdata.se/LSH/objects/36647",
+            "http://kulturarvsdata.se/LSH/objects/36648",
+            "http://kulturarvsdata.se/LSH/objects/36650",
+            "http://kulturarvsdata.se/LSH/objects/36651",
+            "http://kulturarvsdata.se/LSH/objects/36652",
+            "http://kulturarvsdata.se/LSH/objects/36653",
+            "http://kulturarvsdata.se/LSH/objects/36655",
+            "http://kulturarvsdata.se/LSH/objects/36656",
+            "http://kulturarvsdata.se/LSH/objects/36659",
+            "http://kulturarvsdata.se/LSH/objects/36660",
+            "http://kulturarvsdata.se/LSH/objects/36661",
+            "http://kulturarvsdata.se/LSH/objects/36662",
+            "http://kulturarvsdata.se/LSH/objects/36663",
+            "http://kulturarvsdata.se/LSH/objects/36664",
+            "http://kulturarvsdata.se/LSH/objects/36665",
+            "http://kulturarvsdata.se/LSH/objects/36666",
+            "http://kulturarvsdata.se/LSH/objects/36667",
+            "http://kulturarvsdata.se/LSH/objects/36668",
+            "http://kulturarvsdata.se/LSH/objects/36670",
+            "http://kulturarvsdata.se/LSH/objects/36671",
+            "http://kulturarvsdata.se/LSH/objects/36672",
+            "http://kulturarvsdata.se/LSH/objects/36673",
+            "http://kulturarvsdata.se/LSH/objects/36674",
+            "http://kulturarvsdata.se/LSH/objects/36675",
+            "http://kulturarvsdata.se/LSH/objects/36676",
+            "http://kulturarvsdata.se/LSH/objects/36677",
+            "http://kulturarvsdata.se/LSH/objects/36678",
+            "http://kulturarvsdata.se/LSH/objects/36679",
+            "http://kulturarvsdata.se/LSH/objects/36680",
+            "http://kulturarvsdata.se/LSH/objects/36681",
+            "http://kulturarvsdata.se/LSH/objects/36682",
+            "http://kulturarvsdata.se/LSH/objects/36683",
+            "http://kulturarvsdata.se/LSH/objects/36684",
+            "http://kulturarvsdata.se/LSH/objects/36685",
+            "http://kulturarvsdata.se/LSH/objects/36686",
+            "http://kulturarvsdata.se/LSH/objects/36687",
+            "http://kulturarvsdata.se/LSH/objects/36688",
+            "http://kulturarvsdata.se/LSH/objects/36689",
+            "http://kulturarvsdata.se/LSH/objects/36690",
+            "http://kulturarvsdata.se/LSH/objects/36691",
+            "http://kulturarvsdata.se/LSH/objects/36692",
+            "http://kulturarvsdata.se/LSH/objects/36693",
+            "http://kulturarvsdata.se/LSH/objects/36694",
+            "http://kulturarvsdata.se/LSH/objects/36695",
+            "http://kulturarvsdata.se/LSH/objects/36696",
+            "http://kulturarvsdata.se/LSH/objects/36697",
+            "http://kulturarvsdata.se/LSH/objects/36698",
+            "http://kulturarvsdata.se/LSH/objects/36699",
+            "http://kulturarvsdata.se/LSH/objects/36720",
+            "http://kulturarvsdata.se/LSH/objects/36740",
+            "http://kulturarvsdata.se/LSH/objects/36741",
+            "http://kulturarvsdata.se/LSH/objects/36750",
+            "http://kulturarvsdata.se/LSH/objects/36751",
+            "http://kulturarvsdata.se/LSH/objects/36752",
+            "http://kulturarvsdata.se/LSH/objects/36753",
+            "http://kulturarvsdata.se/LSH/objects/36760",
+            "http://kulturarvsdata.se/LSH/objects/36761",
+            "http://kulturarvsdata.se/LSH/objects/36762",
+            "http://kulturarvsdata.se/LSH/objects/36763",
+            "http://kulturarvsdata.se/LSH/objects/36764",
+            "http://kulturarvsdata.se/LSH/objects/36765",
+            "http://kulturarvsdata.se/LSH/objects/36770",
+            "http://kulturarvsdata.se/LSH/objects/36771",
+            "http://kulturarvsdata.se/LSH/objects/36772",
+            "http://kulturarvsdata.se/LSH/objects/36773",
+            "http://kulturarvsdata.se/LSH/objects/36774",
+            "http://kulturarvsdata.se/LSH/objects/36775",
+            "http://kulturarvsdata.se/LSH/objects/36776",
+            "http://kulturarvsdata.se/LSH/objects/36777",
+            "http://kulturarvsdata.se/LSH/objects/36781",
+            "http://kulturarvsdata.se/LSH/objects/36782",
+            "http://kulturarvsdata.se/LSH/objects/36783",
+            "http://kulturarvsdata.se/LSH/objects/36784",
+            "http://kulturarvsdata.se/LSH/objects/36785",
+            "http://kulturarvsdata.se/LSH/objects/36786",
+            "http://kulturarvsdata.se/LSH/objects/36787",
+            "http://kulturarvsdata.se/LSH/objects/36788",
+            "http://kulturarvsdata.se/LSH/objects/36789",
+            "http://kulturarvsdata.se/LSH/objects/36790",
+            "http://kulturarvsdata.se/LSH/objects/36791",
+            "http://kulturarvsdata.se/LSH/objects/36792",
+            "http://kulturarvsdata.se/LSH/objects/36793",
+            "http://kulturarvsdata.se/LSH/objects/36794",
+            "http://kulturarvsdata.se/LSH/objects/36795",
+            "http://kulturarvsdata.se/LSH/objects/36796",
+            "http://kulturarvsdata.se/LSH/objects/36797",
+            "http://kulturarvsdata.se/LSH/objects/36798",
+            "http://kulturarvsdata.se/LSH/objects/36799",
+            "http://kulturarvsdata.se/LSH/objects/36807",
+            "http://kulturarvsdata.se/LSH/objects/36808",
+            "http://kulturarvsdata.se/LSH/objects/36809",
+            "http://kulturarvsdata.se/LSH/objects/36819",
+            "http://kulturarvsdata.se/LSH/objects/36850",
+            "http://kulturarvsdata.se/LSH/objects/36860",
+            "http://kulturarvsdata.se/LSH/objects/36861",
+            "http://kulturarvsdata.se/LSH/objects/36862",
+            "http://kulturarvsdata.se/LSH/objects/36865",
+            "http://kulturarvsdata.se/LSH/objects/36870",
+            "http://kulturarvsdata.se/LSH/objects/36871",
+            "http://kulturarvsdata.se/LSH/objects/36872",
+            "http://kulturarvsdata.se/LSH/objects/36873",
+            "http://kulturarvsdata.se/LSH/objects/36874",
+            "http://kulturarvsdata.se/LSH/objects/36880",
+            "http://kulturarvsdata.se/LSH/objects/36881",
+            "http://kulturarvsdata.se/LSH/objects/36882",
+            "http://kulturarvsdata.se/LSH/objects/36883",
+            "http://kulturarvsdata.se/LSH/objects/36885",
+            "http://kulturarvsdata.se/LSH/objects/36886",
+            "http://kulturarvsdata.se/LSH/objects/36889",
+            "http://kulturarvsdata.se/LSH/objects/36890",
+            "http://kulturarvsdata.se/LSH/objects/36891",
+            "http://kulturarvsdata.se/LSH/objects/36892",
+            "http://kulturarvsdata.se/LSH/objects/36893",
+            "http://kulturarvsdata.se/LSH/objects/36894",
+            "http://kulturarvsdata.se/LSH/objects/36895",
+            "http://kulturarvsdata.se/LSH/objects/36896",
+            "http://kulturarvsdata.se/LSH/objects/36897",
+            "http://kulturarvsdata.se/LSH/objects/36898",
+            "http://kulturarvsdata.se/LSH/objects/36904",
+            "http://kulturarvsdata.se/LSH/objects/36905",
+            "http://kulturarvsdata.se/LSH/objects/36906",
+            "http://kulturarvsdata.se/LSH/objects/36907",
+            "http://kulturarvsdata.se/LSH/objects/36908",
+            "http://kulturarvsdata.se/LSH/objects/36909",
+            "http://kulturarvsdata.se/LSH/objects/36916",
+            "http://kulturarvsdata.se/LSH/objects/36917",
+            "http://kulturarvsdata.se/LSH/objects/36918",
+            "http://kulturarvsdata.se/LSH/objects/36919",
+            "http://kulturarvsdata.se/LSH/objects/36928",
+            "http://kulturarvsdata.se/LSH/objects/36929",
+            "http://kulturarvsdata.se/LSH/objects/36970",
+            "http://kulturarvsdata.se/LSH/objects/36971",
+            "http://kulturarvsdata.se/LSH/objects/36980",
+            "http://kulturarvsdata.se/LSH/objects/36981",
+            "http://kulturarvsdata.se/LSH/objects/36982",
+            "http://kulturarvsdata.se/LSH/objects/36983",
+            "http://kulturarvsdata.se/LSH/objects/36990",
+            "http://kulturarvsdata.se/LSH/objects/36991",
+            "http://kulturarvsdata.se/LSH/objects/36992",
+            "http://kulturarvsdata.se/LSH/objects/36993",
+            "http://kulturarvsdata.se/LSH/objects/36994",
+            "http://kulturarvsdata.se/LSH/objects/36995",
+            "http://kulturarvsdata.se/LSH/objects/36998",
+            "http://kulturarvsdata.se/LSH/objects/37003",
+            "http://kulturarvsdata.se/LSH/objects/37004",
+            "http://kulturarvsdata.se/LSH/objects/37005",
+            "http://kulturarvsdata.se/LSH/objects/37007",
+            "http://kulturarvsdata.se/LSH/objects/37008",
+            "http://kulturarvsdata.se/LSH/objects/37009",
+            "http://kulturarvsdata.se/LSH/objects/37015",
+            "http://kulturarvsdata.se/LSH/objects/37016",
+            "http://kulturarvsdata.se/LSH/objects/37017",
+            "http://kulturarvsdata.se/LSH/objects/37018",
+            "http://kulturarvsdata.se/LSH/objects/37019",
+            "http://kulturarvsdata.se/LSH/objects/37027",
+            "http://kulturarvsdata.se/LSH/objects/37028",
+            "http://kulturarvsdata.se/LSH/objects/37029",
+            "http://kulturarvsdata.se/LSH/objects/37039"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36458&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36458"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36459&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36459"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36460&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36460"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36461&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36461"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36462&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36462"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36463&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36463"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36464&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36464"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36465&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36465"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36466&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36466"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36467&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36467"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36468&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36468"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36469&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36469"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36471&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36471"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36472&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36472"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36473&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36473"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36474&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36474"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36475&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36475"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36476&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36476"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36477&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36477"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36478&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36478"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36479&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36479"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36483&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36483"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36484&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36484"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36485&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36485"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36486&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36486"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36487&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36487"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36488&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36488"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36489&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36489"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36495&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36495"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36496&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36496"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36497&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36497"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36498&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36498"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36499&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36499"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Mime type checking error",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36500",
+            "http://kulturarvsdata.se/LSH/objects/36536",
+            "http://kulturarvsdata.se/LSH/objects/36539",
+            "http://kulturarvsdata.se/LSH/objects/36624",
+            "http://kulturarvsdata.se/LSH/objects/36648",
+            "http://kulturarvsdata.se/LSH/objects/36657",
+            "http://kulturarvsdata.se/LSH/objects/36669",
+            "http://kulturarvsdata.se/LSH/objects/36721",
+            "http://kulturarvsdata.se/LSH/objects/36733",
+            "http://kulturarvsdata.se/LSH/objects/36742",
+            "http://kulturarvsdata.se/LSH/objects/36757",
+            "http://kulturarvsdata.se/LSH/objects/36767",
+            "http://kulturarvsdata.se/LSH/objects/36768",
+            "http://kulturarvsdata.se/LSH/objects/36769",
+            "http://kulturarvsdata.se/LSH/objects/36851",
+            "http://kulturarvsdata.se/LSH/objects/36888",
+            "http://kulturarvsdata.se/LSH/objects/36973",
+            "http://kulturarvsdata.se/LSH/objects/36985",
+            "http://kulturarvsdata.se/LSH/objects/36987",
+            "http://kulturarvsdata.se/LSH/objects/36997",
+            "http://kulturarvsdata.se/LSH/objects/37040"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36502&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36502"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36510&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36510"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36511&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36511"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36514&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36514"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36515&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36515"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36520&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36520"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36521&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36521"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36522&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36522"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36523&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36523"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36526&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36526"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36527&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36527"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36530&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36530"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36531&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36531"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36532&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36532"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36533&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36533"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36534&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36534"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36535&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36535"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36538&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36538"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36540&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36540"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36541&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36541"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36542&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36542"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36543&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36543"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36544&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36544"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36545&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36545"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36546&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36546"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36547&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36547"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36548&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36548"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36550&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36550"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36551&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36551"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36552&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36552"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36553&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36553"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36554&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36554"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36555&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36555"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36556&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36556"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36557&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36557"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36558&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36558"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36559&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36559"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36560&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36560"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36561&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36561"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36562&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36562"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36563&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36563"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36564&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36564"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36565&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36565"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36566&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36566"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36567&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36567"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36568&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36568"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36569&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36569"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36570&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36570"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36571&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36571"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36572&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36572"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36573&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36573"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36574&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36574"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36575&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36575"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36576&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36576"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36577&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36577"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36578&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36578"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36579&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36579"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36580&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36580"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36581&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36581"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36582&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36582"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36583&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36583"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36584&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36584"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36585&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36585"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36586&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36586"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36587&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36587"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36588&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36588"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36589&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36589"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36592&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36592"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36593&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36593"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36594&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36594"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36595&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36595"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36596&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36596"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36597&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36597"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36598&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36598"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36599&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36599"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36611&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36611"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36612&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36612"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36620&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36620"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36623&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36623"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36630&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36630"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36631&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36631"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36632&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36632"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36633&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36633"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36635&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36635"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36640&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36640"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36641&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36641"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36642&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36642"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36643&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36643"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36644&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36644"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36647&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36647"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36650&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36650"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36651&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36651"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36652&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36652"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36653&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36653"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36654&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36654"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36655&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36655"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36656&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36656"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36659&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36659"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36660&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36660"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36661&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36661"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36662&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36662"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36663&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36663"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36664&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36664"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36665&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36665"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36666&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36666"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36667&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36667"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36668&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36668"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36670&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36670"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36671&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36671"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36672&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36672"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36673&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36673"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36674&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36674"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36675&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36675"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36676&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36676"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36677&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36677"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36678&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36678"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36679&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36679"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36680&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36680"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36681&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36681"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36682&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36682"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36683&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36683"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36684&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36684"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36685&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36685"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36686&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36686"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36687&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36687"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36688&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36688"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36689&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36689"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36690&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36690"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36691&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36691"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36692&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36692"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36693&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36693"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36694&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36694"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36695&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36695"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36696&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36696"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36697&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36697"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36698&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36698"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36699&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36699"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36720&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36720"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36732&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36732"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36740&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36740"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36741&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36741"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36744&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36744"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36745&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36745"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36750&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36750"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36751&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36751"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36752&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36752"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36753&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36753"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36755&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36755"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36756&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36756"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36760&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36760"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36761&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36761"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36762&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36762"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36763&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36763"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36764&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36764"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36765&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36765"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36770&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36770"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36771&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36771"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36772&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36772"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36773&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36773"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36774&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36774"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36775&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36775"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36776&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36776"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36777&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36777"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36781&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36781"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36782&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36782"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36783&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36783"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36784&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36784"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36785&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36785"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36786&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36786"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36787&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36787"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36788&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36788"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36789&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36789"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36790&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36790"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36791&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36791"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36792&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36792"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36793&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36793"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36794&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36794"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36795&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36795"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36796&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36796"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36797&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36797"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36798&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36798"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36799&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36799"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36807&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36807"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36808&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36808"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36809&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36809"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36819&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36819"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36830&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36830"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36841&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36841"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36850&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36850"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36853&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36853"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36854&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36854"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36860&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36860"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36861&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36861"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36862&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36862"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36863&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36863"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36865&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36865"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36866&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36866"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36870&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36870"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36871&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36871"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36872&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36872"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36873&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36873"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36874&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36874"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36877&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36877"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36878&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36878"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36880&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36880"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36881&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36881"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36882&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36882"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36883&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36883"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36884&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36884"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36885&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36885"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36886&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36886"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36889&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36889"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36890&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36890"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36891&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36891"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36892&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36892"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36893&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36893"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36894&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36894"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36895&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36895"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36896&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36896"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36897&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36897"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36898&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36898"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36904&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36904"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36905&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36905"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36906&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36906"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36907&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36907"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36908&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36908"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36909&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36909"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36916&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36916"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36917&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36917"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36918&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36918"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36919&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36919"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36928&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36928"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36929&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36929"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36950&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36950"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36962&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36962"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36970&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36970"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36971&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36971"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36974&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36974"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36980&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36980"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36981&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36981"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36982&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36982"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36983&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36983"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36986&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36986"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36990&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36990"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36991&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36991"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36992&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36992"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36993&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36993"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36994&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36994"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36995&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36995"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36996&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36996"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=36998&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/36998"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37003&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37003"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37004&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37004"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37005&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37005"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37007&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37007"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37008&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37008"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37009&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37009"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37015&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37015"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37016&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37016"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37017&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37017"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37018&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37018"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37019&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37019"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37027&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37027"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37028&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37028"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37029&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37029"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37039&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37039"
+          ]
+        },
+        {
+          "type": "warning",
+          "message": "Problem while processing http://emuseumplus.lsh.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=37052&viewType=detailView",
+          "records": [
+            "http://kulturarvsdata.se/LSH/objects/37052"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "preview",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "publish",
+      "total": 600,
+      "success": 600,
+      "fail": 0,
+      "warn": 0
+    }
+  ]
+}

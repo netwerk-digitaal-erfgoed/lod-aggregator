@@ -1,0 +1,109 @@
+{
+  "status": "completed",
+  "portal-preview": "https://metis-sandbox-preview-api-prod-portal.eanadev.org/portal/search?view=grid&q=edm_datasetName:106_EKT-ECC-sculptures*",
+  "portal-publish": "https://metis-sandbox-publish-api-prod-portal.eanadev.org/portal/search?view=grid&q=edm_datasetName:106_EKT-ECC-sculptures*",
+  "total-records": 20,
+  "processed-records": 20,
+  "progress-by-step": [
+    {
+      "step": "import",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "validate (edm external)",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "transform",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "validate (edm internal)",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "normalise",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "enrich",
+      "total": 20,
+      "success": 0,
+      "fail": 0,
+      "warn": 20,
+      "errors": [
+        {
+          "type": "warning",
+          "message": "Exception occurred while trying to perform enrichment.",
+          "records": [
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1045423895",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1106626479",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1229396317",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1351348207",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1451199321",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1464226206",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1776938968",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1907492117",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/1987672640",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/371640987",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/403431542",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/419699008",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/423155938",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/553475060",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/585064064",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/648824291",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/703667192",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/710577197",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/968785733",
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/985192715"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "process media",
+      "total": 20,
+      "success": 19,
+      "fail": 0,
+      "warn": 1,
+      "errors": [
+        {
+          "type": "warning",
+          "message": "Problem while processing http://www.nationalgallery.gr/site/content.php?artwork_id=75661",
+          "records": [
+            "http://semantics.gr/authorities/ecc-sculptures-dataset/648824291"
+          ]
+        }
+      ]
+    },
+    {
+      "step": "preview",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    },
+    {
+      "step": "publish",
+      "total": 20,
+      "success": 20,
+      "fail": 0,
+      "warn": 0
+    }
+  ]
+}

@@ -59,14 +59,19 @@ WHERE {
       OPTIONAL { ?uri_cho ksamsok:context ?bn_context .
                  ?bn_context cidoc:P94B.was_created_by ?creator 
                }
-      OPTIONAL { ?uri_cho ksamsok:itemDescription ?bn_itemDescription .
-                 ?bn_itemDescription ksamsok:desc ?description 
-               }
+      OPTIONAL { 
+        ?uri_cho ksamsok:itemDescription ?bn_itemDescription .
+        ?bn_itemDescription ksamsok:desc ?description 
+        FILTER(STRLEN(STR(?description))>0) 
+      }
       OPTIONAL { ?uri_cho ksamsok:itemKeyWord ?subject }
       OPTIONAL { ?uri_cho ksamsok:itemClassName ?subject }
       OPTIONAL { ?uri_cho ksamsok:mediaType ?mediaType }
       OPTIONAL { ?uri_cho ksamsok:itemLicenseUrl ?license }
-      OPTIONAL { ?uri_cho ksamsok:itemLabel ?name }
+      OPTIONAL { 
+        ?uri_cho ksamsok:itemLabel ?name
+        FILTER(STRLEN(STR(?name))>0) 
+      }
       OPTIONAL { 
         ?uri_cho ksamsok:itemName ?bn_itemName .
         ?bn_itemName ksamsok:name ?altName 
@@ -90,9 +95,11 @@ WHERE {
       }
       OPTIONAL {
         # Europeana requires valid URI for edm:isShownBy 
-        ?uri_cho ksamsok:image ?bn_image .
-        ?bn_image ksamsok:highresSource ?image
-        BIND(IRI(?image) as ?isShownBy)
+        SELECT ?isShownBy {
+          ?uri_cho ksamsok:image ?bn_image .
+          ?bn_image ksamsok:highresSource ?image
+          BIND(IRI(?image) as ?isShownBy)
+        } LIMIT 1 # select the first value, only one is allowed
       }
     }
     UNION 
@@ -120,4 +127,4 @@ WHERE {
       }
       OPTIONAL { ?uri_pers foaf:title ?pers_desc }        
     }
-}
+} 
