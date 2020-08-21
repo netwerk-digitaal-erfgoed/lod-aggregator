@@ -43,6 +43,12 @@ CONSTRUCT {
 
 }
 WHERE {
+    select 
+      ?uri_cho ?edm_type ?creator ?description ?mediaType ?subject ?name ?altName ?extent ?material
+      ?uri_ore ?provider ?dataProvider ?license ?isShownAt
+      (SAMPLE(?all_isShownBy) as ?isShownBy)
+      ?uri_org ?org_name ?org_description
+      ?uri_pers ?pers_name ?pers_additionalName ?pers_birthDate ?pers_deathDate  {
     {
       ?uri_cho a ksamsok:Entity .
       ?uri_cho ksamsok:itemType restype:object .
@@ -90,16 +96,14 @@ WHERE {
       }
       OPTIONAL {
         # Europeana requires valid URI for edm:isShownAt 
-        ?uri_cho ksamsok:url ?url 
-        BIND(IRI(?url) as ?isShownAt)  
+        ?uri_cho ksamsok:url ?url
+        BIND(IRI(?url) as ?isShownAt)
       }
       OPTIONAL {
         # Europeana requires valid URI for edm:isShownBy 
-        SELECT ?isShownBy {
-          ?uri_cho ksamsok:image ?bn_image .
-          ?bn_image ksamsok:highresSource ?image
-          BIND(IRI(?image) as ?isShownBy)
-        } LIMIT 1 # select the first value, only one is allowed
+        ?uri_cho ksamsok:image ?bn_image .
+        ?bn_image ksamsok:highresSource ?image
+        BIND(IRI(?image) as ?all_isShownBy)
       }
     }
     UNION 
@@ -127,4 +131,9 @@ WHERE {
       }
       OPTIONAL { ?uri_pers foaf:title ?pers_desc }        
     }
+  } group by 
+      ?uri_cho ?edm_type ?creator ?description ?mediaType ?subject ?name ?altName ?extent ?material
+      ?uri_ore ?provider ?dataProvider ?license ?isShownAt
+      ?uri_org ?org_name ?org_description
+      ?uri_pers ?pers_name ?pers_additionalName ?pers_birthDate ?pers_deathDate
 } 

@@ -129,4 +129,4 @@ For debugging and testing it can be helpful to convert RDF into other serializat
 serialize.sh --data {input file} --format {RDF format} --output {output file}
 ```
 
-See the [starter.sh](./scripts/starter.sh) script for a full list of `format` options.
+See the [starter.sh](./bin/starter.sh) script for a full list of `format` options.
