@@ -62,7 +62,7 @@ For a generic harvesting process the following tasks should be performed:
 
 Optional steps:
 
-- run the **craw** and **validate service** to download and check only the dataset description
+- run the **crawl** and **validate service** to download and check only the dataset description
 - run the **serialize service** to transform the RDF from one serialization (N-Triples, RDF/XML, Turtle) into another
 
 
