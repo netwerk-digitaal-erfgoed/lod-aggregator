@@ -9,14 +9,24 @@ See the following specifications for more background information:
 * [Specifying a linked data dataset for Europeana and aggregators](https://zenodo.org/record/3817314)
 * [Guidelines for providing and handling Schema.org metadata in compliance with Europeana](https://zenodo.org/record/3817236)
   
-_This software was developped as part of the Europeana Common Culture project. Main development and testing was done by Europeana R&D and the Dutch Digital Heritage Network (NDE)._
+_This software was developped as part of the Europeana Common Culture project. Main development and testing was done by Europeana R&D and the Dutch Digital Heritage Network (NDE).
 
 ## Installation
+
+This tool requires Docker-compose to be configured on your system. Please visit [Docker-compose documentation](https://docs.docker.com/compose/install/) for details about the installation of Docker and Docker-compose. 
+
+The tools are run using a command shell. Please make sure your system is able to run commands from a shell. The software is testend on Linux Ubuntu but should run on any Linux system or compatible environment.
 
 Use the following command or your favorite Git tool to clone the repo to your local environment
 
 ```bash
-git clone https://github.com/netwerk-digitaal-erfgoed/europeana-cc-lod.git
+git clone https://github.com/netwerk-digitaal-erfgoed/lod-aggregator.git
+```
+
+Enter the newly created directory `lod-aggregator` and run all commands from here.
+
+```bash
+cd lod-aggregator
 ```
 
 Set the defaults values for your local installation using a `.env` file:
@@ -44,7 +54,7 @@ docker-compose build --no-cache crawl
   source bin/setpath
   ```
 
-  This will add ./bin path to your $PATH so you can run the commands without prefixing them.
+  This will add `./bin` path to your $PATH so you can run the commands without prefixing them.
 
 No further configuration is needed. See [docker-compose.yml](./docker-compose.yml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (`sparql` and `shacl`) are being called in more detail.
 
@@ -62,9 +72,8 @@ For a generic harvesting process the following tasks should be performed:
 
 Optional steps:
 
-- run the **crawl** and **validate service** to download and check only the dataset description
-- run the **serialize service** to transform the RDF from one serialization (N-Triples, RDF/XML, Turtle) into another
-
+* run the **crawl** and **validate service** to download and check only the dataset description
+* run the **serialize service** to transform the RDF from one serialization (N-Triples, RDF/XML, Turtle) into another
 
 ### Documented test runs
 
