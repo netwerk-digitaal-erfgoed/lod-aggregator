@@ -1,4 +1,4 @@
-# LOD-aggregator
+# LOD-aggregator (LODA)
 
 ## Summary
 
@@ -9,7 +9,7 @@ See the following specifications for more background information:
 * [Specifying a linked data dataset for Europeana and aggregators](https://zenodo.org/record/3817314)
 * [Guidelines for providing and handling Schema.org metadata in compliance with Europeana](https://zenodo.org/record/3817236)
   
-_This software was developped as part of the Europeana Common Culture project. Main development and testing was done by Europeana R&D and the Dutch Digital Heritage Network (NDE).
+_This software was developped as part of the Europeana Common Culture project. Main development and testing was done by Europeana R&D and the Dutch Digital Heritage Network (NDE)._
 
 ## Installation
 
@@ -57,6 +57,8 @@ docker-compose build --no-cache crawl
   This will add `./bin` path to your $PATH so you can run the commands without prefixing them.
 
 No further configuration is needed. See [docker-compose.yml](./docker-compose.yml) and [the starter.sh script](./scripts/starter) for more details on how the crawler and JENA tools (`sparql` and `shacl`) are being called in more detail.
+
+Please report problems or other feedback through the Github Issues function or send an email to enno.meijers at kb.nl.
 
 ## General workflow
 
