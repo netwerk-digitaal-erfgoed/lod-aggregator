@@ -20,7 +20,10 @@ import org.apache.jena.riot.system.StreamRDF;
 import eu.europeana.commonculture.lod.crawler.http.HttpRequest;
 
 public class DistributionDownload {
-	public static void streamRdf(String url, String defaultContentType, StreamRDF handler) throws IOException, InterruptedException {
+	/*
+	 * returns an error message or null if download is successfull
+	 */
+	public static String streamRdf(String url, String defaultContentType, StreamRDF handler) throws IOException, InterruptedException {
 		HttpRequest request = new HttpRequest(url).fetchStream();
 		
 		try {
@@ -38,7 +41,7 @@ public class DistributionDownload {
 				if (url.toLowerCase().endsWith(".gz"))
 					uriWithoutFileExtension = url.substring(0, url.length()-3);
 				if (uriWithoutFileExtension == null)
-					throw new IllegalArgumentException("undeterminable mime type: " + url);
+					return "undeterminable mime type: " + url;
 				Lang filenameToLang = RDFLanguages.filenameToLang(uriWithoutFileExtension);
 	
 				RDFParserBuilder builder = RDFParser.create().checking(false).forceLang(filenameToLang);
@@ -53,7 +56,7 @@ public class DistributionDownload {
 				if (url.toLowerCase().endsWith(".bz2"))
 					uriWithoutFileExtension = url.substring(0, url.length()-4);
 				if (uriWithoutFileExtension == null)
-					throw new IllegalArgumentException("undeterminable mime type: " + url);
+					return "undeterminable mime type: " + url;
 				Lang filenameToLang = RDFLanguages.filenameToLang(uriWithoutFileExtension);
 				
 				RDFParserBuilder builder = RDFParser.create().checking(false).forceLang(filenameToLang);
@@ -118,9 +121,10 @@ public class DistributionDownload {
 
 					builder.source(contentStream).parse(handler);
 				} else {
-					throw new IOException("Could not determine content-type");
+					return "Could not determine content-type";
 				}
 			}
+			return null;
 		} finally {
 			request.getResponse().close();
 		}

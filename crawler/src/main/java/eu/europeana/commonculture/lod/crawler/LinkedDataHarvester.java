@@ -97,12 +97,17 @@ public class LinkedDataHarvester {
 		for(Triple t :dataset.getRdf().getGraph().find().toList()) 
 			writer.triple(t);
 		
+		String error=null;
 		for(Distribution dist: dataset.getDistributions()) {
-			DistributionDownload.streamRdf(dist.getUrl(), dist.getContentType(), writer);
+			error=DistributionDownload.streamRdf(dist.getUrl(), dist.getContentType(), writer);
+			if (error==null) break; //download was successful, do not attempt other distributions
 		}
 		
 		writer.finish();
 		fos.close();
+		
+		if(error!=null)
+			throw new AccessException("Error downloading distribution: "+error);
 	}
 
 	private int crawlSparql(DatasetDescription dataset, File outFile) throws IOException, AccessException, InterruptedException {
