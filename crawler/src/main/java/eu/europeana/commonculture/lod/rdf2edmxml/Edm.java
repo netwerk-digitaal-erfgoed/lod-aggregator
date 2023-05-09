@@ -38,6 +38,8 @@ public final class Edm {
 		put("http://metadata.net/harmony/abc#", "abc");
 		put("http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#", "ebucore");
 		put("http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#", "dolce-lite");
+		put("http://rdfs.org/sioc/services#", "sioc");
+		put("http://usefulinc.com/ns/doap#", "doap");		
 	}};
 	public static Map<String, String> NS_EXTERNAL_PREFERRED_BY_PREFIXES=new HashMap<String, String>() {{
 		for(Entry<String, String> e : NS_EXTERNAL_PREFERRED_BY_NS.entrySet()) 
