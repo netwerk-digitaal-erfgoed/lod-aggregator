@@ -1,0 +1,99 @@
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
+PREFIX ore:     <http://www.openarchives.org/ore/terms/>
+PREFIX nao:     <https://archief.nl/def/ontologie/> 
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/> 
+PREFIX odrl:    <http://www.w3.org/ns/odrl/2/> 
+PREFIX doap:    <http://usefulinc.com/ns/doap#>
+PREFIX svcs:    <http://rdfs.org/sioc/services#>
+
+CONSTRUCT {
+    ?uri_cho a edm:ProvidedCHO ;
+        edm:type ?edm_type ;          
+        dc:creator ?creator ;
+        dc:description ?description;
+        dc:type ?genre ;
+        dc:subject ?subject ;
+        dcterms:spatial ?spatial ;
+        dcterms:temporal ?temporal ;
+        dcterms:medium ?material ;
+        dc:rights ?license ;
+        dc:identifier ?identifier ;
+        dc:date ?date ;
+        dcterms:isPartOf ?is_part_of ;
+        dc:publisher ?publisher .
+
+    ?uri_ore a ore:Aggregation ;
+        edm:aggregatedCHO ?uri_cho ;      
+        edm:provider ?provider ;          
+        edm:dataProvider ?dataProvider ;  
+        edm:rights ?rights ;             
+        edm:isShownBy ?isShownBy ;  
+        edm:isShownAt ?isShownAt .  
+
+    ?isShownBy a edm:WebResource ;
+        svcs:has_service ?uri_iiif .
+
+    ?uri_iiif a svcs:Service ;
+        dcterms:conformsTo <http://iiif.io/api/image> ;
+        doap:implements <http://iiif.io/api/image/2/level1.json> .
+
+} WHERE {
+
+      # NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
+      # Europeana requires the provider value to be specified through the aggregation process.
+      BIND( STR('VAR_PROVIDER') as ?provider)
+      
+      ?uri_cho a nao:Archiefeenheid .
+
+      # Fixed value
+      BIND(("IMAGE") as ?edm_type)
+      # Fixed value to ensure correct selection
+      ?uri_cho nao:isArchiefeenheidtype  <https://archief.nl/def/Foto> 
+      # Fixed value
+	  BIND(("Foto") as ?genre)
+
+      OPTIONAL { ?uri_cho nao:isMateriaaltype ?_material . BIND(STRLANG(?_material, "nl") AS ?material) }
+      OPTIONAL { ?uri_cho dc:identifier ?identifier  }
+
+      ?uri_ore foaf:primaryTopic ?uri_cho .
+
+      OPTIONAL { ?uri_ore dc:description ?_description . BIND(STRLANG(?_description, "nl") AS ?description) }
+      OPTIONAL { ?uri_ore nao:toelichting ?_description . BIND(STRLANG(?_description, "nl") AS ?description)  }
+      # Get prefLabel from URI from GTAA term (http://data.beeldengeluid.nl/gtaa/xxxxxx)
+      # These terms are part of this dataset, so no need for federative SERVICE construct
+      OPTIONAL { ?uri_ore dcterms:subject/skos:prefLabel ?subject . }
+      OPTIONAL { ?uri_ore nao:trefwoordAlgemeen ?subject  }
+      OPTIONAL { ?uri_ore nao:trefwoordLocatie ?_spatial . BIND(STRLANG(?_spatial, "nl") AS ?spatial)  }
+      OPTIONAL { ?uri_ore dc:coverage ?temporal  }
+      OPTIONAL { ?uri_ore dcterms:date ?date  }
+      OPTIONAL { ?uri_ore nao:titelFotocollectie ?is_part_of  }
+      OPTIONAL { ?uri_ore nao:titelFotoserie ?is_part_of  }
+      OPTIONAL { ?uri_ore odrl:hasPolicy/dcterms:rightsHolder ?_license . BIND(STRLANG(?_license, "nl") AS ?licenseq) }
+
+      # License "conversion" <https://archief.nl/def/Policy/set_b_rechtenvrij__publiek_domein> > <http://creativecommons.org/publicdomain/mark/1.0/> 
+      ?uri_ore odrl:hasPolicy ?policy .
+      BIND(  IF(?policy = <https://archief.nl/def/Policy/set_b_rechtenvrij__publiek_domein>, IRI("http://creativecommons.org/publicdomain/mark/1.0/"), ?policy) as ?rights)
+
+      ?_recordagg ore:aggregates ?uri_ore .
+      ?_recordagg edm:isShownAt ?isShownAt .
+      
+      ?_recordagg edm:hasView ?_isShownBy .
+      ?_isShownBy nao:webserviceIIIF ?iiif_info .
+      BIND( IRI(CONCAT(REPLACE(STR(?iiif_info),"info.json","full/800,/0/default.jpg"))) as ?isShownBy)
+      BIND( IRI(CONCAT(REPLACE(STR(?iiif_info),"info.json",""))) as ?uri_iiif)
+
+      OPTIONAL { ?_recordagg dcterms:creator/skos:prefLabel ?_creator . BIND(STRLANG(?_creator, "nl") AS ?creator) }
+
+  	  # The IRI for ore:isAggregatedBy within a nao:Recordaggregatie is incorrect, needs custom replace to fix
+      ?_recordagg ore:isAggregatedBy ?wrong_aggr
+      # <https://archief.nl/doc/2.10.62ntfoto> > <https://archief.nl/doc/Fotocollectie/2.10.62ntfoto>
+      BIND( IRI(REPLACE(STR(?wrong_aggr),"/doc/2","/doc/Fotocollectie/2")) as ?aggr)
+
+      ?aggr dcterms:publisher ?dataProvider .
+      # Alternative solution (fixed value):
+      # BIND( STRLANG("Nationaal Archief","nl") as ?dataProvider)
+}
