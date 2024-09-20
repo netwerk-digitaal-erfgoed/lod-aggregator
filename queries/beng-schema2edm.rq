@@ -66,6 +66,12 @@ WHERE {
                 sdo:associatedMedia [rdf:type sdo:AudioObject] .
         BIND(("SOUND") as ?edm_type)
       }
+      UNION 
+      {
+        ?uri_cho a sdo:CreativeWork ;
+                sdo:associatedMedia [rdf:type sdo:VideoObject] .
+        BIND(("VIDEO") as ?edm_type)
+      }
 
       # Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource. 
       BIND( URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
