@@ -5,7 +5,6 @@ PREFIX dc:      <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
 PREFIX void:    <http://rdfs.org/ns/void#>
-PREFIX schema:  <http://schema.org/>
 PREFIX edm:     <http://www.europeana.eu/schemas/edm/>
 PREFIX ore:     <http://www.openarchives.org/ore/terms/>
 PREFIX sdo:     <https://schema.org/>
@@ -52,12 +51,12 @@ WHERE {
     {
       {
 	    ?uri_cho a ?type .
-        VALUES ?type { schema:Sculpture schema:VisualArtwork schema:Painting schema:Photograph }
+        VALUES ?type { sdo:Sculpture sdo:VisualArtwork sdo:Painting sdo:Photograph }
         BIND(("IMAGE") as ?edm_type)
       }
       UNION 
       {
-        ?uri_cho a schema:Book .
+        ?uri_cho a sdo:Book .
         BIND(("TEXT") as ?edm_type)
       }
       UNION 
@@ -80,68 +79,68 @@ WHERE {
       # Europeana requires the provider value to be specified through the aggregation process.
       BIND( STR('VAR_PROVIDER') as ?provider)
 
-      OPTIONAL { ?uri_cho schema:creator ?creator }
-      OPTIONAL { ?uri_cho schema:description ?description }
-      OPTIONAL { ?uri_cho schema:genre ?genre . 
+      OPTIONAL { ?uri_cho sdo:creator ?creator }
+      OPTIONAL { ?uri_cho sdo:description ?description }
+      OPTIONAL { ?uri_cho sdo:genre ?genre . 
                 FILTER (lang( ?genre) = "en")
                 BIND(str(?genre) as ?dc_genre)
                }
-      OPTIONAL { ?uri_cho schema:keywords ?subject }
-      OPTIONAL { ?uri_cho schema:about ?subject }
-      OPTIONAL { ?uri_cho schema:license ?cho_license }
-      OPTIONAL { ?uri_cho schema:name ?name }
-      OPTIONAL { ?uri_cho schema:alternateName ?altName }
+      OPTIONAL { ?uri_cho sdo:keywords ?subject }
+      OPTIONAL { ?uri_cho sdo:about ?subject }
+      OPTIONAL { ?uri_cho sdo:license ?cho_license }
+      OPTIONAL { ?uri_cho sdo:name ?name }
+      OPTIONAL { ?uri_cho sdo:alternateName ?altName }
       OPTIONAL { 
          # use a default the provider mentioned in the dataset description, if any...
          ?dataset void:rootResource ?uri_cho .
-         ?dataset schema:provider ?dataProvider . 
+         ?dataset sdo:provider ?dataProvider . 
       }
       OPTIONAL { 
          # use as default the license statement mentioned in the dataset description, if any...
          ?dataset void:rootResource ?uri_cho .
-         ?dataset schema:license ?dataset_license .
+         ?dataset sdo:license ?dataset_license .
       }
       OPTIONAL { 
          # use the provider from the resource description
-         ?uri_cho schema:provider ?dataProvider 
+         ?uri_cho sdo:provider ?dataProvider 
       }
-      OPTIONAL { ?uri_cho schema:publisher ?publisher }
-      OPTIONAL { ?uri_cho schema:sameAs ?sameAs }
-      OPTIONAL { ?uri_cho schema:spatial ?spatial }
-      OPTIONAL { ?uri_cho schema:temporal ?temporal }
-      OPTIONAL { ?uri_cho schema:material ?material }
+      OPTIONAL { ?uri_cho sdo:publisher ?publisher }
+      OPTIONAL { ?uri_cho sdo:sameAs ?sameAs }
+      OPTIONAL { ?uri_cho sdo:spatial ?spatial }
+      OPTIONAL { ?uri_cho sdo:temporal ?temporal }
+      OPTIONAL { ?uri_cho sdo:material ?material }
       OPTIONAL {
         # Europeana requires valid URI for edm:isShownAt 
-        ?uri_cho schema:url ?url 
+        ?uri_cho sdo:url ?url 
         BIND(IRI(?url) as ?isShownAt)  
       }
       OPTIONAL {
         # Europeana requires valid URI for edm:isShownBy 
-        ?uri_cho schema:image ?image
+        ?uri_cho sdo:image ?image
         BIND(IRI(?image) as ?isShownBy)
       }
       BIND(COALESCE(IRI(?cho_license),IRI(?dataset_license),"no license info") as ?license)
     }
     UNION 
     {
-	    ?uri_org a schema:Organization .
-        OPTIONAL { ?uri_org schema:name ?org_name }
-        OPTIONAL { ?uri_org schema:description ?org_desc }
+	    ?uri_org a sdo:Organization .
+        OPTIONAL { ?uri_org sdo:name ?org_name }
+        OPTIONAL { ?uri_org sdo:description ?org_desc }
     }
     UNION
     {
-	    ?uri_pers a schema:Person .
-        OPTIONAL { ?uri_pers schema:name ?pers_name }
-        OPTIONAL { ?uri_pers schema:additionalName ?pers_additionalName }
-        OPTIONAL { ?uri_pers schema:birthDate ?pers_birthDate }
-        OPTIONAL { ?uri_pers schema:deathDate ?pers_deathDate }
-        OPTIONAL { ?uri_pers schema:description ?pers_desc }        
+	    ?uri_pers a sdo:Person .
+        OPTIONAL { ?uri_pers sdo:name ?pers_name }
+        OPTIONAL { ?uri_pers sdo:additionalName ?pers_additionalName }
+        OPTIONAL { ?uri_pers sdo:birthDate ?pers_birthDate }
+        OPTIONAL { ?uri_pers sdo:deathDate ?pers_deathDate }
+        OPTIONAL { ?uri_pers sdo:description ?pers_desc }        
     }
     UNION
     {
-	    ?uri_pl a schema:Place .
-        OPTIONAL { ?uri_pl schema:name ?pl_name }
-        OPTIONAL { ?uri_pl schema:alternateName ?pl_alternateName }
-        OPTIONAL { ?uri_pl schema:sameAs ?pl_sameAs }        
+	    ?uri_pl a sdo:Place .
+        OPTIONAL { ?uri_pl sdo:name ?pl_name }
+        OPTIONAL { ?uri_pl sdo:alternateName ?pl_alternateName }
+        OPTIONAL { ?uri_pl sdo:sameAs ?pl_sameAs }        
     }
 }
