@@ -1,191 +1,214 @@
 # toe te passen op de Data-Doe-Dag 2025 collectiedata https://omeka.netwerkdigitaalerfgoed.nl/files/datadumps/all-ddd.nt
 
-PREFIX owl:		<http://www.w3.org/2002/07/owl#>
-PREFIX dc:		<http://purl.org/dc/elements/1.1/>
-PREFIX dcterms:	<http://purl.org/dc/terms/>
-PREFIX skos:	<http://www.w3.org/2004/02/skos/core#>
-PREFIX sdo:		<https://schema.org/>
-PREFIX edm:		<http://www.europeana.eu/schemas/edm/>
-PREFIX ore:		<http://www.openarchives.org/ore/terms/>
-PREFIX doap:	<http://usefulinc.com/ns/doap#>
-PREFIX svcs:	<http://rdfs.org/sioc/services#>
-PREFIX o:		<http://omeka.org/s/vocabs/o#>
+prefix owl:		<http://www.w3.org/2002/07/owl#>
+prefix dc:		<http://purl.org/dc/elements/1.1/>
+prefix dcterms:	<http://purl.org/dc/terms/>
+prefix skos:	<http://www.w3.org/2004/02/skos/core#>
+prefix sdo:		<https://schema.org/>
+prefix edm:		<http://www.europeana.eu/schemas/edm/>
+prefix ore:		<http://www.openarchives.org/ore/terms/>
+prefix doap:	<http://usefulinc.com/ns/doap#>
+prefix svcs:	<http://rdfs.org/sioc/services#>
+prefix o:		<http://omeka.org/s/vocabs/o#>
 
-CONSTRUCT {
+construct {
 
-	?uri_cho a edm:ProvidedCHO ;
-		edm:type ?edm_type ;
-		dc:creator ?creator ;
-		dc:publisher ?publisher ;
-		dcterms:created ?dateCreated ;
-		dc:description ?description ;
-		dc:type ?genre ;
-		dc:subject ?subject ;
-		dc:title ?name ;
-		dcterms:spatial ?spatial ;
-		dcterms:temporal ?temporal ;
-		dcterms:medium ?material ;
-		dcterms:extent ?extent .   
+  ?uri_cho a edm:ProvidedCHO ;
+    edm:type ?edm_type ;
+    dc:creator ?creator ;
+    dc:publisher ?publisher ;
+    dcterms:created ?dateCreated ;
+    dc:description ?description ;
+    dc:type ?genre ;
+    dc:subject ?subject ;
+    dc:title ?name ;
+    dcterms:spatial ?spatial ;
+    dcterms:temporal ?temporal ;
+    dcterms:medium ?material ;
+    dcterms:extent ?extent .
 
-	?uri_ore a ore:Aggregation ;
-		edm:aggregatedCHO ?uri_cho ;
-		edm:provider ?provider ;
-		edm:dataProvider ?dataProvider ;
-		edm:rights ?license ;
-		edm:hasView ?isShownBy ;   # was edm:isShownBy
-		edm:isShownAt ?isShownAt .
+  ?uri_ore a ore:Aggregation ;
+    edm:aggregatedCHO ?uri_cho ;
+    edm:provider ?provider ;
+    edm:dataProvider ?dataProvider ;
+    edm:rights ?license ;
+    edm:hasView ?isShownBy ;
+    # was edm:isShownBy
+    edm:isShownAt ?isShownAt .
 
-	?isShownBy a edm:WebResource ;
-		svcs:has_service ?uri_iiif .
+  ?isShownBy a edm:WebResource ;
+    svcs:has_service ?uri_iiif .
 
-	?uri_iiif a svcs:Service ;
-		dcterms:conformsTo <http://iiif.io/api/image> ;
-		doap:implements <http://iiif.io/api/image/2/level1.json> .
+  ?uri_iiif a svcs:Service ;
+    dcterms:conformsTo <http://iiif.io/api/image> ;
+    doap:implements <http://iiif.io/api/image/2/level1.json> .
 
-	?uri_org a edm:Agent ;
-		skos:prefLabel ?org_name ;
-		skos:note ?org_description .
+  ?uri_org a edm:Agent ;
+    skos:prefLabel ?org_name ;
+    skos:note ?org_description .
 
-	?uri_pers a edm:Agent ;
-		skos:prefLabel ?pers_name ;
-		skos:altLabel ?pers_additionalName ;
-		edm:begin ?pers_birthDate ;
-		edm:end ?pers_deathDate .
+  ?uri_pers a edm:Agent ;
+    skos:prefLabel ?pers_name ;
+    skos:altLabel ?pers_additionalName ;
+    edm:begin ?pers_birthDate ;
+    edm:end ?pers_deathDate .
 
-	?uri_pl a edm:Place ;
-		skos:prefLabel ?pl_name ;
-		skos:altLabel ?pl_additionalName ;
-		owl:sameAs ?pl_sameAs .
+  ?uri_pl a edm:Place ;
+    skos:prefLabel ?pl_name ;
+    skos:altLabel ?pl_additionalName ;
+    owl:sameAs ?pl_sameAs .
 
-} WHERE {
-	{
-		{
-			?uri_cho a ?type .
-			VALUES ?type { sdo:CreativeWork sdo:Sculpture sdo:VisualArtwork sdo:Painting sdo:Photograph }
-			BIND(("IMAGE") as ?edm_type)
-		} UNION {
-			?uri_cho a sdo:Book .
-			BIND(("TEXT") as ?edm_type)
-		}
+} where {
+  {
+    {
+      ?uri_cho a ?type .
+      values ?type {
+        sdo:CreativeWork sdo:Sculpture sdo:VisualArtwork sdo:Painting sdo:Photograph
+      }
+      bind(("IMAGE") as ?edm_type)
+    } union {
+      ?uri_cho a sdo:Book .
+      bind(("TEXT") as ?edm_type)
+    }
 
-		?uri_cho o:media/o:id ?media_id .
-		BIND( IRI(CONCAT("https://omeka.netwerkdigitaalerfgoed.nl/iiif/2/",STR(?media_id),"/full/max/0/default.jpg")) as ?isShownBy)
-		BIND( IRI(CONCAT("https://omeka.netwerkdigitaalerfgoed.nl/iiif/2/",STR(?media_id))) as ?uri_iiif)
+    ?uri_cho o:media/o:id ?media_id .
+    bind( iri(concat("https://omeka.netwerkdigitaalerfgoed.nl/iiif/2/",str(?media_id),"/full/max/0/default.jpg")) as ?isShownBy)
+    bind( iri(concat("https://omeka.netwerkdigitaalerfgoed.nl/iiif/2/",str(?media_id))) as ?uri_iiif)
 
-		# Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource. 
-		BIND( URI(CONCAT(STR(?uri_cho),"#agg")) as ?uri_ore)
+    # Generate an "URI_CHO#agg" URI pointing to a ore:Aggregation resource.
+    bind( uri(concat(str(?uri_cho),"#agg")) as ?uri_ore)
 
-		# NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
-		# Europeana requires the provider value to be specified through the aggregation process.
-		BIND( STR('VAR_PROVIDER') as ?provider)
-		#BIND( STR('Netwerk Digitaal Erfgoed') as ?dataProvider)
-		BIND( IRI('https://omeka.netwerkdigitaalerfgoed.nl/') as ?dataProvider)
+    # NOTE: The VAR_PROVIDER will be replaced during runtime by the starter.sh script.
+    # Europeana requires the provider value to be specified through the aggregation process.
+    bind( str('VAR_PROVIDER') as ?provider)
+    #BIND( STR('Netwerk Digitaal Erfgoed') as ?dataProvider)
+    bind( iri('https://omeka.netwerkdigitaalerfgoed.nl/') as ?dataProvider)
 
-		OPTIONAL {
-			?uri_cho sdo:creator ?_creator .
-			FILTER(isIRI(?_creator))
-			?uri_cho sdo:creator ?__creator .
-			?__creator o:label ?label_creator ;
-				o:lang ?lang_creator .
-			BIND(STRLANG(?label_creator, ?lang_creator) AS ?creator) 
-		}
+    optional {
+      ?uri_cho sdo:creator ?_creator .
+      filter(isiri(?_creator))
+      ?uri_cho sdo:creator ?__creator .
+      ?__creator o:label ?label_creator ;
+        o:lang ?lang_creator .
+      bind(strlang(?label_creator, ?lang_creator) as ?creator)
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:creator ?_creator .
-			FILTER(isLiteral(?_creator))
-			BIND(STRLANG(?_creator, "nl") AS ?creator) 
-		}	  
+    optional {
+      ?uri_cho sdo:creator ?_creator .
+      filter(isliteral(?_creator))
+      bind(strlang(?_creator, "nl") as ?creator)
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:description ?description .
-		}
-		
-		OPTIONAL {
-			?uri_cho sdo:dateCreated ?dateCreated .
-		}
-		
-		OPTIONAL {
-			?uri_cho sdo:genre ?genre . 
-		}
+    optional {
+      ?uri_cho sdo:description ?description .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:license ?license .
-		}
-		
-		OPTIONAL {
-			?uri_cho sdo:size ?extent .
-		}
+    optional {
+      ?uri_cho sdo:dateCreated ?dateCreated .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:name ?name .
-		}
-		
-		OPTIONAL { 
-			?uri_cho sdo:provider/sdo:name ?publisher .
-		}
+    optional {
+      ?uri_cho sdo:genre ?genre .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:temporalCoverage ?temporal .
-		}
-		
-		OPTIONAL {
-			?uri_cho sdo:material ?material .
-		}
+    optional {
+      ?uri_cho sdo:license ?license .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:spatialCoverage ?_spatial .
-			FILTER(isIRI(?_spatial))
-			?uri_cho sdo:spatialCoverage ?__spatial .
-			?__spatial o:label ?label_spatial ;
-				o:lang ?lang_spatial .
-			BIND(STRLANG(?label_spatial, ?lang_spatial) AS ?spatial) 
-		}
+    optional {
+      ?uri_cho sdo:size ?extent .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:spatialCoverage ?_spatial .
-			FILTER(isLiteral(?_spatial))
-			BIND(STRLANG(?_spatial, "nl") AS ?spatial) 
-		}
+    optional {
+      ?uri_cho sdo:name ?name .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:about ?_subject .
-			FILTER(isIRI(?_subject))
-			?uri_cho sdo:about ?__subject .
-			?__subject o:label ?label_subject ;
-				o:lang ?lang_subject .
-			BIND(STRLANG(?label_subject, ?lang_subject) AS ?subject) 
-		}
+    optional {
+      ?uri_cho sdo:provider/sdo:name ?publisher .
+    }
 
-		OPTIONAL {
-			?uri_cho sdo:about ?_subject .
-			FILTER(isLiteral(?_subject))
-			BIND(STRLANG(?_subject, "nl") AS ?subject) 
-		}
+    optional {
+      ?uri_cho sdo:temporalCoverage ?temporal .
+    }
 
-		# Europeana requires valid URI for edm:isShownAt 
-		?uri_cho o:id ?o_id .
-		BIND( IRI(CONCAT("https://omeka.netwerkdigitaalerfgoed.nl/s/data-doe-dag/item/",STR(?o_id))) as ?isShownAt)
+    optional {
+      ?uri_cho sdo:material ?material .
+    }
 
-	} UNION {
+    optional {
+      ?uri_cho sdo:spatialCoverage ?_spatial .
+      filter(isiri(?_spatial))
+      ?uri_cho sdo:spatialCoverage ?__spatial .
+      ?__spatial o:label ?label_spatial ;
+        o:lang ?lang_spatial .
+      bind(strlang(?label_spatial, ?lang_spatial) as ?spatial)
+    }
 
-		?uri_org a sdo:Organization .
-		OPTIONAL { ?uri_org sdo:name ?org_name }
-		OPTIONAL { ?uri_org sdo:description ?org_desc }
+    optional {
+      ?uri_cho sdo:spatialCoverage ?_spatial .
+      filter(isliteral(?_spatial))
+      bind(strlang(?_spatial, "nl") as ?spatial)
+    }
 
-	} UNION {
+    optional {
+      ?uri_cho sdo:about ?_subject .
+      filter(isiri(?_subject))
+      ?uri_cho sdo:about ?__subject .
+      ?__subject o:label ?label_subject ;
+        o:lang ?lang_subject .
+      bind(strlang(?label_subject, ?lang_subject) as ?subject)
+    }
 
-		?uri_pers a sdo:Person .
-		OPTIONAL { ?uri_pers sdo:name ?pers_name }
-		OPTIONAL { ?uri_pers sdo:additionalName ?pers_additionalName }
-		OPTIONAL { ?uri_pers sdo:birthDate ?pers_birthDate }
-		OPTIONAL { ?uri_pers sdo:deathDate ?pers_deathDate }
-		OPTIONAL { ?uri_pers sdo:description ?pers_desc }        
+    optional {
+      ?uri_cho sdo:about ?_subject .
+      filter(isliteral(?_subject))
+      bind(strlang(?_subject, "nl") as ?subject)
+    }
 
-	} UNION {
+    # Europeana requires valid URI for edm:isShownAt
+    ?uri_cho o:id ?o_id .
+    bind( iri(concat("https://omeka.netwerkdigitaalerfgoed.nl/s/data-doe-dag/item/",str(?o_id))) as ?isShownAt)
 
-		?uri_pl a sdo:Place .
-		OPTIONAL { ?uri_pl sdo:name ?pl_name }
-		OPTIONAL { ?uri_pl sdo:alternateName ?pl_alternateName }
-		OPTIONAL { ?uri_pl sdo:sameAs ?pl_sameAs }        
-	}
+  } union {
+
+    ?uri_org a sdo:Organization .
+    optional {
+      ?uri_org sdo:name ?org_name
+    }
+    optional {
+      ?uri_org sdo:description ?org_desc
+    }
+
+  } union {
+
+    ?uri_pers a sdo:Person .
+    optional {
+      ?uri_pers sdo:name ?pers_name
+    }
+    optional {
+      ?uri_pers sdo:additionalName ?pers_additionalName
+    }
+    optional {
+      ?uri_pers sdo:birthDate ?pers_birthDate
+    }
+    optional {
+      ?uri_pers sdo:deathDate ?pers_deathDate
+    }
+    optional {
+      ?uri_pers sdo:description ?pers_desc
+    }
+
+  } union {
+
+    ?uri_pl a sdo:Place .
+    optional {
+      ?uri_pl sdo:name ?pl_name
+    }
+    optional {
+      ?uri_pl sdo:alternateName ?pl_alternateName
+    }
+    optional {
+      ?uri_pl sdo:sameAs ?pl_sameAs
+    }
+  }
 }
