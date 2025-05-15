@@ -16,7 +16,7 @@ construct {
   ?uri_cho a edm:ProvidedCHO ;
     dc:identifier ?identifier ;
     edm:type ?edm_type ;
-	dc:tyoe ?addiType ;
+	dc:type ?addiType ;
     dc:creator ?creator ;
     dc:publisher ?publisher ;
     dcterms:created ?dateCreated ;
