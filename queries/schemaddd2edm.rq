@@ -14,7 +14,9 @@ prefix o:		<http://omeka.org/s/vocabs/o#>
 construct {
 
   ?uri_cho a edm:ProvidedCHO ;
+    dc:identifier ?identifier ;
     edm:type ?edm_type ;
+	dc:tyoe ?addiType ;
     dc:creator ?creator ;
     dc:publisher ?publisher ;
     dcterms:created ?dateCreated ;
@@ -22,6 +24,7 @@ construct {
     dc:type ?genre ;
     dc:subject ?subject ;
     dc:title ?name ;
+	dc:rights ?rights ;
     dcterms:spatial ?spatial ;
     dcterms:temporal ?temporal ;
     dcterms:medium ?material ;
@@ -99,6 +102,14 @@ construct {
       bind(strlang(?_creator, "nl") as ?creator)
     }
 
+	optional {
+	  ?uri_cho sdo:identifier ?identifier .
+	}
+
+	optional {
+	  ?uri_cho sdo:additionalType ?addiType .
+	}
+	
     optional {
       ?uri_cho sdo:description ?description .
     }
@@ -136,6 +147,10 @@ construct {
     }
 
     optional {
+      ?uri_cho sdo:copyrightholder ?rights .
+    }
+	
+    optional {
       ?uri_cho sdo:spatialCoverage ?_spatial .
       filter(isiri(?_spatial))
       ?uri_cho sdo:spatialCoverage ?__spatial .
@@ -150,6 +165,21 @@ construct {
       bind(strlang(?_spatial, "nl") as ?spatial)
     }
 
+    optional {
+      ?uri_cho sdo:locationCreated  ?_spatial .
+      filter(isiri(?_spatial))
+      ?uri_cho sdo:locationCreated  ?__spatial .
+      ?__spatial o:label ?label_spatial ;
+        o:lang ?lang_spatial .
+      bind(strlang(?label_spatial, ?lang_spatial) as ?spatial)
+    }
+
+    optional {
+      ?uri_cho sdo:locationCreated  ?_spatial .
+      filter(isliteral(?_spatial))
+      bind(strlang(?_spatial, "nl") as ?spatial)
+    }
+	
     optional {
       ?uri_cho sdo:about ?_subject .
       filter(isiri(?_subject))
